@@ -1,0 +1,7 @@
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s1.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s0.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s2.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s1.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s3.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s0.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s4.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s0.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s4.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s1.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s4.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s2.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s4.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise3/s3.html

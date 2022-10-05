@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">JoggingApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_activity_title">Action Activity</string>
+    <string name="action_title">Action_Activity</string>
+    <string name="title_top">Top Fragment</string>
+    <string name="home_tab">Start</string>
+    <string name="cat1_tab">Category 1</string>
+    <string name="cat2_tab">Category 2</string>
+    <string-array name="category1">
+        <item>Position 1 Cat. 1</item>
+        <item>Position 2 Cat. 1 </item>
+        <item>Position 3 Cat. 1 </item>
+    </string-array>
+    <string-array name="category2">
+        <item>Cat. 2 Position 1</item>
+        <item>Cat. 2 Position 2</item>
+        <item>Cat. 2 Position 3 </item>
+    </string-array>
+    <string name="track_length">Track length: </string>
+    <string name="track_localization">Localization: </string>
+    <string name="track_difficulty">Difficulty: </string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="no_account">I don\'t have an account</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="save">Save</string>
+
+</resources>

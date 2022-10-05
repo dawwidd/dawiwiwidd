@@ -1,0 +1,534 @@
+Name: Laser-induced nanostructuring for applications in biotechnology.pptx
+Language: de
+Creator: Ania
+Creation date: null
+Last modification: 2018-01-23T08:06:59Z
+MIME type: application/vnd.openxmlformats-officedocument.presentationml.presentation
+
+Laser-induced nanostructuring for applications in biotechnology
+
+oder
+
+
+
+Wie Licht Zellen den Weg weist
+Bettina Reisinger
+Institut für Angewandte Physik
+JKU Linz
+Betreuung: ao.Univ.Prof. Dr. Johannes Heitz
+
+
+
+
+
+
+
+
+
+Anwendungen von Lasern
+Schneiden und Schweißen in der Industrie
+
+Erzeugen von kleinsten Strukturen in der Halbleiterindustrie
+
+Materialanalyse
+Grundlagenforschung
+
+Unterhaltungselektronik
+
+Medizin 
+
+...
+
+
+
+
+
+
+Endothelzellen:
+Blutgefäßzellen
+Vermehrung in Zellkulturschalen
+
+
+
+
+
+Endothelzellen:
+Blutgefäßzellen
+Vermehrung in Zellkulturschalen
+Vorläuferzellen
+Aus Fettgewebe
+Zur Zelltherapie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wachstum
+Wachstum
+Differenzierung
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wachstum
+Wachstum
+Differenzierung
+Endothelzellen:
+Blutgefäßzellen
+Vermehrung in Zellkulturschalen
+Vorläuferzellen
+Aus Fettgewebe
+Zur Zelltherapie
+Ziel meiner Diplomarbeit
+Zellkulturschalen optimieren
+
+
+
+
+
+Im Blutgefäß: auf Zellen wirkt ständig eine Kraft
+
+
+
+
+
+Optimale Bedingungen für Endothelzellen
+
+
+
+
+
+
+
+
+
+
+
+
+Im Blutgefäß: auf Zellen wirkt ständig eine Kraft
+
+
+
+
+
+
+
+
+Optimale Bedingungen für Endothelzellen
+
+
+
+
+
+
+
+
+
+
+
+
+Im Blutgefäß: auf Zellen wirkt ständig eine Kraft
+
+
+
+
+Imitation dieser „Führung“ durch Oberflächenstruktur:
+
+
+
+
+
+
+
+
+
+Optimale Bedingungen für Endothelzellen
+
+
+
+
+
+
+
+
+
+
+
+
+Im Blutgefäß: auf Zellen wirkt ständig eine Kraft
+
+
+
+
+Imitation dieser „Führung“ durch Oberflächenstruktur:
+
+
+
+
+
+
+
+
+
+
+
+
+Optimale Bedingungen für Endothelzellen
+
+
+
+
+
+
+
+
+
+
+
+
+Laser
+
+Light Amplification by Stimulated Emission of Radiation
+
+Hohe Intensitäten
+Kohärentes Licht
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Laserlicht
+Glühbirne
+
+
+
+
+
+„Ripples“: Interferenzeffekt
+
+
+
+
+
+
+
+
+Herstellung der Strukturen
+
+
+
+
+
+„Ripples“: Interferenzeffekt
+
+
+
+
+
+
+
+
+
+Herstellung der Strukturen
+
+
+
+
+
+Herstellung der Strukturen
+„Walls“: Entstehung von „Rissen“ an der Oberfläche
+
+
+
+
+
+
+
+
+
+Herstellung der Strukturen
+„Walls“: Entstehung von „Rissen“ an der Oberfläche
+
+
+
+
+
+
+
+
+
+
+
+
+
+Herstellung der Strukturen
+„Walls“: Entstehung von „Rissen“ an der Oberfläche
+
+
+
+
+
+
+
+
+
+
+5 µm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hergestellte Mikro- und Nanostrukturen
+Walls
+Ripples
+1 µm hoch, 1 µm breit
+50 nm hoch, 300 nm breit
+
+1 µm
+300 nm
+50 nm
+
+
+1 µm
+
+
+
+
+
+Kultur von Endothelzellen
+Ausrichtung entlang der größeren Strukturen
+walls
+ripples
+
+
+
+
+
+
+Elektronenmikroskop
+(200x)
+Optisches Mikroskop
+(1000x)
+Elektronenmikroskop
+(5000x)
+
+
+
+
+
+Kultur von Endothelzellen
+Ausrichtung entlang der größeren Strukturen
+
+
+
+
+
+
+Kultur von Endothelzellen
+Ausrichtung entlang der größeren Strukturen
+walls
+ripples
+
+
+
+
+
+
+Elektronenmikroskop
+(200x)
+Optisches Mikroskop
+(1000x)
+Elektronenmikroskop
+(5000x)
+
+
+
+
+
+Kultur von Endothelzellen
+Ausrichtung entlang der größeren Strukturen
+
+
+
+
+
+
+Kultur von Endothelzellen
+Ausrichtung entlang der größeren Strukturen
+walls
+ripples
+
+
+
+
+
+
+Elektronenmikroskop
+(200x)
+Optisches Mikroskop
+(1000x)
+Elektronenmikroskop
+(5000x)
+
+
+
+
+
+Kultur von Endothelzellen
+Ausrichtung entlang der größeren Strukturen
+
+
+
+
+
+
+Kultur von Endothelzellen
+Ausrichtung entlang der größeren Strukturen
+
+
+
+
+
+
+Kultur von Endothelzellen
+
+Protein wandert in den Kern
+Aktiviert Gene, die für die Zellteilung wichtig sind
+Walls
+Ripples
+
+flach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ziele erreicht!
+Herstellung von optimierten Substraten mit Lasertechnologie möglich
+Deutlich besseres Wachstum der Endothelzellen
+Bestimmte, für das Wachstum wichtige Gene werden aktiviert
+Ausrichtung entlang der Strukturen ist möglich
+
+Nächster Schritt:  Vorläuferzellen
+
+
+
+
+
+Kultur der Vorläuferzellen
+Vorläuferzellen aus Fettgewebe
+
+
+Flach
+Ripples
+
+
+
+
+
+
+28
+
+Danke!
+Institut für Angewandte Physik, JKU Linz
+Johannes Heitz
+Alle Mitarbeiter
+Institut für Pharmazeutische Wissenschaften, Uni Graz
+Michaela Schernthaner
+Klaus Groschner
+Institut für Biophysik, JKU Linz
+Marc Fahrner
+Christoph Romanin
+Zentrum für Nano- und Oberflächenanalytik, JKU Linz
+Haybat Itani
+David Stifter
+
+
+
+
+
+Danke!
+
+EUCH!
+
+
+
+
+
+

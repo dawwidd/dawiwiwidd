@@ -1,0 +1,148 @@
+$fontColor: #000000;
+$backgroundColor: lightgray;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: none;
+    text-decoration: none;
+    color: $fontColor;
+}
+
+html,
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+footer {
+    display: flex;
+}
+
+header {
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-grow: 2;
+        align-self: flex-start;
+        justify-content: flex-end;
+
+        a {
+            width: 75px;
+        }
+    }
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+}
+
+.hamburger {
+    width: 75px;
+    height: 75px;
+    display: none;
+}
+
+article {
+    margin: 15px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+
+    span {
+        height: 50px;
+        width: 50%;
+        font-size: 1.5em;
+        display: flex;
+        align-self: flex-end;
+        align-items: center;
+        justify-content: center;
+        background-color: $backgroundColor;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+
+    p {
+        text-align: justify;
+        padding: 15px;
+    }
+}
+
+main {
+    padding: 15px;
+}
+
+footer {
+    border-top: 2px solid black;
+    height: 100px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: $backgroundColor;
+    word-wrap: break-word;
+    flex-direction: column;
+
+    p:nth-of-type(2) {
+        font-weight: bold;
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+@media all and (max-width: 900px) {
+    header {
+        h1,
+        nav {
+            display: none;
+        }
+    }
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    .hamburger {
+        display: block;
+
+        :hover {
+        }
+    }
+}

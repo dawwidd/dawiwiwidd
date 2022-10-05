@@ -1,0 +1,19 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sass Compile",
+            "type": "shell",
+            "command": "sass metastyles.scss styles.css",
+            "group": "build"
+        },
+        {
+            "label": "Browser Sync",
+            "type": "shell",
+            "command": "browser-sync start --server --directory --files '**/*'",
+            "group": "build"
+        }
+    ]
+}

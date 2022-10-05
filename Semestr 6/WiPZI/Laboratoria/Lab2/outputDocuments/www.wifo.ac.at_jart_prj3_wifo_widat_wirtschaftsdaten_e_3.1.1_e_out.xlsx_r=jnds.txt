@@ -1,0 +1,34 @@
+Name: www.wifo.ac.at_jart_prj3_wifo_widat_wirtschaftsdaten_e_3.1.1_e_out.xlsx_r=jnds.xlsx
+Language: it
+Creator: koeberl
+Creation date: 2017-04-11T08:18:52Z
+Last modification: 2017-04-11T08:18:52Z
+MIME type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+
+3.1.1_e_out
+
+	3.1.1 Energy-related CO2-emissions and energy consumption 2014
+	Energy related 
+CO2-emissions	Emission intensity	Total primary energy supply	Energy intensity
+	Mio. t	Share in %	t CO2 per 
+$ GDP¹	t CO2 per capita	PJ	Share in %	GJ per 
+$ GDP¹	GJ per capita
+	World	32,381	100.0	320	4.5	573,555	100.0	5.7	79
+	OECD	11,856	36.6	260	9.4	220,781	38.5	4.8	174
+	USA	5,176	16.0	320	16.2	92,787	16.2	5.7	291
+	EU 28	3,160	9.8	180	6.2	65,522	11.4	3.8	129
+	Germany	723	2.2	210	8.9	12,815	2.2	3.7	158
+	Austria	61	0.2	170	7.1	1,347	0.2	3.7	158
+	France	286	0.9	120	4.3	10,159	1.8	4.2	154
+	Italy	320	1.0	160	5.3	6,145	1.1	3.1	101
+	Poland	279	0.9	310	7.3	3,936	0.7	4.4	102
+	Czech Republic	97	0.3	330	9.2	1,725	0.3	5.9	164
+	China	9,087	28.1	540	6.7	127,760	22.3	7.6	94
+	Source: IEA. – ¹ prices 2010, PPP in $.
+	42660.0
+	Katharina.Koeberl@wifo.ac.at
+	2017
+
+
+htto://www.wifo.ac.at/http://www.wifo.ac.at/jart/prj3/wifo/main.jart?rel=enmailto:Katharina.Koeberl@wifo.ac.at
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>tutaj tytuł książki i nazwisko autora</title>
+        <meta name="author" content="Jan Kowalski" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="index, nofollow" />
+        <style>
+            * {
+                font-family: Tahoma;
+            }
+            body {
+                margin: 5em 10em 5em 10em;
+            }
+            p {
+                text-align: justify;
+            }
+            /* Jeśli znacznik style występuje po <link> stosowana jest reguła zdefiniowana w nim */
+            h1 {
+                color: yellow;
+                /* Po zastosowaniu important tytuł jest kolorowany na żółto, mimo że arkusz stylów jest importowany później */
+            }
+        </style>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="style.css"
+            title="Arkusz stylów CSS"
+        />
+    </head>
+    <body>
+        <!-- Reguła kolorowania na czerwono została zastosowana dopiero po usunięciu !important z deklaracji w znaczniku <style> -->
+        <h1 style="color: red">Dwie wieże</h1>
+        <h2>Matejko</h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="hp.jpg" alt="" id="cover" />
+                    <div>
+                        <div><img src="hp.jpg" alt="" id="cover" /></div>
+                    </div>
+                </td>
+                <td>
+                    <ul>
+                        <li><b>wydawnictwo</b>: tutaj <u>Zysk</u></li>
+                        <li><b>liczba stron</b>:30</li>
+                        <li><b>okładka</b>: Miękka</li>
+                        <li>
+                            <span id="cena"><b>cena</b>: 15zł</span>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus vel modi deleniti veniam, eligendi fugit molestias
+                    quos alias et beatae est distinctio facere aperiam doloribus
+                    similique, fugiat quod saepe voluptatum.
+                    <p class="wstep">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perspiciatis unde debitis est voluptatum accusantium
+                        pariatur commodi vel delectus! Omnis, quidem id.
+                        Deserunt architecto nisi commodi amet quis asperiores
+                        necessitatibus alias./p>
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perspiciatis unde debitis est voluptatum accusantium
+                        pariatur commodi vel delectus! Omnis, quidem id.
+                        Deserunt architecto nisi commodi amet quis asperiores
+                        necessitatibus alias.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perspiciatis unde debitis est voluptatum accusantium
+                        pariatur commodi vel delectus! Omnis, quidem id.
+                        Deserunt architecto nisi commodi amet quis asperiores
+                        necessitatibus alias.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perspiciatis unde debitis est voluptatum accusantium
+                        pariatur commodi vel delectus! Omnis, quidem id.
+                        Deserunt architecto nisi commodi amet quis asperiores
+                        necessitatibus alias.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

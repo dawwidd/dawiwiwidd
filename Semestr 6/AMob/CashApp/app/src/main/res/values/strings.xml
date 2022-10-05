@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CashApp</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="no_account">I don\'t have an account</string>
+    <string name="no_transactions">No transactions recorded</string>
+    <string name="amount">amount</string>
+    <string name="categories">Categories</string>
+    <string name="title">Ca$hApp</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="submit">submit</string>
+    <string name="income">INCOME</string>
+    <string name="outcome">OUTCOME</string>
+    <string name="schedule_sms">set sms notification hour</string>
+
+    <string name="activity_main">Transaction List</string>
+    <string name="activity_login">Login</string>
+    <string name="activity_register">Register</string>
+    <string name="activity_add_transaction">Add Transaction</string>
+    <string name="activity_schedule_sms">Schedule sms reminder</string>
+
+    <string name="sms_reminder">Reminder to add your today\'s transaction into the app!</string>
+    <string name="phone_number">Phone number</string>
+</resources>

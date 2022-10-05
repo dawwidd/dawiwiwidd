@@ -1,0 +1,121 @@
+Name: www.anhaenger-eduard.at_preisliste_export_xls_hochlader_31_d_.xls
+Language: et
+Creator: eduard.nl
+Creation date: 2017-08-24T01:03:04Z
+Last modification: 2017-08-24T01:03:04Z
+MIME type: application/vnd.ms-excel
+
+Worksheet
+	EDUARD - hochlader - 3.1m - 2017-08-24
+	Grp.	Art. grp.	Itemcode	Type	LxB (cm)	Lengte (cm)	Breedte (cm)	Höhe	Gesamt- gewicht in kg	Leergewicht
+in kg	Achse	Gebremst	Ladehöhe in cm	Bereifung	Aubau	Auffahrschienen & Winde	Boden	Preis zzgl. Mw.St.	Preis Inkl. 19% Mw.St
+	2	PV	3116-2-PV-075-72	Hochlader	311x160	311	160	0	750	273	2	Nein	72	155R13	Ungebremste Doppelachser, Flach		Multiplex	1075	1279.25
+	2	PB3	3116-2-PB30-075-72	Hochlader	311x160	311	160	30	750	317	2	Nein	72	155R13	Ungebremste Doppelachser, Bordwände 30cm		Multiplex	1350	1606.5
+	2	PB4	3116-2-PB40-075-72	Hochlader	311x160	311	160	40	750	337	2	Nein	72	155R13	Ungebremste Doppelachser, Bordwände 40cm		Multiplex	1575	1874.25
+	2	PV	3116-2-PV-075-63	Hochlader	311x160	311	160	0	750	273	2	Nein	63	195/50R13	Ungebremste Doppelachser, Flach		Multiplex	1190	1416.1
+	2	PB3	3116-2-PB30-075-63	Hochlader	311x160	311	160	30	750	317	2	Nein	63	195/50R13	Ungebremste Doppelachser, Bordwände 30cm		Multiplex	1470	1749.3
+	2	PB4	3116-2-PB40-075-63	Hochlader	311x160	311	160	40	750	337	2	Nein	63	195/50R13	Ungebremste Doppelachser, Bordwände 40cm		Multiplex	1695	2017.05
+	4	PV	3116-4-PV-075-72	Hochlader	311x160	311	160	0	750	385	2	Ja	72	155R13	Gebremste Doppelachser, Flach		Multiplex	1540	1832.6
+	4	PB3	3116-4-PB30-075-72	Hochlader	311x160	311	160	30	750	429	2	Ja	72	155R13	Gebremste Doppelachser, Bordwände 30cm		Multiplex	1810	2153.9
+	4	PB4	3116-4-PB40-075-72	Hochlader	311x160	311	160	40	750	449	2	Ja	72	155R13	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2040	2427.6
+	4	PV	3116-4-PV-075-63	Hochlader	311x160	311	160	0	750	385	2	Ja	63	195/50R13	Gebremste Doppelachser, Flach		Multiplex	1710	2034.9
+	4	PB3	3116-4-PB30-075-63	Hochlader	311x160	311	160	30	750	429	2	Ja	63	195/50R13	Gebremste Doppelachser, Bordwände 30cm		Multiplex	1980	2356.2
+	4	PB4	3116-4-PB40-075-63	Hochlader	311x160	311	160	40	750	449	2	Ja	63	195/50R13	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2210	2629.9
+	4	PV	3116-4-PV-075-56	Hochlader	311x160	311	160	0	750	385	2	Ja	56	195/55R10	Gebremste Doppelachser, Flach		Multiplex	1875	2231.25
+	4	PB3	3116-4-PB30-075-56	Hochlader	311x160	311	160	30	750	429	2	Ja	56	195/55R10	Gebremste Doppelachser, Bordwände 30cm		Multiplex	2140	2546.6
+	4	PB4	3116-4-PB40-075-56	Hochlader	311x160	311	160	40	750	449	2	Ja	56	195/55R10	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2375	2826.25
+	4	PV	3116-4-PV-200-72	Hochlader	311x160	311	160	0	2000	385	2	Ja	72	155R13	Gebremste Doppelachser, Flach		Multiplex	1675	1993.25
+	4	PB3	3116-4-PB30-200-72	Hochlader	311x160	311	160	30	2000	429	2	Ja	72	155R13	Gebremste Doppelachser, Bordwände 30cm		Multiplex	1945	2314.55
+	4	PB4	3116-4-PB40-200-72	Hochlader	311x160	311	160	40	2000	449	2	Ja	72	155R13	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2175	2588.25
+	4	PV	3116-4-PV-200-66	Hochlader	311x160	311	160	0	2000	385	2	Ja	66	195/50R13	Gebremste Doppelachser, Flach		Multiplex	1860	2213.4
+	4	PB3	3116-4-PB30-200-66	Hochlader	311x160	311	160	30	2000	429	2	Ja	66	195/50R13	Gebremste Doppelachser, Bordwände 30cm		Multiplex	2165	2576.35
+	4	PB4	3116-4-PB40-200-66	Hochlader	311x160	311	160	40	2000	449	2	Ja	66	195/50R13	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2315	2754.85
+	4	PV	3116-4-PV-200-63	Hochlader	311x160	311	160	0	2000	385	2	Ja	63	195/50R13	Gebremste Doppelachser, Flach		Multiplex	1795	2136.05
+	4	PB3	3116-4-PB30-200-63	Hochlader	311x160	311	160	30	2000	429	2	Ja	63	195/50R13	Gebremste Doppelachser, Bordwände 30cm		Multiplex	2060	2451.4
+	4	PB4	3116-4-PB40-200-63	Hochlader	311x160	311	160	40	2000	449	2	Ja	63	195/50R13	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2295	2731.05
+	4	PV	3116-4-PV-200-56	Hochlader	311x160	311	160	0	2000	385	2	Ja	56	195/55R10	Gebremste Doppelachser, Flach		Multiplex	1860	2213.4
+	4	PB3	3116-4-PB30-200-56	Hochlader	311x160	311	160	30	2000	429	2	Ja	56	195/55R10	Gebremste Doppelachser, Bordwände 30cm		Multiplex	2130	2534.7
+	4	PB4	3116-4-PB40-200-56	Hochlader	311x160	311	160	40	2000	449	2	Ja	56	195/55R10	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2365	2814.35
+	4	PV	3116-4-PV-250-72	Hochlader	311x160	311	160	0	2500	420	2	Ja	72	165R13	Gebremste Doppelachser, Flach		Multiplex	1930	2296.7
+	4	PB3	3116-4-PB30-250-72	Hochlader	311x160	311	160	30	2500	464	2	Ja	72	165R13	Gebremste Doppelachser, Bordwände 30cm		Multiplex	2195	2612.05
+	4	PB4	3116-4-PB40-250-72	Hochlader	311x160	311	160	40	2500	484	2	Ja	72	165R13	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2435	2897.65
+	4	PV	3116-4-PV-270-72	Hochlader	311x160	311	160	0	2700	423	2	Ja	72	165R13	Gebremste Doppelachser, Flach		Multiplex	1930	2296.7
+	4	PB3	3116-4-PB30-270-72	Hochlader	311x160	311	160	30	2700	467	2	Ja	72	165R13	Gebremste Doppelachser, Bordwände 30cm		Multiplex	2195	2612.05
+	4	PB4	3116-4-PB40-270-72	Hochlader	311x160	311	160	40	2700	487	2	Ja	72	165R13	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2435	2897.65
+	4	PV	3116-4-PV-270-63	Hochlader	311x160	311	160	0	2700	423	2	Ja	63	195/50R13	Gebremste Doppelachser, Flach		Multiplex	1980	2356.2
+	4	PB3	3116-4-PB30-270-63	Hochlader	311x160	311	160	30	2700	467	2	Ja	63	195/50R13	Gebremste Doppelachser, Bordwände 30cm		Multiplex	2250	2677.5
+	4	PB4	3116-4-PB40-270-63	Hochlader	311x160	311	160	40	2700	487	2	Ja	63	195/50R13	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2485	2957.15
+	4	PV	3116-4-PV-270-56	Hochlader	311x160	311	160	0	2700	423	2	Ja	56	195/55R10	Gebremste Doppelachser, Flach		Multiplex	2050	2439.5
+	4	PB3	3116-4-PB30-270-56	Hochlader	311x160	311	160	30	2700	467	2	Ja	56	195/55R10	Gebremste Doppelachser, Bordwände 30cm		Multiplex	2315	2754.85
+	4	PB4	3116-4-PB40-270-56	Hochlader	311x160	311	160	40	2700	487	2	Ja	56	195/55R10	Gebremste Doppelachser, Bordwände 40cm		Multiplex	2550	3034.5
+	5	VOORREK	VOORREK - 1.6M												H-Gestell - 1660mm			65	77.35
+	5	LOOFREK	3116-L-70		310x160	310	160	70							Laubgitter - höhe: 70cm - Komplet			605	719.95
+	5	OPZETBOR	3116-O-30		310x160	310	160	30							Aufsatzbordwände - 30Zm hoch			470	559.3
+	5	OPZETBOR	3116-O-40		310x160	310	160	40							Aufsatzbordwände - 40Zm hoch			650	773.5
+	5	OPZETBOR	3116-OB-30		310x160	310	160	30							Aufsatzbordwände pendelbar - 30cm hoch			470	559.3
+	5	OPZETBOR	3116-OB-40		310x160	310	160	40							Aufsatzbordwände pendelbar - 40cm hoch			650	773.5
+	5	HS - SFZ	3116-S-SFZ-130		310x160	310	160	1300							Gestell für Schiebeplane - 130Zm hoch			325	386.75
+	5	SFZ ....	3116-Z-SFZ-13-		310x160	310	160	130							Schiebeplane - 130cm hoch - Farbe: Wahlweise			695	827.05
+	5	HS - SFZ	3116-S-SFZ-160		310x160	310	160	1600							Gestell für Schiebeplane - 160Zm hoch			325	386.75
+	5	SFZ ....	3116-Z-SFZ-16-		310x160	310	160	160							Schiebeplane - 160cm hoch - Farbe: Wahlweise			695	827.05
+	5	HS - SFZ	3116-S-SFZ-180		310x160	310	160	1800							Gestell für Schiebeplane - 180Zm hoch			330	392.7
+	5	SFZ ....	3116-Z-SFZ-18-		310x160	310	160	180							Schiebeplane - 180cm hoch - Farbe: Wahlweise			695	827.05
+	5	HS - SFZ	3116-S-SFZ-200		310x160	310	160	2000							Gestell für Schiebeplane - 200Zm hoch			360	428.4
+	5	SFZ ....	3116-Z-SFZ-20-		310x160	310	160	200							Schiebeplane - 200cm hoch - Farbe: Wahlweise			695	827.05
+	5	HS - SFZ	3116-S-SFZ-220		310x160	310	160	2200							Gestell für Schiebeplane - 220Zm hoch			595	708.05
+	5	SFZ ....	3116-Z-SFZ-22-		310x160	310	160	220							Schiebeplane - 220cm hoch - Farbe: Wahlweise			695	827.05
+	5	HS - STD	3116-S-STD-100		310x160	310	160	1000							Gestell für Standardplane - 100Zm hoch			235	279.65
+	5	STD 7500	3116-Z-STD-10-7500		310x160	310	160	100							Standardplane - 100cm - Farbe: 7500 Grau			190	226.1
+	5	STD ....	3116-Z-STD-10-		310x160	310	160	100							Standardplane - 100cm hoch - Farbe: Wahlweise			510	606.9
+	5	HS - STD	3116-S-STD-130		310x160	310	160	1300							Gestell für Standardplane - 130Zm hoch			235	279.65
+	5	STD 7500	3116-Z-STD-13-7500		310x160	310	160	130							Standardplane - 130cm - Farbe: 7500 Grau			245	291.55
+	5	STD ....	3116-Z-STD-13-		310x160	310	160	130							Standardplane - 130cm hoch - Farbe: Wahlweise			510	606.9
+	5	HS - STD	3116-S-STD-160		310x160	310	160	1600							Gestell für Standardplane - 160Zm hoch			260	309.4
+	5	STD 7500	3116-Z-STD-16-7500		310x160	310	160	160							Standardplane - 160cm - Farbe: 7500 Grau			260	309.4
+	5	STD ....	3116-Z-STD-16-		310x160	310	160	160							Standardplane - 160cm hoch - Farbe: Wahlweise			510	606.9
+	5	HS - STD	3116-S-STD-180		310x160	310	160	1800							Gestell für Standardplane - 180Zm hoch			265	315.35
+	5	STD 7500	3116-Z-STD-18-7500		310x160	310	160	180							Standardplane - 180cm - Farbe: 7500 Grau			280	333.2
+	5	STD ....	3116-Z-STD-18-		310x160	310	160	180							Standardplane - 180cm hoch - Farbe: Wahlweise			510	606.9
+	5	HS - STD	3116-S-STD-200		310x160	310	160	2000							Gestell für Standardplane - 200Zm hoch			300	357
+	5	STD 7500	3116-Z-STD-20-7500		310x160	310	160	200							Standardplane - 200cm - Farbe: 7500 Grau			300	357
+	5	STD ....	3116-Z-STD-20-		310x160	310	160	200							Standardplane - 200cm hoch - Farbe: Wahlweise			510	606.9
+	5	HS - STD	3116-S-STD-220		310x160	310	160	2200							Gestell für Standardplane - 220Zm hoch			310	368.9
+	5	STD 7500	3116-Z-STD-22-7500		310x160	310	160	220							Standardplane - 220cm - Farbe: 7500 Grau			315	374.85
+	5	STD ....	3116-Z-STD-22-		310x160	310	160	220							Standardplane - 220cm hoch - Farbe: Wahlweise			510	606.9
+	5	VOORREK	VOORREK - 1.8M												H-Gestell - 1850mm			65	77.35
+	5	LOOFREK	3118-L-70		310x180	310	180	70							Laubgitter - höhe: 70cm - Komplet			655	779.45
+	5	OPZETBOR	3118-O-30		310x180	310	180	30							Aufsatzbordwände - 30Zm Hoch			495	589.05
+	5	OPZETBOR	3118-O-40		310x180	310	180	40							Aufsatzbordwände - 40Zm Hoch			625	743.75
+	5	OPZETBOR	3118-OB-30		310x180	310	180	30							Aufsatzbordwände pendelbar - 30cm hoch			495	589.05
+	5	OPZETBOR	3118-OB-40		310x180	310	180	40							Aufsatzbordwände pendelbar - 40cm hoch			625	743.75
+	5	HS - SFZ	3118-S-SFZ-130		310x180	310	180	1300							Gestell für Schiebeplane - 130Zm hoch			330	392.7
+	5	SFZ ....	3118-Z-SFZ-13-		310x180	310	180	130							Schiebeplane - 130cm hoch - Farbe: Wahlweise			715	850.85
+	5	HS - SFZ	3118-S-SFZ-160		310x180	310	180	1600							Gestell für Schiebeplane - 160Zm hoch			330	392.7
+	5	SFZ ....	3118-Z-SFZ-16-		310x180	310	180	160							Schiebeplane - 160cm hoch - Farbe: Wahlweise			715	850.85
+	5	HS - SFZ	3118-S-SFZ-180		310x180	310	180	1800							Gestell für Schiebeplane - 180Zm hoch			335	398.65
+	5	SFZ ....	3118-Z-SFZ-18-		310x180	310	180	180							Schiebeplane - 180cm hoch - Farbe: Wahlweise			715	850.85
+	5	HS - SFZ	3118-S-SFZ-200		310x180	310	180	2000							Gestell für Schiebeplane - 200Zm hoch			365	434.35
+	5	SFZ ....	3118-Z-SFZ-20-		310x180	310	180	200							Schiebeplane - 200cm hoch - Farbe: Wahlweise			715	850.85
+	5	HS - SFZ	3118-S-SFZ-220		310x180	310	180	2200							Gestell für Schiebeplane - 220Zm hoch			385	458.15
+	5	SFZ ....	3118-Z-SFZ-22-		310x180	310	180	220							Schiebeplane - 220cm hoch - Farbe: Wahlweise			715	850.85
+	5	HS - STD	3118-S-STD-100		310x180	310	180	1000							Gestell für Standardplane - 100Zm hoch			285	339.15
+	5	STD 7500	3118-Z-STD-10-7500		310x180	310	180	100							Standardplane - 100cm hoch - Farbe: 7500 Grau			290	345.1
+	5	STD ....	3118-Z-STD-10-		310x180	310	180	100							Standardplane - 100cm hoch - Farbe: Wahlweise			600	714
+	5	HS - STD	3118-S-STD-130		310x180	310	180	1300							Gestell für Standardplane - 130Zm hoch			285	339.15
+	5	STD 7500	3118-Z-STD-13-7500		310x180	310	180	130							Standardplane - 130cm hoch - Farbe: 7500 Grau			310	368.9
+	5	STD ....	3118-Z-STD-13-		310x180	310	180	130							Standardplane - 130cm hoch - Farbe: Wahlweise			600	714
+	5	HS - STD	3118-S-STD-160		310x180	310	180	1600							Gestell für Standardplane - 160Zm hoch			285	339.15
+	5	STD 7500	3118-Z-STD-16-7500		310x180	310	180	160							Standardplane - 160cm hoch - Farbe: 7500 Grau			325	386.75
+	5	STD ....	3118-Z-STD-16-		310x180	310	180	160							Standardplane - 160cm hoch - Farbe: Wahlweise			600	714
+	5	HS - STD	3118-S-STD-180		310x180	310	180	1800							Gestell für Standardplane - 180Zm hoch			285	339.15
+	5	STD 7500	3118-Z-STD-18-7500		310x180	310	180	180							Standardplane - 180cm - Farbe: 7500 Grau			355	422.45
+	5	STD ....	3118-Z-STD-18-		310x180	310	180	180							Standardplane - 180cm hoch - Farbe: Wahlweise			600	714
+	5	HS - STD	3118-S-STD-200		310x180	310	180	2000							Gestell für Standardplane - 200Zm hoch			320	380.8
+	5	STD 7500	3118-Z-STD-20-7500		310x180	310	180	200							Standardplane - 200cm hoch - Farbe: 7500 Grau			375	446.25
+	5	STD ....	3118-Z-STD-20-		310x180	310	180	200							Standardplane - 200cm hoch - Farbe: Wahlweise			600	714
+	5	HS - STD	3118-S-STD-220		310x180	310	180	2200							Gestell für Standardplane - 220Zm hoch			330	392.7
+	5	STD 7500	3118-Z-STD-22-7500		310x180	310	180	220							Standardplane - 220cm hoch - Farbe: 7500 Grau			390	464.1
+	5	STD ....	3118-Z-STD-22-		310x180	310	180	220							Standardplane - 220cm hoch - Farbe: Wahlweise			600	714
+
+
+

@@ -1,0 +1,921 @@
+Name: docs.zip
+Language: no
+Creator: 
+Creation date: null
+Last modification: null
+MIME type: application/zip
+
+
+3-brueckenlauf.at_xls.php_type=schule.xls
+Tabelle1
+
+		Anmeldung zum 26. Internationalen Linzer 3-Brückenlauf
+
+		am 26.04.2014
+
+		
+
+						Senden Sie das fertig ausgefüllte Formular an office@3-brueckenlauf.at oder nutzen Sie unsere direkte
+
+						Onlineanmeldung unter www.3-brueckenlauf.at/ooe-schulercup
+
+						Nennschluss: Montag, 21. April 2014 - 15 Uhr
+
+		
+
+						SCHULE:
+
+		
+
+						Kontaktperson:
+
+						Vorname		Nachname		Adresse				Tel-Nr.		E-Mail
+
+		
+
+		
+
+						Läuferdaten:
+
+						Nachname		Vorname		Geb.Jahr		Geschl.
+
+				1
+
+				2
+
+				3
+
+				4
+
+				5
+
+				6
+
+				7
+
+				8
+
+				9
+
+				10
+
+				11
+
+				12
+
+				13
+
+				14
+
+				15
+
+				16
+
+				17
+
+				18
+
+				19
+
+				20
+
+				21
+
+				22
+
+				23
+
+				24
+
+				25
+
+				26
+
+				27
+
+				28
+
+				29
+
+				30
+
+
+
+
+
+Tabelle2
+
+		
+
+
+
+
+
+Tabelle3
+
+		
+
+
+
+
+
+
+
+3-brueckenlauf.at_xls.php_type=feuerwehr.xls
+Tabelle1
+
+		Anmeldung zum 26. Internationalen Linzer 3-Brückenlauf
+
+		am 26.04.2014
+
+		
+
+						Senden Sie das fertig ausgefüllte Formular an office@3-brueckenlauf.at
+
+						Nennschluss: Montag, 21. April 2014 - 15 Uhr
+
+		
+
+						FEUERWEHR:
+
+		
+
+						Kontaktperson:
+
+						Vorname		Nachname		Adresse						Tel-Nr.		E-Mail
+
+		
+
+		
+
+						Läuferdaten:
+
+						Titel		Nachname		Vorname		Geb.Jahr		Geschl.		Eigene Chipnummer		Ansonsten Leihchip J/N
+
+				1
+
+				2
+
+				3
+
+				4
+
+				5
+
+				6
+
+				7
+
+				8
+
+				9
+
+				10
+
+				11
+
+				12
+
+				13
+
+				14
+
+				15
+
+				16
+
+				17
+
+				18
+
+				19
+
+				20
+
+				21
+
+				22
+
+				23
+
+				24
+
+				25
+
+				26
+
+				27
+
+				28
+
+				29
+
+				30
+
+
+
+
+
+
+
+3-brueckenlauf.at_xls.php_type=firma.xls
+Tabelle1
+
+		Anmeldung zum 26. Internationalen Linzer 3-Brückenlauf
+
+		am 26.04.2014
+
+		
+
+						Senden Sie das fertig ausgefüllte Formular an office@3-brueckenlauf.at oder nutzen Sie unsere direkte
+
+						Onlineanmeldung unter www.3-brueckenlauf.at/ooe-firmen-vereinscup
+
+						Nennschluss: Montag, 21. April 2014 - 15 Uhr
+
+		
+
+						FIRMA/VEREIN:
+
+		
+
+						Kontaktperson:
+
+						Vorname		Nachname		Adresse						Tel-Nr.		E-Mail
+
+		
+
+		
+
+						Läuferdaten:
+
+						Titel		Nachname		Vorname		Geb.Jahr		Geschl.		Eigene Chipnummer		Ansonsten Leihchip J/N
+
+				1
+
+				2
+
+				3
+
+				4
+
+				5
+
+				6
+
+				7
+
+				8
+
+				9
+
+				10
+
+				11
+
+				12
+
+				13
+
+				14
+
+				15
+
+				16
+
+				17
+
+				18
+
+				19
+
+				20
+
+				21
+
+				22
+
+				23
+
+				24
+
+				25
+
+				26
+
+				27
+
+				28
+
+				29
+
+				30
+
+
+
+
+
+
+
+www.anhaenger-eduard.at_preisliste_export_xls_all_4020.xls
+Worksheet
+
+		EDUARD - all - 4.0m - 2017-08-24
+
+		Grp.		Art. grp.		Itemcode		Type		LxB (cm)		Lengte (cm)		Breedte (cm)		Höhe		Gesamt- gewicht in kg		Leergewicht
+in kg		Achse		Gebremst		Ladehöhe in cm		Bereifung		Aubau		Auffahrschienen & Winde		Boden		Preis zzgl. Mw.St.		Preis Inkl. 19% Mw.St
+
+		4		POR1		4020-4-POR10-200-72		Hochlader		406x198		406		198		10		2000		593		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		2450		2915.5
+
+		4		POV		4020-4-POV-200-72		Multitransporter		406x198		406		198		0		2000		561		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2475		2945.25
+
+		4		PMR1		4020-4-PMR10-200-72		Multitransporter		406x198		406		198		10		2000		593		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		2535		3016.65
+
+		4		PMV		4020-4-PMV-200-72		Multitransporter		406x198		406		198		0		2000		576		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2565		3052.35
+
+		4		POB3		4020-4-POB30-200-72		Multitransporter		406x198		406		198		30		2000		613		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2875		3421.25
+
+		4		PMB3		4020-4-PMB30-200-72		Multitransporter		406x198		406		198		30		2000		628		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		2965		3528.35
+
+		4		POB4		4020-4-POB40-200-72		Multitransporter		406x198		406		198		40		2000		637		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3030		3605.7
+
+		4		PMB4		4020-4-PMB40-200-72		Multitransporter		406x198		406		198		40		2000		652		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3115		3706.85
+
+		4		POR1		4020-4-POR10-200-63		Hochlader		406x198		406		198		10		2000		593		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		2500		2975
+
+		4		POV		4020-4-POV-200-63		Multitransporter		406x198		406		198		0		2000		561		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2560		3046.4
+
+		4		PMR1		4020-4-PMR10-200-63		Multitransporter		406x198		406		198		10		2000		593		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		2590		3082.1
+
+		4		PMV		4020-4-PMV-200-63		Multitransporter		406x198		406		198		0		2000		576		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2650		3153.5
+
+		4		POB3		4020-4-POB30-200-63		Multitransporter		406x198		406		198		30		2000		613		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2990		3558.1
+
+		4		PMB3		4020-4-PMB30-200-63		Multitransporter		406x198		406		198		30		2000		628		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3045		3623.55
+
+		4		POB4		4020-4-POB40-200-63		Multitransporter		406x198		406		198		40		2000		637		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3115		3706.85
+
+		4		PMB4		4020-4-PMB40-200-63		Multitransporter		406x198		406		198		40		2000		652		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3200		3808
+
+		4		POR1		4020-4-POR10-200-56		Hochlader		406x198		406		198		10		2000		593		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		2610		3105.9
+
+		4		POV		4020-4-POV-200-56		Multitransporter		406x198		406		198		0		2000		561		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2655		3159.45
+
+		4		PMR1		4020-4-PMR10-200-56		Multitransporter		406x198		406		198		10		2000		593		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		2695		3207.05
+
+		4		PMV		4020-4-PMV-200-56		Multitransporter		406x198		406		198		0		2000		576		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2745		3266.55
+
+		4		POB3		4020-4-POB30-200-56		Multitransporter		406x198		406		198		30		2000		613		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		3055		3635.45
+
+		4		PMB3		4020-4-PMB30-200-56		Multitransporter		406x198		406		198		30		2000		628		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3140		3736.6
+
+		4		POB4		4020-4-POB40-200-56		Multitransporter		406x198		406		198		40		2000		637		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3205		3813.95
+
+		4		PMB4		4020-4-PMB40-200-56		Multitransporter		406x198		406		198		40		2000		652		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3295		3921.05
+
+		4		POR1		4020-4-POR10-250-72		Hochlader		406x198		406		198		10		2500		628		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		2475		2945.25
+
+		4		POV		4020-4-POV-250-72		Multitransporter		406x198		406		198		0		2500		596		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2515		2992.85
+
+		4		PMR1		4020-4-PMR10-250-72		Multitransporter		406x198		406		198		10		2500		628		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		2560		3046.4
+
+		4		PMV		4020-4-PMV-250-72		Multitransporter		406x198		406		198		0		2500		611		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2605		3099.95
+
+		4		POB3		4020-4-POB30-250-72		Multitransporter		406x198		406		198		30		2500		648		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2910		3462.9
+
+		4		PMB3		4020-4-PMB30-250-72		Multitransporter		406x198		406		198		30		2500		663		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		2995		3564.05
+
+		4		POB4		4020-4-POB40-250-72		Multitransporter		406x198		406		198		40		2500		672		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3060		3641.4
+
+		4		PMB4		4020-4-PMB40-250-72		Multitransporter		406x198		406		198		40		2500		687		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3150		3748.5
+
+		4		POR1		4020-4-POR10-270-72		Hochlader		406x198		406		198		10		2700		631		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		2475		2945.25
+
+		4		POV		4020-4-POV-270-72		Multitransporter		406x198		406		198		0		2700		599		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2550		3034.5
+
+		4		PMR1		4020-4-PMR10-270-72		Multitransporter		406x198		406		198		10		2700		631		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		2560		3046.4
+
+		4		PMV		4020-4-PMV-270-72		Multitransporter		406x198		406		198		0		2700		614		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2640		3141.6
+
+		4		POB3		4020-4-POB30-270-72		Multitransporter		406x198		406		198		30		2700		651		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2950		3510.5
+
+		4		PMB3		4020-4-PMB30-270-72		Multitransporter		406x198		406		198		30		2700		666		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3035		3611.65
+
+		4		POB4		4020-4-POB40-270-72		Multitransporter		406x198		406		198		40		2700		675		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3065		3647.35
+
+		4		PMB4		4020-4-PMB40-270-72		Multitransporter		406x198		406		198		40		2700		690		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3155		3754.45
+
+		4		POV		4020-4-POV-270-66		Multitransporter		406x198		406		198		0		2700		599		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2730		3248.7
+
+		4		POR1		4020-4-POR10-270-66		Hochlader		406x198		406		198		10		2700		631		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		2765		3290.35
+
+		4		PMV		4020-4-PMV-270-66		Multitransporter		406x198		406		198		0		2700		614		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2830		3367.7
+
+		4		PMR1		4020-4-PMR10-270-66		Multitransporter		406x198		406		198		10		2700		631		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		2855		3397.45
+
+		4		POB3		4020-4-POB30-270-66		Multitransporter		406x198		406		198		30		2700		651		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		3100		3689
+
+		4		PMB3		4020-4-PMB30-270-66		Multitransporter		406x198		406		198		30		2700		666		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3190		3796.1
+
+		4		POB4		4020-4-POB40-270-66		Multitransporter		406x198		406		198		40		2700		675		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3315		3944.85
+
+		4		PMB4		4020-4-PMB40-270-66		Multitransporter		406x198		406		198		40		2700		690		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3405		4051.95
+
+		4		POR1		4020-4-POR10-270-63		Hochlader		406x198		406		198		10		2700		631		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		2520		2998.8
+
+		4		POV		4020-4-POV-270-63		Multitransporter		406x198		406		198		0		2700		599		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2600		3094
+
+		4		PMR1		4020-4-PMR10-270-63		Multitransporter		406x198		406		198		10		2700		631		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		2615		3111.85
+
+		4		PMV		4020-4-PMV-270-63		Multitransporter		406x198		406		198		0		2700		614		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2685		3195.15
+
+		4		POB3		4020-4-POB30-270-63		Multitransporter		406x198		406		198		30		2700		651		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2990		3558.1
+
+		4		PMB3		4020-4-PMB30-270-63		Multitransporter		406x198		406		198		30		2700		666		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3080		3665.2
+
+		4		POB4		4020-4-POB40-270-63		Multitransporter		406x198		406		198		40		2700		675		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3145		3742.55
+
+		4		PMB4		4020-4-PMB40-270-63		Multitransporter		406x198		406		198		40		2700		690		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3235		3849.65
+
+		4		POR1		4020-4-POR10-270-56		Hochlader		406x198		406		198		10		2700		631		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		2635		3135.65
+
+		4		POV		4020-4-POV-270-56		Multitransporter		406x198		406		198		0		2700		599		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2695		3207.05
+
+		4		PMR1		4020-4-PMR10-270-56		Multitransporter		406x198		406		198		10		2700		631		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		2720		3236.8
+
+		4		PMV		4020-4-PMV-270-56		Multitransporter		406x198		406		198		0		2700		614		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2780		3308.2
+
+		4		POB3		4020-4-POB30-270-56		Multitransporter		406x198		406		198		30		2700		651		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		3085		3671.15
+
+		4		PMB3		4020-4-PMB30-270-56		Multitransporter		406x198		406		198		30		2700		666		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3175		3778.25
+
+		4		POB3		4020-4-POB40-300-56		Multitransporter		406x198		406		198		30		2700		651		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		3220		3831.8
+
+		4		POB4		4020-4-POB40-270-56		Multitransporter		406x198		406		198		30		2700		651		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3240		3855.6
+
+		4		PMB4		4020-4-PMB40-270-56		Multitransporter		406x198		406		198		40		2700		690		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3330		3962.7
+
+		4		POR1		4020-4-POR10-300-63		Hochlader		406x198		406		198		10		3000		631		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		2595		3088.05
+
+		4		POV		4020-4-POV-300-63		Multitransporter		406x198		406		198		0		3000		599		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2650		3153.5
+
+		4		PMR1		4020-4-PMR10-300-63		Multitransporter		406x198		406		198		10		3000		631		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		2680		3189.2
+
+		4		PMV		4020-4-PMV-300-63		Multitransporter		406x198		406		198		0		3000		614		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2740		3260.6
+
+		4		POB3		4020-4-POB30-300-63		Multitransporter		406x198		406		198		30		3000		651		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		3045		3623.55
+
+		4		PMB3		4020-4-PMB30-300-63		Multitransporter		406x198		406		198		30		3000		666		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3135		3730.65
+
+		4		PMB4		4020-4-PMB40-300-63		Multitransporter		406x198		406		198		40		3000		690		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3290		3915.1
+
+		4		POR1		4020-4-POR10-300-56		Hochlader		406x198		406		198		10		3000		631		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		2660		3165.4
+
+		4		POV		4020-4-POV-300-56		Multitransporter		406x198		406		198		0		3000		599		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2700		3213
+
+		4		PMR1		4020-4-PMR10-300-56		Multitransporter		406x198		406		198		10		3000		631		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		2745		3266.55
+
+		4		PMV		4020-4-PMV-300-56		Multitransporter		406x198		406		198		0		3000		614		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2790		3320.1
+
+		4		POB3		4020-4-POB30-300-56		Multitransporter		406x198		406		198		30		3000		651		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		3100		3689
+
+		4		PMB3		4020-4-PMB30-300-56		Multitransporter		406x198		406		198		30		3000		666		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3185		3790.15
+
+		4		PMB4		4020-4-PMB40-300-56		Multitransporter		406x198		406		198		40		3000		690		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3340		3974.6
+
+		4		POR1		4020-4-POR10-350-63		Hochlader		406x198		406		198		10		3500		672		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, reling 10cm				Multiplex		3165		3766.35
+
+		4		PMR1		4020-4-PMR10-350-63		Multitransporter		406x198		406		198		10		3500		672		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, reling 10cm		Auffahrschienen & Winde		Multiplex		3280		3903.2
+
+		4		POV		4020-4-POV-350-63		Multitransporter		406x198		406		198		0		3500		640		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		3455		4111.45
+
+		4		PMV		4020-4-PMV-350-63		Multitransporter		406x198		406		198		0		3500		655		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		3565		4242.35
+
+		4		POB3		4020-4-POB30-350-63		Multitransporter		406x198		406		198		30		3500		692		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		3845		4575.55
+
+		4		PMB3		4020-4-PMB30-350-63		Multitransporter		406x198		406		198		30		3500		707		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3965		4718.35
+
+		4		POB4		4020-4-POB40-350-63		Multitransporter		406x198		406		198		40		3500		716		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		4000		4760
+
+		4		PMB4		4020-4-PMB40-350-63		Multitransporter		406x198		406		198		40		3500		731		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		4110		4890.9
+
+		4		PV		4020-4-PV-200-72		Hochlader		406x200		406		200		0		2000		480		2		Ja		72		165R13		Gebremste Doppelachser, Flach				Multiplex		2185		2600.15
+
+		4		PB3		4020-4-PB30-200-72		Hochlader		406x200		406		200		30		2000		532		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2540		3022.6
+
+		4		PB4		4020-4-PB40-200-72		Hochlader		406x200		406		200		40		2000		556		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2760		3284.4
+
+		4		PV		4020-4-PV-200-63		Hochlader		406x200		406		200		0		2000		480		2		Ja		63		195/50R13		Gebremste Doppelachser, Flach				Multiplex		2240		2665.6
+
+		4		PB3		4020-4-PB30-200-63		Hochlader		406x200		406		200		30		2000		532		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2595		3088.05
+
+		4		PB4		4020-4-PB40-200-63		Hochlader		406x200		406		200		40		2000		556		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2810		3343.9
+
+		4		PV		4020-4-PV-200-56		Hochlader		406x200		406		200		0		2000		480		2		Ja		56		195/55R10		Gebremste Doppelachser, Flach				Multiplex		2355		2802.45
+
+		4		PB3		4020-4-PB30-200-56		Hochlader		406x200		406		200		30		2000		532		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2705		3218.95
+
+		4		PB4		4020-4-PB40-200-56		Hochlader		406x200		406		200		40		2000		556		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2930		3486.7
+
+		4		PV		4020-4-PV-250-72		Hochlader		406x200		406		200		0		2500		515		2		Ja		72		165R13		Gebremste Doppelachser, Flach				Multiplex		2210		2629.9
+
+		4		PB3		4020-4-PB30-250-72		Hochlader		406x200		406		200		30		2500		567		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2565		3052.35
+
+		4		PB4		4020-4-PB40-250-72		Hochlader		406x200		406		200		40		2500		591		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2790		3320.1
+
+		4		PV		4020-4-PV-270-72		Hochlader		406x200		406		200		0		2700		518		2		Ja		72		165R13		Gebremste Doppelachser, Flach				Multiplex		2210		2629.9
+
+		4		PB3		4020-4-PB30-270-72		Hochlader		406x200		406		200		30		2700		570		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2565		3052.35
+
+		4		PB4		4020-4-PB40-270-72		Hochlader		406x200		406		200		40		2700		594		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2790		3320.1
+
+		4		PV		4020-4-PV-270-66		Hochlader		406x200		406		200		0		2700		518		2		Ja		66		195/50R13		Gebremste Doppelachser, Flach				Multiplex		2280		2713.2
+
+		4		PB3		4020-4-PB30-270-66		Hochlader		406x200		406		200		30		2700		570		2		Ja		66		195/50R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2645		3147.55
+
+		4		PB4		4020-4-PB40-270-66		Hochlader		406x200		406		200		40		2700		594		2		Ja		66		195/50R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2835		3373.65
+
+		4		PV		4020-4-PV-270-63		Hochlader		406x200		406		200		0		2700		518		2		Ja		63		195/50R13		Gebremste Doppelachser, Flach				Multiplex		2270		2701.3
+
+		4		PB3		4020-4-PB30-270-63		Hochlader		406x200		406		200		30		2700		570		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2620		3117.8
+
+		4		PB4		4020-4-PB40-270-63		Hochlader		406x200		406		200		40		2700		594		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2840		3379.6
+
+		4		PV		4020-4-PV-270-56		Hochlader		406x200		406		200		0		2700		518		2		Ja		56		195/55R10		Gebremste Doppelachser, Flach				Multiplex		2380		2832.2
+
+		4		PB3		4020-4-PB30-270-56		Hochlader		406x200		406		200		30		2700		570		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2735		3254.65
+
+		4		PB4		4020-4-PB40-270-56		Hochlader		406x200		406		200		40		2700		594		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2960		3522.4
+
+		4		PV		4020-4-PV-300-63		Hochlader		406x200		406		200		0		3000		518		2		Ja		63		195/50R13		Gebremste Doppelachser, Flach				Multiplex		2340		2784.6
+
+		4		PB3		4020-4-PB30-300-63		Hochlader		406x200		406		200		30		3000		570		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2695		3207.05
+
+		4		PB4		4020-4-PB40-300-63		Hochlader		406x200		406		200		40		3000		594		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2910		3462.9
+
+		4		PV		4020-4-PV-300-56		Hochlader		406x200		406		200		0		3000		518		2		Ja		56		195/55R10		Gebremste Doppelachser, Flach				Multiplex		2415		2873.85
+
+		4		PB3		4020-4-PB30-300-56		Hochlader		406x200		406		200		30		3000		570		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2765		3290.35
+
+		4		PB4		4020-4-PB40-300-56		Hochlader		406x200		406		200		40		3000		594		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2985		3552.15
+
+		4		PV		4020-4-PV-350-63		Hochlader		406x200		406		200		0		3500		559		2		Ja		63		195/50R13		Gebremste Doppelachser, Flach				Multiplex		2960		3522.4
+
+		4		PB3		4020-4-PB30-350-63		Hochlader		406x200		406		200		30		3500		611		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		3290		3915.1
+
+		4		PB4		4020-4-PB40-350-63		Hochlader		406x200		406		200		40		3500		635		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		3530		4200.7
+
+		5		VOORREK		VOORREK - 2.0M																								H-Gestell - 2050mm						75		89.25
+
+		5		LOOFREK		4020-L-70				400x200		400		200		70														Laubgitter - höhe: 70cm - Komplet						740		880.6
+
+		5		OPZETBOR		4020-O-30				400x200		400		200		30														Aufsatzbordwände - 30Zm Hoch						525		624.75
+
+		5		OPZETBOR		4020-O-40				400x200		400		200		40														Aufsatzbordwände - 40Zm Hoch						725		862.75
+
+		5		OPZETBOR		4020-OB-30				400x200		400		200		30														Aufsatzbordwände pendelbar - 30cm hoch						525		624.75
+
+		5		OPZETBOR		4020-OB-40				400x200		400		200		40														Aufsatzbordwände pendelbar - 40cm hoch						725		862.75
+
+		5		HS - SFZ		4020-S-SFZ-130				400x200		400		200		1300														Gestell für Schiebeplane - 130Zm hoch						430		511.7
+
+		5		SFZ ....		4020-Z-SFZ-13-				400x200		400		200		130														Schiebeplane - 130cm hoch - Farbe: Wahlweise						745		886.55
+
+		5		HS - SFZ		4020-S-SFZ-160				400x200		400		200		1600														Gestell für Schiebeplane - 160Zm hoch						430		511.7
+
+		5		SFZ ....		4020-Z-SFZ-16-				400x200		400		200		160														Schiebeplane - 160cm hoch - Farbe: Wahlweise						745		886.55
+
+		5		HS - SFZ		4020-S-SFZ-180				400x200		400		200		1800														Gestell für Schiebeplane - 180Zm hoch						430		511.7
+
+		5		SFZ ....		4020-Z-SFZ-18-				400x200		400		200		180														Schiebeplane - 180cm hoch - Farbe: Wahlweise						745		886.55
+
+		5		HS - SFZ		4020-S-SFZ-200				400x200		400		200		2000														Gestell für Schiebeplane - 200Zm hoch						430		511.7
+
+		5		SFZ ....		4020-Z-SFZ-20-				400x200		400		200		200														Schiebeplane - 200cm hoch - Farbe: Wahlweise						745		886.55
+
+		5		HS - SFZ		4020-S-SFZ-220				400x200		400		200		2200														Gestell für Schiebeplane - 220Zm hoch						470		559.3
+
+		5		SFZ ....		4020-Z-SFZ-22-				400x200		400		200		220														Schiebeplane - 220cm hoch - Farbe: Wahlweise						745		886.55
+
+		5		HS - STD		4020-S-STD-100				400x200		400		200		1000														Gestell für Standardplane - 100Zm hoch						330		392.7
+
+		5		STD 7500		4020-Z-STD-10-7500				400x200		400		200		100														Standardplane - 100cm - Farbe: 7500 Grau						390		464.1
+
+		5		STD ....		4020-Z-STD-10-				400x200		400		200		100														Standardplane - 100cm hoch - Farbe: Wahlweise						630		749.7
+
+		5		HS - STD		4020-S-STD-130				400x200		400		200		1300														Gestell für Standardplane - 130Zm hoch						330		392.7
+
+		5		STD 7500		4020-Z-STD-13-7500				400x200		400		200		130														Standardplane - 130cm - Farbe: 7500 Grau						390		464.1
+
+		5		STD ....		4020-Z-STD-13-				400x200		400		200		130														Standardplane - 130cm hoch - Farbe: Wahlweise						630		749.7
+
+		5		HS - STD		4020-S-STD-160				400x200		400		200		1600														Gestell für Standardplane - 160Zm hoch						330		392.7
+
+		5		STD 7500		4020-Z-STD-16-7500				400x200		400		200		160														Standardplane - 160cm - Farbe: 7500 Grau						410		487.9
+
+		5		STD ....		4020-Z-STD-16-				400x200		400		200		160														Standardplane - 160cm hoch - Farbe: Wahlweise						630		749.7
+
+		5		HS - STD		4020-S-STD-180				400x200		400		200		1800														Gestell für Standardplane - 180Zm hoch						330		392.7
+
+		5		STD 7500		4020-Z-STD-18-7500				400x200		400		200		180														Standardplane - 180cm - Farbe: 7500 Grau						435		517.65
+
+		5		STD ....		4020-Z-STD-18-				400x200		400		200		180														Standardplane - 180cm hoch - Farbe: Wahlweise						630		749.7
+
+		5		HS - STD		4020-S-STD-200				400x200		400		200		2000														Gestell für Standardplane - 200Zm hoch						370		440.3
+
+		5		STD 7500		4020-Z-STD-20-7500				400x200		400		200		200														Standardplane - 200cm - Farbe: 7500 Grau						465		553.35
+
+		5		STD ....		4020-Z-STD-20-				400x200		400		200		200														Standardplane - 200cm hoch - Farbe: Wahlweise						630		749.7
+
+		5		HS - STD		4020-S-STD-220				400x200		400		200		2200														Gestell für Standardplane - 220Zm hoch						375		446.25
+
+		5		STD 7500		4020-Z-STD-22-7500				400x200		400		200		220														Standardplane - 220cm - Farbe: 7500 Grau						495		589.05
+
+		5		STD ....		4020-Z-STD-22-				400x200		400		200		220														Standardplane - 220cm hoch - Farbe: Wahlweise						630		749.7
+
+
+
+
+
+
+
+www.anhaenger-eduard.at_preisliste_export_xls_all_4018.xls
+Worksheet
+
+		EDUARD - all - 4.0m - 2017-08-24
+
+		Grp.		Art. grp.		Itemcode		Type		LxB (cm)		Lengte (cm)		Breedte (cm)		Höhe		Gesamt- gewicht in kg		Leergewicht
+in kg		Achse		Gebremst		Ladehöhe in cm		Bereifung		Aubau		Auffahrschienen & Winde		Boden		Preis zzgl. Mw.St.		Preis Inkl. 19% Mw.St
+
+		4		POV		4018-4-POV-200-72		Multitransporter		406x178		406		178		0		2000		499		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2360		2808.4
+
+		4		PMV		4018-4-PMV-200-72		Multitransporter		406x178		406		178		0		2000		514		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2450		2915.5
+
+		4		POB3		4018-4-POB30-200-72		Multitransporter		406x178		406		178		30		2000		564		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2755		3278.45
+
+		4		PMB3		4018-4-PMB30-200-72		Multitransporter		406x178		406		178		30		2000		564		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		2840		3379.6
+
+		4		POB4		4018-4-POB40-200-72		Multitransporter		406x178		406		178		40		2000		587		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		2905		3456.95
+
+		4		PMB4		4018-4-PMB40-200-72		Multitransporter		406x178		406		178		40		2000		587		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		2990		3558.1
+
+		4		POV		4018-4-POV-200-63		Multitransporter		406x178		406		178		0		2000		499		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2545		3028.55
+
+		4		PMV		4018-4-PMV-200-63		Multitransporter		406x178		406		178		0		2000		514		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2635		3135.65
+
+		4		POB3		4018-4-POB30-200-63		Multitransporter		406x178		406		178		30		2000		564		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2935		3492.65
+
+		4		PMB3		4018-4-PMB30-200-63		Multitransporter		406x178		406		178		30		2000		564		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3025		3599.75
+
+		4		POB4		4018-4-POB40-200-63		Multitransporter		406x178		406		178		40		2000		587		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3085		3671.15
+
+		4		PMB4		4018-4-PMB40-200-63		Multitransporter		406x178		406		178		40		2000		587		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3175		3778.25
+
+		4		POV		4018-4-POV-200-56		Multitransporter		406x178		406		178		0		2000		499		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2595		3088.05
+
+		4		PMV		4018-4-PMV-200-56		Multitransporter		406x178		406		178		0		2000		514		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2685		3195.15
+
+		4		POB3		4018-4-POB30-200-56		Multitransporter		406x178		406		178		30		2000		564		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2980		3546.2
+
+		4		PMB3		4018-4-PMB30-200-56		Multitransporter		406x178		406		178		30		2000		564		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3070		3653.3
+
+		4		POB4		4018-4-POB40-200-56		Multitransporter		406x178		406		178		40		2000		587		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3140		3736.6
+
+		4		PMB4		4018-4-PMB40-200-56		Multitransporter		406x178		406		178		40		2000		587		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3225		3837.75
+
+		4		POV		4018-4-POV-250-72		Multitransporter		406x178		406		178		0		2500		576		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2450		2915.5
+
+		4		PMV		4018-4-PMV-250-72		Multitransporter		406x178		406		178		0		2500		591		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2540		3022.6
+
+		4		POB3		4018-4-POB30-250-72		Multitransporter		406x178		406		178		30		2500		641		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2840		3379.6
+
+		4		PMB3		4018-4-PMB30-250-72		Multitransporter		406x178		406		178		30		2500		641		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		2930		3486.7
+
+		4		POB4		4018-4-POB40-250-72		Multitransporter		406x178		406		178		40		2500		664		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		2990		3558.1
+
+		4		PMB4		4018-4-PMB40-250-72		Multitransporter		406x178		406		178		40		2500		664		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3080		3665.2
+
+		4		POV		4018-4-POV-270-72		Multitransporter		406x178		406		178		0		2700		579		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2510		2986.9
+
+		4		PMV		4018-4-PMV-270-72		Multitransporter		406x178		406		178		0		2700		594		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2600		3094
+
+		4		POB3		4018-4-POB30-270-72		Multitransporter		406x178		406		178		30		2700		644		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2875		3421.25
+
+		4		PMB3		4018-4-PMB30-270-72		Multitransporter		406x178		406		178		30		2700		644		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		2965		3528.35
+
+		4		POB4		4018-4-POB40-270-72		Multitransporter		406x178		406		178		40		2700		667		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		2980		3546.2
+
+		4		PMB4		4018-4-PMB40-270-72		Multitransporter		406x178		406		178		40		2700		667		2		Ja		72		165R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3065		3647.35
+
+		4		POV		4018-4-POV-270-66		Multitransporter		406x178		406		178				2700		579		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2640		3141.6
+
+		4		PMV		4018-4-PMV-270-66		Multitransporter		406x178		406		178				2700		594		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2730		3248.7
+
+		4		POB3		4018-4-POB30-270-66		Multitransporter		406x178		406		178		30		2700		644		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2985		3552.15
+
+		4		PMB3		4018-4-PMB30-270-66		Multitransporter		406x178		406		178		30		2700		644		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3075		3659.25
+
+		4		POB4		4018-4-POB40-270-66		Multitransporter		406x178		406		178		40		2700		652		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3185		3790.15
+
+		4		PMB4		4018-4-PMB40-270-66		Multitransporter		406x178		406		178		40		2700		667		2		Ja		66		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3295		3921.05
+
+		4		POV		4018-4-POV-270-63		Multitransporter		406x178		406		178		0		2700		579		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2585		3076.15
+
+		4		PMV		4018-4-PMV-270-63		Multitransporter		406x178		406		178		0		2700		594		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2670		3177.3
+
+		4		POB3		4018-4-POB30-270-63		Multitransporter		406x178		406		178		30		2700		644		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2970		3534.3
+
+		4		PMB3		4018-4-PMB30-270-63		Multitransporter		406x178		406		178		30		2700		644		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3055		3635.45
+
+		4		POB4		4018-4-POB40-270-63		Multitransporter		406x178		406		178		40		2700		667		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3125		3718.75
+
+		4		PMB4		4018-4-PMB40-270-63		Multitransporter		406x178		406		178		40		2700		667		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3215		3825.85
+
+		4		POV		4018-4-POV-270-56		Multitransporter		406x178		406		178		0		2700		579		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2630		3129.7
+
+		4		PMV		4018-4-PMV-270-56		Multitransporter		406x178		406		178		0		2700		594		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2720		3236.8
+
+		4		POB3		4018-4-POB30-270-56		Multitransporter		406x178		406		178		30		2700		644		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		3020		3593.8
+
+		4		PMB3		4018-4-PMB30-270-56		Multitransporter		406x178		406		178		30		2700		644		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3110		3700.9
+
+		4		POB4		4018-4-POB40-270-56		Multitransporter		406x178		406		178		40		2700		667		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3170		3772.3
+
+		4		PMB4		4018-4-PMB40-270-56		Multitransporter		406x178		406		178		40		2700		667		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3260		3879.4
+
+		4		POV		4018-4-POV-300-63		Multitransporter		406x178		406		178		0		3000		579		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2595		3088.05
+
+		4		PMV		4018-4-PMV-300-63		Multitransporter		406x178		406		178		0		3000		594		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2680		3189.2
+
+		4		POB3		4018-4-POB30-300-63		Multitransporter		406x178		406		178		30		3000		644		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		2980		3546.2
+
+		4		PMB3		4018-4-PMB30-300-63		Multitransporter		406x178		406		178		30		3000		644		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3065		3647.35
+
+		4		POB4		4018-4-POB40-300-63		Multitransporter		406x178		406		178		40		3000		667		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3135		3730.65
+
+		4		PMB4		4018-4-PMB40-300-63		Multitransporter		406x178		406		178		40		3000		667		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3220		3831.8
+
+		4		POV		4018-4-POV-300-56		Multitransporter		406x178		406		178		0		3000		579		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		2640		3141.6
+
+		4		PMV		4018-4-PMV-300-56		Multitransporter		406x178		406		178		0		3000		594		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		2730		3248.7
+
+		4		POB3		4018-4-POB30-300-56		Multitransporter		406x178		406		178		30		3000		644		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		3030		3605.7
+
+		4		PMB3		4018-4-PMB30-300-56		Multitransporter		406x178		406		178		30		3000		644		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3120		3712.8
+
+		4		POB4		4018-4-POB40-300-56		Multitransporter		406x178		406		178		40		3000		667		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3180		3784.2
+
+		4		PMB4		4018-4-PMB40-300-56		Multitransporter		406x178		406		178		40		3000		667		2		Ja		56		195/55R10		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		3275		3897.25
+
+		4		POV		4018-4-POV-350-63		Multitransporter		406x178		406		178		0		3500		620		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Flach		Auffahrschienen		Multiplex		3385		4028.15
+
+		4		PMV		4018-4-PMV-350-63		Multitransporter		406x178		406		178		0		3500		635		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Flach		Auffahrschienen & Winde		Multiplex		3500		4165
+
+		4		POB3		4018-4-POB30-350-63		Multitransporter		406x178		406		178		30		3500		685		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 30cm		Auffahrschienen		Multiplex		3770		4486.3
+
+		4		PMB3		4018-4-PMB30-350-63		Multitransporter		406x178		406		178		30		3500		685		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 30cm		Auffahrschienen & Winde		Multiplex		3880		4617.2
+
+		4		POB4		4018-4-POB40-350-63		Multitransporter		406x178		406		178		40		3500		708		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen, Bordwände 40cm		Auffahrschienen		Multiplex		3925		4670.75
+
+		4		PMB4		4018-4-PMB40-350-63		Multitransporter		406x178		406		178		40		3500		708		2		Ja		63		195/50R13		Gebremste Doppelachser, Auffahrschienen & Winde, Bordwände 40cm		Auffahrschienen & Winde		Multiplex		4040		4807.6
+
+		4		PV		4018-4-PV-200-72		Hochlader		406x180		406		180		0		2000		418		2		Ja		72		165R13		Gebremste Doppelachser, Flach				Multiplex		2025		2409.75
+
+		4		PB3		4018-4-PB30-200-72		Hochlader		406x180		406		180		30		2000		468		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2375		2826.25
+
+		4		PB4		4018-4-PB40-200-72		Hochlader		406x180		406		180		40		2000		491		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2590		3082.1
+
+		4		PV		4018-4-PV-200-63		Hochlader		406x180		406		180		0		2000		418		2		Ja		63		195/50R13		Gebremste Doppelachser, Flach				Multiplex		2225		2647.75
+
+		4		PB3		4018-4-PB30-200-63		Hochlader		406x180		406		180		30		2000		468		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2570		3058.3
+
+		4		PB4		4018-4-PB40-200-63		Hochlader		406x180		406		180		40		2000		491		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2785		3314.15
+
+		4		PV		4018-4-PV-200-56		Hochlader		406x180		406		180		0		2000		418		2		Ja		56		195/55R10		Gebremste Doppelachser, Flach				Multiplex		2295		2731.05
+
+		4		PB3		4018-4-PB30-200-56		Hochlader		406x180		406		180		30		2000		468		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2640		3141.6
+
+		4		PB4		4018-4-PB40-200-56		Hochlader		406x180		406		180		40		2000		491		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2850		3391.5
+
+		4		PV		4018-4-PV-250-72		Hochlader		406x180		406		180		0		2500		495		2		Ja		72		165R13		Gebremste Doppelachser, Flach				Multiplex		2150		2558.5
+
+		4		PB3		4018-4-PB30-250-72		Hochlader		406x180		406		180		30		2500		545		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2495		2969.05
+
+		4		PB4		4018-4-PB40-250-72		Hochlader		406x180		406		180		40		2500		568		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2710		3224.9
+
+		4		PV		4018-4-PV-270-72		Hochlader		406x180		406		180		0		2700		498		2		Ja		72		165R13		Gebremste Doppelachser, Flach				Multiplex		2150		2558.5
+
+		4		PB3		4018-4-PB30-270-72		Hochlader		406x180		406		180		30		2700		548		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2495		2969.05
+
+		4		PB4		4018-4-PB40-270-72		Hochlader		406x180		406		180		40		2700		571		2		Ja		72		165R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2710		3224.9
+
+		4		PV		4018-4-PV-270-66		Hochlader		406x180		406		180				2700		498		2		Ja		66		195/50R13		Gebremste Doppelachser, Flach				Multiplex		2150		2558.5
+
+		4		PB3		4018-4-PB30-270-66		Hochlader		406x180		406		180		30		2700		548		2		Ja		66		195/50R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2475		2945.25
+
+		4		PB4		4018-4-PB40-270-66		Hochlader		406x180		406		180		40		2700		571		2		Ja		66		195/50R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2670		3177.3
+
+		4		PV		4018-4-PV-270-63		Hochlader		406x180		406		180		0		2700		498		2		Ja		63		195/50R13		Gebremste Doppelachser, Flach				Multiplex		2255		2683.45
+
+		4		PB3		4018-4-PB30-270-63		Hochlader		406x180		406		180		30		2700		548		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2600		3094
+
+		4		PB4		4018-4-PB40-270-63		Hochlader		406x180		406		180		40		2700		571		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2810		3343.9
+
+		4		PV		4018-4-PV-270-56		Hochlader		406x180		406		180		0		2700		498		2		Ja		56		195/55R10		Gebremste Doppelachser, Flach				Multiplex		2320		2760.8
+
+		4		PB3		4018-4-PB30-270-56		Hochlader		406x180		406		180		30		2700		548		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2665		3171.35
+
+		4		PB4		4018-4-PB40-270-56		Hochlader		406x180		406		180		40		2700		571		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2880		3427.2
+
+		4		PV		4018-4-PV-300-63		Hochlader		406x180		406		180		0		3000		498		2		Ja		63		195/50R13		Gebremste Doppelachser, Flach				Multiplex		2280		2713.2
+
+		4		PB3		4018-4-PB30-300-63		Hochlader		406x180		406		180		30		3000		548		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2625		3123.75
+
+		4		PB4		4018-4-PB40-300-63		Hochlader		406x180		406		180		40		3000		571		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2840		3379.6
+
+		4		PV		4018-4-PV-300-56		Hochlader		406x180		406		180		0		3000		498		2		Ja		56		195/55R10		Gebremste Doppelachser, Flach				Multiplex		2345		2790.55
+
+		4		PB3		4018-4-PB30-300-56		Hochlader		406x180		406		180		30		3000		548		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 30cm				Multiplex		2690		3201.1
+
+		4		PB4		4018-4-PB40-300-56		Hochlader		406x180		406		180		40		3000		571		2		Ja		56		195/55R10		Gebremste Doppelachser, Bordwände 40cm				Multiplex		2905		3456.95
+
+		4		PV		4018-4-PV-350-63		Hochlader		406x180		406		180		0		3500		539		2		Ja		63		195/50R13		Gebremste Doppelachser, Flach				Multiplex		2885		3433.15
+
+		4		PB3		4018-4-PB30-350-63		Hochlader		406x180		406		180		30		3500		589		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 30cm				Multiplex		3225		3837.75
+
+		4		PB4		4018-4-PB40-350-63		Hochlader		406x180		406		180		40		3500		612		2		Ja		63		195/50R13		Gebremste Doppelachser, Bordwände 40cm				Multiplex		3450		4105.5
+
+		5		VOORREK		VOORREK - 1.8M																								H-Gestell - 1850mm						65		77.35
+
+		5		LOOFREK		4018-L-70				400x180		400		180		70														Laubgitter - höhe: 70cm - Komplet						520		618.8
+
+		5		OPZETBOR		4018-O-30				400x180		400		180		30														Aufsatzbordwände - 30Zm Hoch						520		618.8
+
+		5		OPZETBOR		4018-O-40				400x180		400		180		40														Aufsatzbordwände - 40Zm Hoch						700		833
+
+		5		OPZETBOR		4018-OB-30				400x180		400		180		30														Aufsatzbordwände pendelbar - 30cm hoch						520		618.8
+
+		5		OPZETBOR		4018-OB-40				400x180		400		180		40														Aufsatzbordwände pendelbar - 40cm hoch						700		833
+
+		5		HS - SFZ		4018-S-SFZ-130				400x180		400		180		1300														Gestell für Schiebeplane - 130Zm hoch						375		446.25
+
+		5		SFZ ....		4018-Z-SFZ-13-				400x180		400		180		130														Schiebeplane - 130cm hoch - Farbe: Wahlweise						745		886.55
+
+		5		HS - SFZ		4018-S-SFZ-160				400x180		400		180		1600														Gestell für Schiebeplane - 160Zm hoch						375		446.25
+
+		5		SFZ ....		4018-Z-SFZ-16-				400x180		400		180		160														Schiebeplane - 160cm hoch - Farbe: Wahlweise						745		886.55
+
+		5		HS - SFZ		4018-S-SFZ-180				400x180		400		180		1800														Gestell für Schiebeplane - 180Zm hoch						385		458.15
+
+		5		SFZ ....		4018-Z-SFZ-18-				400x180		400		180		180														Schiebeplane - 180cm hoch - Farbe: Wahlweise						745		886.55
+
+		5		HS - SFZ		4018-S-SFZ-200				400x180		400		180		2000														Gestell für Schiebeplane - 200Zm hoch						415		493.85
+
+		5		SFZ ....		4018-Z-SFZ-20-				400x180		400		180		200														Schiebeplane - 200cm hoch - Farbe: Wahlweise						745		886.55
+
+		5		HS - SFZ		4018-S-SFZ-220				400x180		400		180		2200														Gestell für Schiebeplane - 220Zm hoch						420		499.8
+
+		5		SFZ ....		4018-Z-SFZ-22-				400x180		400		180		220														Schiebeplane - 220cm hoch - Farbe: Wahlweise						745		886.55
+
+		5		HS - STD		4018-S-STD-100				400x180		400		180		1000														Gestell für Standardplane - 100Zm hoch						320		380.8
+
+		5		STD 7500		4018-Z-STD-10-7500				400x180		400		180		100														Standardplane - 100cm - Farbe: 7500 Grau						345		410.55
+
+		5		STD ....		4018-Z-STD-10-				400x180		400		180		100														Standardplane - 100cm hoch - Farbe: Wahlweise						630		749.7
+
+		5		HS - STD		4018-S-STD-130				400x180		400		180		1300														Gestell für Standardplane - 130Zm hoch						320		380.8
+
+		5		STD 7500		4018-Z-STD-13-7500				400x180		400		180		130														Standardplane - 130cm - Farbe: 7500 Grau						345		410.55
+
+		5		STD ....		4018-Z-STD-13-				400x180		400		180		130														Standardplane - 130cm hoch - Farbe: Wahlweise						630		749.7
+
+		5		HS - STD		4018-S-STD-160				400x180		400		180		1600														Gestell für Standardplane - 160Zm hoch						320		380.8
+
+		5		STD 7500		4018-Z-STD-16-7500				400x180		400		180		160														Standardplane - 160cm - Farbe: 7500 Grau						375		446.25
+
+		5		STD ....		4018-Z-STD-16-				400x180		400		180		160														Standardplane - 160cm hoch - Farbe: Wahlweise						630		749.7
+
+		5		HS - STD		4018-S-STD-180				400x180		400		180		1800														Gestell für Standardplane - 180Zm hoch						325		386.75
+
+		5		STD 7500		4018-Z-STD-18-7500				400x180		400		180		180														Standardplane - 180cm - Farbe: 7500 Grau						400		476
+
+		5		STD ....		4018-Z-STD-18-				400x180		400		180		180														Standardplane - 180cm hoch - Farbe: Wahlweise						630		749.7
+
+		5		HS - STD		4018-S-STD-200				400x180		400		180		2000														Gestell für Standardplane - 200Zm hoch						365		434.35
+
+		5		STD 7500		4018-Z-STD-20-7500				400x180		400		180		200														Standardplane - 200cm - Farbe: 7500 Grau						430		511.7
+
+		5		STD ....		4018-Z-STD-20-				400x180		400		180		200														Standardplane - 200cm hoch - Farbe: Wahlweise						630		749.7
+
+		5		HS - STD		4018-S-STD-220				400x180		400		180		2200														Gestell für Standardplane - 220Zm hoch						375		446.25
+
+		5		STD 7500		4018-Z-STD-22-7500				400x180		400		180		220														Standardplane - 220cm - Farbe: 7500 Grau						455		541.45
+
+		5		STD ....		4018-Z-STD-22-				400x180		400		180		220														Standardplane - 220cm hoch - Farbe: Wahlweise						630		749.7
+
+
+
+
+
+
+

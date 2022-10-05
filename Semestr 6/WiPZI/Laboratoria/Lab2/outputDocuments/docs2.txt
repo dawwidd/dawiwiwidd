@@ -1,0 +1,293 @@
+Name: docs2.rar
+Language: ro
+Creator: 
+Creation date: null
+Last modification: null
+MIME type: application/x-rar-compressed
+
+ 
+
+www.wifo.ac.at_jart_prj3_wifo_widat_wirtschaftsdaten_e_4.3_e_out.xlsx_r=jnds.xlsx4.3_e_out
+
+	4.3 Gross value added at basic prices, volume (chain-linked series)
+	1996	2000	2014	2015	2016	2017	2018	4Q2015	1Q2016	2Q2016	3Q2016	4Q2016	1Q2017
+	Percentage changes from previous year
+	Gross domestic product at market prices	+ 2.4	+ 3.4	+ 0.6	+ 1.0	+ 1.5	+ 2.4	+ 2.0	+ 1.1	+ 1.7	+ 1.4	+ 1.3	+ 1.6	+ 2.3
+	Total gross value added	+ 2.0	+ 3.9	+ 0.7	+ 0.8	+ 1.4	+ 2.4	+ 2.1	+ 0.9	+ 1.5	+ 1.4	+ 1.2	+ 1.5	+ 2.4
+	Agriculture, forestry and fishing	+ 0.1	– 3.6	+ 2.3	+ 0.4	+ 4.9	+ 1.2	+ 1.5	+ 8.3	+ 10.3	+ 3.7	+ 2.0	+ 4.8	– 2.3
+	Mining and quarrying	+ 11.1	– 0.3	+ 0.7	– 8.6	+ 11.3	.	.	– 9.9	+ 4.9	+ 12.3	+ 12.7	+ 14.7	– 5.0
+	Manufacturing	+ 1.1	+ 6.6	+ 1.6	+ 1.8	+ 1.6	+ 4.8	+ 4.0	+ 3.2	+ 2.5	+ 2.1	+ 0.6	+ 1.4	+ 5.4
+	Electricity, gas and water supply, waste 
+management	+ 2.6	+ 2.2	– 2.2	+ 1.2	– 2.9	+ 5.0	+ 1.5	– 6.0	– 8.1	– 11.5	+ 0.1	+ 7.6	+ 10.8
+	Construction	+ 2.5	+ 0.6	– 1.9	– 1.1	+ 1.1	+ 1.9	+ 1.4	– 0.9	+ 2.9	+ 2.3	+ 0.5	– 0.3	+ 5.2
+	Wholesale and retail trade	+ 2.4	+ 4.1	+ 2.0	+ 0.6	+ 2.1	+ 2.5	+ 2.3	+ 1.2	+ 1.8	+ 2.3	+ 2.2	+ 2.3	+ 2.4
+	Transporting and storage	+ 3.2	+ 4.1	+ 0.4	+ 0.3	– 0.4	+ 0.5	+ 1.0	– 1.2	– 0.4	– 0.3	– 0.7	– 0.3	– 1.5
+	Accommodation and food service activities	– 1.0	+ 3.3	+ 0.2	+ 1.0	+ 2.1	+ 1.2	+ 1.1	– 0.6	+ 3.4	– 0.1	+ 2.9	+ 1.5	+ 0.7
+	Information and communication	+ 8.8	+ 0.4	+ 2.0	+ 1.5	+ 0.4	+ 1.0	+ 2.0	+ 1.5	+ 1.0	+ 0.4	+ 0.2	+ 0.1	+ 0.2
+	Financial and insurance activities	+ 3.4	+ 12.7	– 2.8	+ 0.7	+ 0.4	– 0.2	+ 2.8	+ 1.3	+ 1.0	+ 2.1	+ 1.0	– 2.5	– 0.6
+	Real estate activities	– 1.7	+ 2.1	+ 1.8	+ 1.1	+ 2.0	+ 2.4	+ 2.2	+ 1.3	+ 1.7	+ 2.0	+ 2.1	+ 2.2	+ 2.2
+	Other business activities1	+ 6.0	+ 7.3	+ 1.0	+ 0.9	+ 1.9	+ 3.4	+ 2.2	+ 0.3	+ 1.1	+ 2.9	+ 0.6	+ 3.0	+ 2.7
+	Public administration, education, human 
+health and social work activities	+ 1.4	+ 1.4	+ 0.1	+ 0.8	+ 1.2	+ 1.1	+ 0.8	+ 1.0	+ 1.1	+ 1.2	+ 1.2	+ 1.2	+ 1.3
+	Other service activities2	– 0.3	+ 1.9	+ 0.7	– 0.5	+ 0.7	+ 0.6	+ 0.6	– 0.3	+ 0.3	+ 0.7	+ 1.0	+ 0.9	+ 0.6
+	Trend-cycle component, percentage changes from previous quarter
+	Gross domestic product at market prices	+ 0.3	+ 0.4	+ 0.3	+ 0.5	+ 0.6	+ 0.7
+	Total gross value added	+ 0.3	+ 0.3	+ 0.3	+ 0.4	+ 0.6	+ 0.8
+	Agriculture, forestry and fishing	+ 0.2	+ 2.3	+ 0.4	– 0.8	+ 1.7	– 0.1
+	Mining and quarrying	+ 1.3	+ 5.7	+ 4.7	+ 0.8	– 2.4	– 3.8
+	Manufacturing	+ 0.9	+ 0.5	+ 0.3	+ 0.5	+ 0.6	+ 2.2
+	Electricity, gas and water supply, waste 
+management	– 4.4	– 2.7	+ 0.8	+ 5.1	+ 3.2	+ 1.3
+	Construction	+ 0.3	+ 0.7	+ 0.4	+ 0.1	+ 0.3	+ 0.7
+	Wholesale and retail trade	+ 0.4	+ 0.3	+ 0.3	+ 0.6	+ 0.8	+ 0.7
+	Transporting and storage	– 0.1	+ 0.1	– 0.1	– 0.4	– 0.3	– 0.2
+	Accommodation and food service activities	+ 0.4	+ 0.5	+ 0.6	+ 0.6	+ 0.5	+ 0.5
+	Information and communication	+ 0.5	+ 0.1	– 0.3	– 0.0	+ 0.3	+ 0.2
+	Financial and insurance activities	+ 0.7	+ 0.1	– 0.2	– 0.4	– 0.4	– 0.2
+	Real estate activities	+ 0.5	+ 0.6	+ 0.6	+ 0.5	+ 0.5	+ 0.5
+	Other business activities1	+ 0.0	+ 0.2	+ 0.6	+ 0.6	+ 1.3	+ 1.0
+	Public administration, education, human 
+health and social work activities	+ 0.4	+ 0.3	+ 0.2	+ 0.3	+ 0.4	+ 0.4
+	Other service activities2	+ 0.1	+ 0.2	+ 0.3	+ 0.2	+ 0.1	+ 0.1
+	Source: Statistics Austria, WDS - WIFO Data System, Macrobond. - 2017 to 2018: projections.
+	1 NACE M-N. - 2 NACE R-U. 
+	Last update: 29 June 2017
+	Contact: Christine.Kaufmann@wifo.ac.at
+	2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mailto:Christine.Kaufmann@wifo.ac.athtto://www.wifo.ac.at/http://www.wifo.ac.at/en
+
+docs1.rar 
+
+www.wifo.ac.at_jart_prj3_wifo_widat_wirtschaftsdaten_e_12.3_e_out.xlsx_r=jnds.xlsx12.3_e_out
+
+	12.3 Wage and salary earners and registered unemployment
+	2013	2014	2015	2016	3Q2016	4Q2016	1Q2017	2Q2017	 Feb 2017	 Mar 2017	 Apr 2017	 May 2017	 Jun 2017	 Jul 2017
+	Percentage changes from previous year
+	Wage and salary earners 	+ 0.5	+ 0.6	+ 0.9	+ 1.5	+ 1.3	+ 1.6	+ 1.7	+ 1.8	+ 1.7	+ 1.7	+ 1.7	+ 1.9	+ 1.9	+ 2.2
+	Male	+ 0.4	+ 0.5	+ 0.8	+ 1.6	+ 1.5	+ 1.8	+ 1.9	+ 2.0	+ 1.8	+ 2.0	+ 2.0	+ 2.1	+ 2.0	+ 2.5
+	Female	+ 0.7	+ 0.6	+ 1.0	+ 1.3	+ 1.2	+ 1.5	+ 1.5	+ 1.6	+ 1.6	+ 1.3	+ 1.5	+ 1.6	+ 1.6	+ 1.8
+	Salaried employees	+ 1.0	+ 0.8	+ 1.3	+ 1.6	+ 1.5	+ 1.7	+ 1.7	+ 1.8	+ 1.7	+ 1.7	+ 1.7	+ 1.8	+ 1.8	+ 2.0
+	Wage earners	– 0.3	+ 0.2	+ 0.2	+ 1.2	+ 1.0	+ 1.6	+ 1.7	+ 1.9	+ 1.7	+ 1.7	+ 1.8	+ 2.0	+ 1.9	+ 2.4
+	Military service	– 5.6	– 8.2	– 5.1	– 5.3	– 4.3	– 2.2	– 11.3	– 11.9	– 8.4	– 16.9	– 8.1	– 18.0	– 9.1	± 0.0
+	Parental leave	– 3.7	– 3.4	– 1.8	– 1.7	– 2.0	– 1.7	– 1.5	– 1.4	– 1.4	– 1.3	– 1.3	– 0.8	– 2.1	– 2.5
+	Wage and salary earners (active)	+ 0.6	+ 0.7	+ 1.0	+ 1.6	+ 1.4	+ 1.7	+ 1.8	+ 1.9	+ 1.8	+ 1.8	+ 1.8	+ 2.0	+ 2.0	+ 2.3
+	Male	+ 0.4	+ 0.6	+ 0.8	+ 1.7	+ 1.5	+ 1.8	+ 1.9	+ 2.1	+ 1.9	+ 2.1	+ 2.0	+ 2.2	+ 2.1	+ 2.5
+	Female	+ 0.9	+ 0.9	+ 1.1	+ 1.4	+ 1.3	+ 1.6	+ 1.6	+ 1.7	+ 1.7	+ 1.4	+ 1.6	+ 1.7	+ 1.8	+ 2.0
+	Foreign employment	+ 5.6	+ 5.7	+ 4.6	+ 5.8	+ 5.7	+ 6.5	+ 6.7	+ 7.1	+ 6.8	+ 6.6	+ 6.9	+ 7.2	+ 7.1	+ 7.7
+	Male	+ 5.2	+ 5.5	+ 4.4	+ 6.5	+ 6.2	+ 7.1	+ 7.5	+ 7.8	+ 7.4	+ 7.7	+ 7.8	+ 7.9	+ 7.8	+ 8.5
+	Female	+ 6.3	+ 6.0	+ 4.9	+ 5.0	+ 4.9	+ 5.7	+ 5.6	+ 6.0	+ 5.9	+ 4.9	+ 5.8	+ 6.0	+ 6.1	+ 6.5
+	Manufacturing industry	± 0.0	– 0.1	– 0.5	+ 0.3	+ 0.3	+ 0.7	+ 2.2	+ 3.1	+ 2.7	+ 3.0	+ 3.0	+ 3.2	+ 3.2	+ 3.9
+	Male	+ 0.2	+ 0.1	– 0.5	+ 0.4	+ 0.4	+ 0.6	+ 2.2	+ 3.0	+ 2.6	+ 2.9	+ 2.9	+ 3.1	+ 3.1	+ 3.7
+	Female	– 0.5	– 0.7	– 0.4	+ 0.1	± 0.0	+ 0.8	+ 2.4	+ 3.3	+ 3.1	+ 3.1	+ 3.2	+ 3.3	+ 3.5	+ 4.6
+	Unemployment	+ 10.2	+ 11.2	+ 11.0	+ 0.8	+ 0.5	– 0.8	– 1.8	– 4.8	– 1.3	– 3.7	– 4.5	– 4.9	– 5.0	– 4.4
+	Male	+ 11.4	+ 11.1	+ 11.7	– 0.3	– 0.7	– 1.5	– 2.0	– 6.1	– 1.0	– 5.5	– 5.7	– 6.3	– 6.5	– 5.8
+	Female	+ 8.7	+ 11.3	+ 9.9	+ 2.4	+ 2.0	+ 0.1	– 1.4	– 3.1	– 1.7	– 1.1	– 3.1	– 3.2	– 3.2	– 2.7
+	15 to under 25 years	+ 6.1	+ 5.6	+ 3.4	– 5.4	– 6.6	– 8.0	– 11.3	– 15.9	– 10.8	– 13.8	– 16.1	– 16.0	– 15.7	– 13.4
+	Male 	+ 7.7	+ 6.7	+ 4.9	– 5.5	– 6.7	– 7.9	– 10.9	– 17.6	– 10.0	– 15.0	– 17.6	– 17.7	– 17.5	– 14.9
+	Female	+ 3.9	+ 4.2	+ 1.4	– 5.3	– 6.5	– 8.0	– 12.0	– 13.7	– 12.3	– 12.0	– 14.1	– 13.7	– 13.1	– 11.5
+	Vacancies	– 10.3	– 0.2	+ 11.1	+ 37.7	+ 33.5	+ 32.8	+ 39.3	+ 41.0	+ 37.7	+ 44.5	+ 41.1	+ 43.9	+ 38.1	+ 48.5
+	Source: Federation of Austrian Social Security Institutions, Austrian Labour Market Service, WDS - WIFO Data System, Macrobond.
+	Contact: Stefan.Fuchs@wifo.ac.at, Christoph.Lorenz@wifo.ac.at
+	© WIFO 2017 – Austrian Institute of Economic Research  www.wifo.ac.at
+
+
+
+
+
+http://www.wifo.ac.at/jart/prj3/wifo/main.jart?rel=en
+
+www.wifo.ac.at_jart_prj3_wifo_widat_wirtschaftsdaten_e_12.4_e_out.xlsx_r=jnds.xlsx12.4_e_out
+
+	12.4 Unemployment, rates
+	2013	2014	2015	2016	3Q2016	4Q2016	1Q2017	2Q2017	Feb 2017	Mar 2017	Apr 2017	May 2017	Jun 2017	Jul 2017
+	As a percentage of dependent labour force
+	Unemployment rate                                  	7.6	8.4	9.1	9.1	8.2	9.3	9.9	8.1	10.1	8.9	8.6	8.0	7.6	7.6
+	Male	8.2	9.0	9.8	9.7	8.2	10.0	11.3	8.2	11.7	9.6	8.8	8.1	7.7	7.6
+	Female	7.0	7.6	8.3	8.3	8.1	8.6	8.2	7.9	8.2	8.1	8.3	7.9	7.5	7.6
+	Extended unemployment rate1                                  	9.4	10.1	10.6	10.6	9.6	10.9	11.5	9.8	11.7	10.6	10.3	9.8	9.2	9.0
+	Male	9.8	10.6	11.2	11.1	9.6	11.4	12.8	9.8	13.2	11.2	10.4	9.8	9.3	9.0
+	Female	8.9	9.6	9.9	10.0	9.5	10.2	10.0	9.7	10.0	10.0	10.2	9.7	9.2	9.0
+	As a percentage of unemployed
+	15 to under 25 years  	14.9	14.1	13.2	12.4	12.6	12.0	11.3	10.8	11.2	11.0	11.1	10.7	10.7	11.3
+	Male	15.0	14.4	13.5	12.8	13.0	12.5	11.8	11.3	11.6	11.5	11.5	11.2	11.1	11.7
+	Female	14.7	13.8	12.7	11.7	12.2	11.4	10.5	10.3	10.5	10.3	10.5	10.3	10.2	10.8
+	Long-term unoccupied persons registered as unemployed2	20.0	25.7	31.0	34.1	37.2	33.6	32.0	37.5	31.4	35.0	35.9	37.6	39.3	38.2
+	Male	20.1	26.3	32.0	35.4	40.5	34.8	31.2	40.7	30.2	36.1	38.8	40.8	42.7	42.0
+	Female	19.8	24.8	29.7	32.3	33.3	32.0	33.3	33.7	33.4	33.5	32.4	33.7	35.3	33.9
+	Unemployed persons per vacancy
+	Ratio of unemployment to vacancies	10.9	12.1	12.1	8.9	7.5	9.0	8.0	5.4	8.1	6.7	6.1	5.3	5.0	4.7
+	Changes from previous year in percentage points
+	Unemployment rate                                  	+ 0.6	+ 0.7	+ 0.8	– 0.1	– 0.1	– 0.2	– 0.3	– 0.5	– 0.3	– 0.4	– 0.5	– 0.5	– 0.5	– 0.5
+	Male	+ 0.7	+ 0.8	+ 0.9	– 0.2	– 0.2	– 0.3	– 0.4	– 0.7	– 0.3	– 0.7	– 0.6	– 0.7	– 0.6	– 0.6
+	Female	+ 0.5	+ 0.7	+ 0.6	+ 0.1	+ 0.1	– 0.1	– 0.2	– 0.4	– 0.3	– 0.2	– 0.4	– 0.4	– 0.3	– 0.3
+	Extended unemployment rate1	+ 0.8	+ 0.7	+ 0.5	± 0.0	– 0.1	– 0.2	– 0.2	– 0.4	– 0.2	– 0.3	– 0.4	– 0.4	– 0.4	– 0.4
+	Male	+ 0.9	+ 0.8	+ 0.6	– 0.1	– 0.1	– 0.2	– 0.3	– 0.5	– 0.2	– 0.6	– 0.5	– 0.5	– 0.6	– 0.5
+	Female	+ 0.6	+ 0.7	+ 0.3	+ 0.1	± 0.0	– 0.1	– 0.1	– 0.3	– 0.2	– 0.1	– 0.3	– 0.3	– 0.3	– 0.2
+	15 to under 25 years	– 0.6	– 0.7	– 1.0	– 0.8	– 1.0	– 0.9	– 1.2	– 1.4	– 1.2	– 1.3	– 1.5	– 1.4	– 1.4	– 1.2
+	Male	– 0.5	– 0.6	– 0.9	– 0.7	– 0.8	– 0.9	– 1.2	– 1.6	– 1.2	– 1.3	– 1.7	– 1.5	– 1.5	– 1.3
+	Female	– 0.7	– 0.9	– 1.1	– 1.0	– 1.1	– 1.0	– 1.3	– 1.3	– 1.3	– 1.3	– 1.4	– 1.3	– 1.2	– 1.1
+	Long-term unoccupied persons registered as unemployed2	+ 1.8	+ 5.7	+ 5.4	+ 3.1	+ 3.0	+ 2.4	+ 1.5	+ 1.6	+ 1.4	+ 1.7	+ 2.0	+ 1.4	+ 1.5	+ 0.9
+	Male	+ 1.8	+ 6.2	+ 5.7	+ 3.4	+ 3.4	+ 2.4	+ 1.3	+ 2.0	+ 1.0	+ 2.1	+ 2.2	+ 1.8	+ 2.1	+ 1.4
+	Female	+ 1.9	+ 4.9	+ 4.9	+ 2.6	+ 2.7	+ 2.4	+ 1.9	+ 1.3	+ 2.2	+ 1.1	+ 1.7	+ 1.0	+ 1.0	+ 0.5
+	Unemployed persons per vacancy, changes from previous year
+	Ratio of unemployment to vacancies	+ 2.0	+ 1.2	± 0.0	– 3.2	– 2.5	– 3.1	– 3.3	– 2.6	– 3.2	– 3.3	– 2.9	– 2.7	– 2.3	– 2.6
+	Source: Federation of Austrian Social Security Institutions, Austrian Labour Market Service, WDS - WIFO Data System, Macrobond. – 1 Extended to persons in training. – 2 Business case duration exceeds 365 days.
+	Contact: Stefan.Fuchs@wifo.ac.at, Christoph.Lorenz@wifo.ac.at
+	© WIFO 2017 – Austrian Institute of Economic Research  www.wifo.ac.at
+
+
+
+
+
+http://www.wifo.ac.at/jart/prj3/wifo/main.jart?rel=en
+
+www.wifo.ac.at_jart_prj3_wifo_widat_wirtschaftsdaten_e_10.5_e_out.xlsx_r=jnds.xlsx10.5_e_out
+
+	10.5 Receipts and expenditures: years, quarters 
+	2013	2014	2015	2016	IQ2015	IIQ2015	IIIQ2015	IVQ2015	IQ2016	IIQ2016	IIIQ2016	IVQ2016	IQ2017
+	Receipts
+	From international tourism	Mn. €	17,126.0	17,446.0	18,352.0	18,984.0	6,515.0	3,221.0	5,182.0	3,434.0	7,125.0	3,028.0	5,306.0	3,525.0	6,906.0
+	Price index	2010 = 100	109.1	111.8	113.7	116.2	113.3	113.3	113.7	114.5	116.1	115.3	115.9	117.3	119.7
+	From domestic tourism	Mn. €	5,675.6	5,766.1	6,006.8	6,285.5	1,467.5	1,424.5	1,747.2	1,367.6	1,500.6	1,481.4	1,860.7	1,442.7	1,505.1
+	Price index	2010 = 100	109.5	112.6	115.0	118.0	114.7	114.5	112.5	118.2	117.7	117.7	114.7	121.7	121.5
+	Total	Mn. €	22,801.6	23,212.1	24,358.8	25,269.5	7,982.5	4,645.5	6,929.2	4,801.6	8,625.6	4,509.4	7,166.7	4,967.7	8,411.1
+	Price index	2010 = 100	109.2	112.0	114.1	116.7	113.6	113.7	113.4	115.5	116.4	116.1	115.6	118.6	120.0
+	Expenditures
+	On international tourism	Mn. €	9,621.0	10,026.0	10,017.0	10,308.0	1,822.0	2,491.0	3,794.0	1,910.0	1,748.0	2,616.0	3,945.0	1,999.0	1,859.0
+	Price index	2010 = 100	105.3	110.4	111.8	113.6	109.7	108.7	116.7	111.9	112.6	110.7	118.7	112.6	114.8
+	Source: Oesterreichische Nationalbank, WDS - WIFO Data System, Macrobond. Including international transport.
+	Last update: 23 August 2017.
+	Sabine.Ehn-Fragner@wifo.ac.at, Susanne.Markytan@wifo.ac.at
+	© WIFO 2017 – Austrian Institute of Economic Research – www.wifo.ac.at
+	Source: Oesterreichische Nationalbank, WIFO. Including international transport. 
+	Further information: Sabine.Ehn-Fragner@wifo.ac.at, Susanne.Markytan@wifo.ac.at
+	© WIFO-Austrian Institute of Economic Research www.wifo.ac.at
+
+http://www.wifo.ac.at/jart/prj3/wifo/main.jart?rel=enmailto:Sabine.Ehn-Fragner@wifo.ac.at;%20Susanne.Markytan@wifo.ac.at
+
+www.wifo.ac.at_jart_prj3_wifo_widat_wirtschaftsdaten_e_10.7_e_out.xlsx_r=jnds.xlsx10.7_e_out
+
+	10.7 Economic impact of tourism and leisure industry
+	2000	1899	2012	2013	2014	2015	2000	1899	2012	2013	2014	2015
+	Tourism Satellite Account (TSA)	Million €	As a percentage of GDP
+	Tourism value added – direct effects, according to TSA
+	Excluding business trips	10,642	0	17,138	17,654	18,226	18,899	5.0	0.0	5.4	5.5	5.5	5.6
+	Including business trips	11,585	0	18,221	18,802	19,421	20,180	5.4	0.0	5.7	5.8	5.9	5.9
+	TSA extensions	Million €	Contribution to GDP, in percent
+	Direct and indirect effects
+	Tourism and leisure industry in Austria	33,217	0	50,610	51,606	52,843	54,436	15.6	0.0	16.0	16.0	16.0	16.0
+	Tourism (excluding business trips)	17,980	0	27,806	28,258	28,963	29,703	8.4	0.0	8.8	8.8	8.8	8.7
+	Leisure consumption of residents	15,237	0	22,804	23,347	23,880	24,732	7.1	0.0	7.2	7.2	7.3	7.3
+	Source: Statistics Austria, WDS - WIFO Data System, Macrobond. 2000-2014: finally revised, 2015: preliminary.
+	Last update: 3 May 2017.
+	Sabine.Ehn-Fragner@wifo.ac.at, Susanne.Markytan@wifo.ac.at
+	© WIFO 2017 – Austrian Institute of Economic Research – www.wifo.ac.at
+
+mailto:Sabine.Ehn-Fragner@wifo.ac.at;%20Susanne.Markytan@wifo.ac.athttp://www.wifo.ac.at/jart/prj3/wifo/main.jart?rel=en
+
+www.wifo.ac.at_jart_prj3_wifo_widat_wirtschaftsdaten_e_11.1_e_out.xlsx_r=jnds.xlsx11.1_e_out
+	1/1/14	1/1/15	1/1/16	7/1/16	10/1/16	1/1/17	4/1/17	2/1/17	3/1/17	4/1/17	5/1/17	6/1/17	7/1/17
+	11.1 Freight and passenger transport
+	2014	2015	2016	3Q2016	4Q2016	1Q2017	2Q2017	Feb 2017	Mar 2017	Apr 2017	May 2017	Jun 2017	Jul 2017
+	Freight transport
+	Transport performance
+	Road                                                               Mill. tkm	16,605	17,161	18,091	4,355	3,903	.	.	.	.	.	.	.	.
+	Rail                                                                  Mill. tkm	19,245	19,045	18,883	4,637	4,968	5,472	.	.	.	.	.	.	.
+	Aviation1                                                         Mill. kg	424	421	432	107	114	102	.	32	40	.	.	.	.
+	Inland Waterways                                       Mill. tkm	9,868	8,332	9,274	2,359	2,117	1,442	.	407	749	779	.	.	.
+	Heavy good vehicle kilometrage2               Mill. km	3,268	3,335	3,496	907	863	861	920	272	329	286	322	312	313
+	Heavy good vehicle registrations3             Number	12,954	14,035	16,295	4,280	3,541	4,635	5,038	1,268	2,227	1,687	1,652	1,699	1,548
+	Passenger transport
+	Road (car registrations)                                 Number	303,318	308,555	329,604	80,408	77,426	88,493	98,068	25,311	36,830	30,201	32,426	35,441	27,731
+	Railway                              Mill. passenger kilometres	10,700	10,700	.	.	.	.	.	.	.	.	.	.	.
+	Luftverkehr4                                      1,000 passengers	26,859	27,185	27,594	8,254	6,501	6,069	.	1,905	2,245	.	.	.	.
+	Labour market, transporting and storage
+	Employees                                                         Persons   	183,594	186,379	188,806	189,207	189,868	193,050	190,564	193,433	194,514	189,891	190,030	191,772	194,293
+	Unemployed                                                     Persons	15,355	16,585	16,848	15,279	16,823	18,465	16,392	19,120	16,809	17,356	16,719	15,100	15,014
+	Vacancies                                                         Persons	855	895	1,281	1,350	1,367	1,716	2,172	1,678	1,902	2,012	2,115	2,388	2,527
+	Fuel prices
+	Diesel                                                         Euro per litre	1.30	1.12	1.03	1.04	1.09	1.13	1.09	1.13	1.11	1.11	1.09	1.07	1.06
+	Standard unleaded petrol                     Euro per litre	1.34	1.20	1.11	1.11	1.14	1.18	1.17	1.19	1.16	1.19	1.18	1.16	1.14
+	Source: Statistics Austria, BMWFW, WDS - WIFO Data System, Macrobond. – 1 Freight and postal volumes. –  2 HGV over 3.5 t on tolled motorway network. – 3 HGV with 1 t load capacity or above. – 4 Arrivals and departures.
+	Michael.Weingaertler@wifo.ac.at
+	2017
+
+
+mailto:Michael.Weingaertler@wifo.ac.athtto://www.wifo.ac.at/http://www.wifo.ac.at/jart/prj3/wifo/main.jart?rel=en
+
+www.wifo.ac.at_jart_prj3_wifo_widat_wirtschaftsdaten_e_3.3.2_e_out.xlsx_r=jnds.xlsx3.3.2_e_out
+
+	3.3.2 Electrical energy
+	2013	2014	2015	2016	1Q2016	2Q2016	3Q2016	4Q2016	1Q2017	Feb 2017	Mar 2017	Apr 2017	May 2017
+	Gigawatt-hour
+	Total generation	67,716	64,767	64,605	67,548	15,657	17,442	17,326	17,122	17,406	5,118	5,801	5,291	5,798
+	   Hydro	40,963	39,582	36,099	39,168	7,495	11,642	12,008	8,023	7,248	1,993	2,956	2,862	3,787
+	   Thermal	16,489	13,756	16,742	16,724	5,502	2,651	2,459	6,113	7,352	2,362	1,739	1,208	787
+	   Others¹	10,264	11,430	11,764	11,655	2,661	3,149	2,859	2,985	2,806	764	1,107	1,222	1,224
+	Imports	24,960	26,712	29,369	26,345	9,082	4,825	5,093	7,346	8,581	2,975	2,773	2,642	2,162
+	Total supply	92,676	91,479	93,974	93,893	24,739	22,267	22,419	24,468	25,987	8,094	8,574	7,933	7,960
+	Exports	17,689	17,437	19,311	19,188	4,728	4,941	5,163	4,356	5,079	1,471	1,891	1,888	1,974
+	Consumption
+	   Including storage pumping	74,987	74,042	74,663	74,704	20,011	17,326	17,256	20,112	20,908	6,622	6,683	6,045	5,986
+	   For storage pumping	5,374	5,466	5,051	4,486	1,232	938	931	1,385	1,707	599	531	498	471
+	   Without storage pumping	69,613	68,575	69,611	70,219	18,778	16,388	16,325	18,727	19,201	6,024	6,152	5,547	5,515
+	Source: E-Control, Monthly Electricity Balance, WDS - WIFO Data System, Macrobond. For monthly statistics only public grid and autogenerators with a minimum capacity of at least 5 MWe. Year 2016 preliminary or partly estimated data.
+	¹ Monthly production which cannot be related to a specific type of power plant and/or primary energy source. Allocation of these volumes is annual.
+	42923.0
+	Dietmar.Weinberger@wifo.ac.at
+	2017
+
+
+
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+htto://www.wifo.ac.at/http://www.wifo.ac.at/jart/prj3/wifo/main.jart?rel=enmailto:Dietmar.Weinberger@wifo.ac.at
+

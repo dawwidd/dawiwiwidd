@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "chrono": "c",
+        "cstdint": "c",
+        "limits": "c",
+        "valarray": "c",
+        "*.inc": "c"
+    }
+}

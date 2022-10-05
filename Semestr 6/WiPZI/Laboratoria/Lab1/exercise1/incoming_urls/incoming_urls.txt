@@ -1,0 +1,6 @@
+http://www.cs.put.poznan.pl http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/s1.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/f1/s2.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/s0.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/f1/s3.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/f1/s2.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/f1/s3.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/f1/s3.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/s1.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/s0.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/someerrorlinkthatisnotfunny http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise1/s1.html

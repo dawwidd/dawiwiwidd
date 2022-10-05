@@ -1,0 +1,41 @@
+Name: www.wifo.ac.at_jart_prj3_wifo_widat_wirtschaftsdaten_e_8.1_e_out.xlsx_r=jnds.xlsx
+Language: en
+Creator: boehs
+Creation date: 2017-08-23T23:19:17Z
+Last modification: 2017-08-23T23:19:17Z
+MIME type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+
+8.1_e_out
+	1/1/14	1/1/15	1/1/16	7/1/16	10/1/16	1/1/17	4/1/17	2/1/17	3/1/17	4/1/17	5/1/17	6/1/17	7/1/17
+	8.1 Construction indicators
+	2014	2015	2016	3Q2016	4Q2016	1Q2017	2Q2017	Feb 2017	Mar 2017	Apr 2017	May 2017	Jun 2017	Jul 2017
+	Short Term Statistics1	Million €
+	Production
+	Total construction	41,525	41,507	42,421	11,626	12,704	8,209	.	2,544	3,513	3,376	.	.	.
+	Building construction	12,028	12,749	13,524	3,718	3,974	2,640	.	821	1,152	1,157	.	.	.
+	Residential construction	4,823	.	.	.	.	.	.	.	.	.	.	.	.
+	Non-residential construction	3,978	.	.	.	.	.	.	.	.	.	.	.	.
+	Civil engineering	7,957	7,031	6,623	2,049	1,845	1,120	.	322	490	513	.	.	.
+	Specialised construction activities	21,540	21,727	22,274	5,860	6,886	4,449	.	1,402	1,872	1,706	.	.	.
+	Order backlog, total construction	10,838	10,937	11,060	11,527	10,844	11,395	.	11,080	12,377	12,727	.	.	.
+	New orders, total construction	27,965	28,222	28,151	7,280	7,649	6,220	.	1,838	2,743	2,496	.	.	.
+	Labour Market	Persons
+	Employees	246,799	245,561	248,584	269,137	248,440	221,000	264,332	215,403	246,259	259,925	265,743	267,328	273,067
+	Unemployed	35,033	37,540	35,024	20,263	35,930	57,953	20,651	63,286	35,295	23,344	19,755	18,853	18,487
+	Vacancies	1,552	1,648	2,464	3,105	1,785	2,944	4,168	3,038	3,868	4,104	4,168	4,231	4,575
+	Construction Price Index	Index 2010
+	Building construction and civil engineering	108.8	109.5	111.0	111.1	111.5	112.5	113.2	.	.	.	.	.	.
+	Building construction	110.8	112.8	114.9	115.2	115.5	116.7	117.8	.	.	.	.	.	.
+	Residential construction	110.5	112.3	114.3	114.5	114.9	116.0	117.1	.	.	.	.	.	.
+	Non-residential construction	111.2	113.4	115.7	116.0	116.3	117.6	118.5	.	.	.	.	.	.
+	Civil Engineering	106.5	105.6	106.3	106.4	106.8	107.3	107.7	.	.	.	.	.	.
+	Construction Cost Index
+	Residential construction, total costs	107.6	109.3	110.0	110.5	111.0	112.7	113.7	112.6	113.0	113.6	113.9	113.6	113.6
+	Source: Statistics Austria, Public Employment Service Austria, Federation of Austrian Social Insurance Institutions, WDS - WIFO Data System, Macrobond. – 1 Extrapolation of the data to the general population, 
+2016: preliminary. A reclassification of companies led to a shift from civil engineering to building. 
+	Michael.Weingaertler@wifo.ac.at
+	2017
+
+
+mailto:Michael.Weingaertler@wifo.ac.athtto://www.wifo.ac.at/http://www.wifo.ac.at/jart/prj3/wifo/main.jart?rel=en
+

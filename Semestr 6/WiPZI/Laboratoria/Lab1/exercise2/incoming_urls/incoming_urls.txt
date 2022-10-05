@@ -1,0 +1,3 @@
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise2/f1/s1.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise2/f1/s2.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise2/f1/s1.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise2/s0.html
+http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise2/f1/s2.html http://www.cs.put.poznan.pl/mtomczyk/ir/lab1/exercise2/f1/s1.html

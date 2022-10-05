@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="106DA794-1DCE-37C9-CBF1-875CDA8E4462" name="Gry_Singleplayer">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:13:44 UTC</createdTime>
+<ownerDesignName>guacamole</ownerDesignName>
+<engineerTo>
+<item key="DB7D0D22-31C6-413B-BA18-41D6959FE26C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1604EEA9-2342-CA04-32E3-D8835169CC24">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:13:57 UTC</createdTime>
+<ownerDesignName>guacamole</ownerDesignName>
+<engineerTo>
+<item key="DB7D0D22-31C6-413B-BA18-41D6959FE26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wynik" id="11E128CD-DD0E-861C-6D90-A1802F9A9386">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:14:18 UTC</createdTime>
+<ownerDesignName>guacamole</ownerDesignName>
+<engineerTo>
+<item key="DB7D0D22-31C6-413B-BA18-41D6959FE26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_gracza" id="4E623533-0C3F-3C1B-165D-97ACE88B79C8">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:15:09 UTC</createdTime>
+<generatorID>B9CF40BE-B312-4247-9AF2-B4E1CBDAE7BD</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<engineerTo>
+<item key="DB7D0D22-31C6-413B-BA18-41D6959FE26C" value="true"/>
+</engineerTo>
+<referedAttribute>B1B18DD2-3AE0-3655-ABF6-3267AF07896F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE2152DB-5B60-44C9-C3FE-53D5596150DD" name="Gry_Singleplayer PK">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:14:10 UTC</createdTime>
+<ownerDesignName>guacamole</ownerDesignName>
+<engineerTo>
+<item key="DB7D0D22-31C6-413B-BA18-41D6959FE26C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1604EEA9-2342-CA04-32E3-D8835169CC24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1FFBB81-CDE9-7099-C51E-CF40FF136212" name="Gry_Multiplayer">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>D404DB21-CE77-7505-FAD8-7DD8BE59AAA4</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="88C4C2F9-4BC2-3EDB-E27C-B7B7CD858E26">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>BB621FA8-98B2-9DC1-8093-20AB609648BB</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wynik_gracza_1" id="3368F84A-8440-A9CC-4D42-3AB1731F8F8F">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>D1D8D382-22A1-8634-1459-0976DA967BBF</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wynik_gracza_2" id="F29BADB9-ADEA-7150-31C2-1C8D735CF0BC">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>831A88D8-1CF5-5C78-8F56-EAD9228D474A</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gracze_id_gracza" id="E437E0B0-DE43-132F-AEB9-2E5D27380142">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>C001F9A4-9E24-2969-9C7D-DB25F57CD4FC</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58225459-A4F8-586E-54DE-2922AE496DAF" referredColumn="383161AF-04D5-AF58-4283-5169C5825446"/>
+</associations>
+</Column>
+<Column name="Gracze_id_gracza2" id="F6950220-AE2B-293C-081C-7A50BD3F5F4D">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>C02EA48A-F899-3E41-D2BA-41A9472932DB</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C96AF648-D260-D840-B8B5-5FB5DECF88F1" referredColumn="383161AF-04D5-AF58-4283-5169C5825446"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="046725AC-41B7-F5B4-6811-1CD9944F86C3" name="Gry_Multiplayer_PK">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>592E4B7C-7A33-B8D2-A3C0-766B80E3A431</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88C4C2F9-4BC2-3EDB-E27C-B7B7CD858E26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0A9959E-2B49-5693-AF08-8D7380B1FB06" name="Gry_Multiplayer_Gracze_FK">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>F8D78309-17C9-0943-3527-2EDEE8D08601</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E437E0B0-DE43-132F-AEB9-2E5D27380142"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A961901-728D-9A2D-6AE4-673B6426F585" name="Gry_Multiplayer_Gracze_FKv2">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>8689322D-19A9-E84D-EEFA-17A6976D7451</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6950220-AE2B-293C-081C-7A50BD3F5F4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

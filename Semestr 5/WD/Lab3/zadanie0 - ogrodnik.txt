@@ -1,0 +1,6 @@
+Pewien ogrodnik chce za³o¿yæ sad z jab³kami (150 m^2). Na zakup sadzonek mo¿e przeznaczyæ maksymalnie 2000 z³. Ma ju¿ 200 l pestycydów w magazynie. Do wyboru s¹ nastêpuj¹ce sadzonki:
+A: 10 z³, 4 m^2, 3 litry pestycydów/sezon, 24 z³ zysku
+B: 20 z³, 1 m^2, 1.5 litra pestycydów/sezon, 30 z³ zysku
+C: 10 z³, 1 m^2, 2 litry pestycydów/sezon, 20 z³ zysku
+
+Ile sztuk poszczególnych sadzonek powinien zakupiæ ogrodnik aby zmaksymalizowaæ swój zysk?

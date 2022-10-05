@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C96AF648-D260-D840-B8B5-5FB5DECF88F1" containerWithKeyObject="B1FFBB81-CDE9-7099-C51E-CF40FF136212" localFKIndex="2A961901-728D-9A2D-6AE4-673B6426F585" name="Gry_Multiplayer_Gracze_FKv2">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>8689322D-19A9-E84D-EEFA-17A6976D7451</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<referredTableLongName>Gracze</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7831C21-BAFE-25B7-1CC2-34800D943BE6</referredTableID>
+<keyObject>2115CD94-CDC1-06BA-A3CF-78E968A0B07D</keyObject>
+<referredKeyID>2115CD94-CDC1-06BA-A3CF-78E968A0B07D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_gracza</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

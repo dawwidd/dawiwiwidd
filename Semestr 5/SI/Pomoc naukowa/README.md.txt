@@ -1,0 +1,1 @@
+Skrypty na egzamin/kolosa 

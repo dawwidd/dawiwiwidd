@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DE18884-C60D-D053-36DB-CCC32DA3E11E" name="Gry_Singleplayer">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>106DA794-1DCE-37C9-CBF1-875CDA8E4462</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="15191B33-E74D-7BF4-2CEF-049B593BDF5D">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>1604EEA9-2342-CA04-32E3-D8835169CC24</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wynik" id="56EFF268-7816-E46A-BBA3-62268A533223">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>11E128CD-DD0E-861C-6D90-A1802F9A9386</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gracze_id_gracza" id="86422F87-8E52-F3FE-25C2-139F446051F3">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>4E623533-0C3F-3C1B-165D-97ACE88B79C8</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B1E3463-C6F5-BD33-99C5-B366A4A540B6" referredColumn="383161AF-04D5-AF58-4283-5169C5825446"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7DC8BBA-FDC7-5905-C242-FC35310F1D0B" name="Gry_Singleplayer_PK">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>FE2152DB-5B60-44C9-C3FE-53D5596150DD</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15191B33-E74D-7BF4-2CEF-049B593BDF5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13D9DAC3-6DC6-080C-404A-9CF0D85C9042" name="Gry_Singleplayer_Gracze_FK">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>B9CF40BE-B312-4247-9AF2-B4E1CBDAE7BD</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86422F87-8E52-F3FE-25C2-139F446051F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

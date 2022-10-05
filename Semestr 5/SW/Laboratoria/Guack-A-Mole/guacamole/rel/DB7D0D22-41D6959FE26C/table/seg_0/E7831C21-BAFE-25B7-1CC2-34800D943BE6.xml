@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7831C21-BAFE-25B7-1CC2-34800D943BE6" name="Gracze">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>C0C4F5CF-C027-F83E-659E-6D715A531C62</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_gracza" id="383161AF-04D5-AF58-4283-5169C5825446">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>B1B18DD2-3AE0-3655-ABF6-3267AF07896F</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="9BE52AD1-F109-7D77-F097-58130C88526A">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>3A8D9E43-99F9-0A87-60C2-4A83DD3BE158</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2115CD94-CDC1-06BA-A3CF-78E968A0B07D" name="Gracze_PK">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:21:03 UTC</createdTime>
+<generatorID>DAA0D4C4-8B4B-8C72-776A-366636436719</generatorID>
+<ownerDesignName>guacamole</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="383161AF-04D5-AF58-4283-5169C5825446"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

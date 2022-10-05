@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0C4F5CF-C027-F83E-659E-6D715A531C62" name="Gracze">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:11:02 UTC</createdTime>
+<ownerDesignName>guacamole</ownerDesignName>
+<engineerTo>
+<item key="DB7D0D22-31C6-413B-BA18-41D6959FE26C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_gracza" id="B1B18DD2-3AE0-3655-ABF6-3267AF07896F">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:12:40 UTC</createdTime>
+<ownerDesignName>guacamole</ownerDesignName>
+<engineerTo>
+<item key="DB7D0D22-31C6-413B-BA18-41D6959FE26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login" id="3A8D9E43-99F9-0A87-60C2-4A83DD3BE158">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:12:58 UTC</createdTime>
+<ownerDesignName>guacamole</ownerDesignName>
+<engineerTo>
+<item key="DB7D0D22-31C6-413B-BA18-41D6959FE26C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DAA0D4C4-8B4B-8C72-776A-366636436719" name="Gracze PK">
+<createdBy>dave</createdBy>
+<createdTime>2022-01-06 21:13:01 UTC</createdTime>
+<ownerDesignName>guacamole</ownerDesignName>
+<engineerTo>
+<item key="DB7D0D22-31C6-413B-BA18-41D6959FE26C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1B18DD2-3AE0-3655-ABF6-3267AF07896F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

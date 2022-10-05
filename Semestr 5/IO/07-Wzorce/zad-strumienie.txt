@@ -1,0 +1,18 @@
+1. Dekorator
+2. InputStream
+3. inputStream->read()
+4. in: InputStream
+5. in: InputStream, cksum: Checksum
+6. getChecksum(): Checksum
+7. FileInputStream
+8. component->read()
+9. FilterInputStream::read()
+
+10. Kompozyt
+11. Kompozyt
+12. Obserwator
+13. Subject
+14. addMouseListener(l: MouseMotionListener); addActionListener(l: ActionListener)
+15. MouseMotionListener
+16. ActionListener
+17. ConcreteObserver

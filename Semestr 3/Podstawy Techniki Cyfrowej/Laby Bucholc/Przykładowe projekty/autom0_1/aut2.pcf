@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jul 27 12:23:37 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Z<0>" LOCATE = SITE "U18" LEVEL 1;
+COMP "Z<1>" LOCATE = SITE "M14" LEVEL 1;
+COMP "Z<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "Z<3>" LOCATE = SITE "L14" LEVEL 1;
+COMP "CLK100" LOCATE = SITE "L15" LEVEL 1;
+COMP "X" LOCATE = SITE "A10" LEVEL 1;
+SCHEMATIC END;
+

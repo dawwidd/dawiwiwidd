@@ -1,0 +1,2 @@
+Skrypty w pythonie do problemu plecakowego i szukania cykli Hamiltona lub Eulera w grafie, instrukcji obsługi nie dam, bo nie pamiętam.
+Oba zdają się nie działać, prawdopodobnie są potrzebne jakieś małe poprawki

@@ -1,0 +1,30 @@
+A DSIN 1
+B DSIN 2
+LT DSOUT 3
+EQ DSOUT 4
+GT DSOUT 5
+
+pocz:
+in s0,A
+in s1,B
+load s3,$ff
+load s2,0
+comp s0,s1
+jump z,rowne
+jump c,mniejsze
+out s2,LT
+out s2,EQ
+out s3,GT
+jump pocz
+
+rowne:
+out s3,EQ
+out s2,LT
+out s2,GT
+jump pocz
+
+mniejsze:
+out s3,LT
+out s2,EQ
+out s2,GT
+jump pocz

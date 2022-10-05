@@ -1,0 +1,12 @@
+
+Testing with the network gived in classroom.
+Network Nº 02
+
+>>> from dinic import *
+>>> run_dinic("tests/networks/numericosimple.in")
+[1]
+512
+>>> 
+
+
+

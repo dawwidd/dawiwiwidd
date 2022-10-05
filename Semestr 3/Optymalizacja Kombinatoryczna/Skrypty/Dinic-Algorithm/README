@@ -1,0 +1,8 @@
+Implementation of Dinic Algorithm written in python.
+
+Example:
+python ./dinic.py network_file
+
+This version take 41 sec to run benchmark.
+Previus versions take less, 28 sec aprox, because they make fewer calls
+to functions.

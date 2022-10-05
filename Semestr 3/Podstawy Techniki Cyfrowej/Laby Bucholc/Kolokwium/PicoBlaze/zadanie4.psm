@@ -1,0 +1,29 @@
+l0 dsout 0
+l1 dsout 1
+l2 dsout 2
+;A dsin 5
+;B dsin 6
+;AplusB dsio 7
+load s0,0
+load s1,0
+load s2,0
+eint;
+
+pocz:
+load sf,sf;
+;in s5,A
+;in s6,B
+;add s5,s6
+;out s5,AplusB
+jump pocz
+
+Przerwanie:
+out s0,l0
+out s1,l1
+out s2,l2
+add s0,1
+addc s1,0
+addc s2,0
+reti enable
+ORG $3FF
+jump Przerwanie

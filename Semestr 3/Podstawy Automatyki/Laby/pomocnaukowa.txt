@@ -1,0 +1,47 @@
+1. Obiekty z dziedziny automatyki można modelować za pomocą:
+- transmitancji operatorowej
+- równania różniczkowego
+
+2. Funkcja skoku jednostkowego zdefiniowana jest w następujący sposób:
+- 0 dla t<0; 1 dla t>=0
+
+3. Funkcja Delty Diraca zdefiniowana jest w następujący sposób:
+- 0 dla t!=0; inf dla t=0
+
+4. Na charakterystyki czasowe składają się:
+- odpowiedź impulsowa
+- odpowiedź skokowa
+
+5. Za pomocą h(t) oznacza się:
+- odpowiedź skokową obiektu
+
+6. Za pomocą g(t) oznacza się:
+- odpowiedź impulsową obiektu
+
+7. Deklaracja w Scilab: G=syslin('c',3/(10*s+1)); spowoduje wygenerowanie:
+- modelu obiektu w postaci transmitancji operatorowej G(s)=3/(10*s+1)
+
+8. Analityczne wyznaczenie postaci odpowiedzi skokowej polega na znalezieniu:
+- odwrotnej transformaty Laplace'a z iloczynu transmitancji operatorowej obiektu i transformaty skoku jednostkowego
+
+9. Wykresy charakterystyk amplitudowo-fazowych układów realizowalnych fiycznie (czyli takich, dla których w transmitancji operatorowej stopień wielomianu licznika jest mniejzy od stopnia wielomianu mianownika):
+- dążą do początku układu współrzędnych P(omega), jQ(omega)
+
+10. Argumentem dla charakterystyki Nyquista jest:
+- pulsacja
+
+11. Charakterystykę Nyquista konstruuje się:
+- jako wykres transmitancji widmowej układu na płaszczyźnie zmiennej zespolonej
+
+12. Z charakterystyki amplitudowo-fazowej można odczytać:
+- amplitudę i fazę sygnału wejściowego
+
+13. Do wygenerowania odpowiedzi skokowej systemu liniowego w środowisku Scilab, należy użyć funkcji:
+- csim('step',t,G) //t-wektor czasu, G-transmitancja operatorowa
+
+14. Użycie w Scilab funkcji nyquist(G,0,100) wygeneruje:
+- Charakterystykę Nyquista dla obiektu o transmitancji G w zakresie zmienności pulsacji od 0 do 100
+- charakterystykę ampllitudowo-fazową dla obiektu o transmitancji G w zakresie zmienności pulsacji od 0 do 100
+
+15. Transmitancja operatorowa G(s) jest określana jako:
+- stosunek transformaty Laplace'a sygnału wejściowego do transformaty Laplace'a wymuszenia przy zerowych warunkach początkowych

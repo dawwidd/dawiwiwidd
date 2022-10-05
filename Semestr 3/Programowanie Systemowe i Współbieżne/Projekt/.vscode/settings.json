@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "cstring": "c",
+        "typeinfo": "c"
+    }
+}

@@ -1,0 +1,59 @@
+*INSTRUKCJA KOMPILACJI I URUCHOMIENIA SERWERA I KLIENTA W PROTOKOLE PUBLISH-SUBSCRIBE*
+
+Kompilacja: gcc -Wall inf145383_k.c -o inf145383_k; gcc -Wall inf145383_s.c -o inf145383_s
+
+Obsługa:
+
+Klienta i serwer uruchamiamy przez terminal komendami:
+./inf145383_k
+./inf145383_s
+
+Polecenia można wprowadzać jedynie w programie klienta.
+Zaliczają się do nich:
+
+- login [nick] - próba zalogowania na serwerze. Nick (nazwa użytkownika) musi się zawierać w przedziale od 3 do 15 znaków. Nie można się zalogować, jeżeli liczba zalogowanych klientów na serwerze osiągnęła 16. Po trzech nieudanych próbach logowania serwer blokuje dalsze próby i wymusza zamknięcie programu klienta. Pomyślne logowanie jest warunkiem możliwości wykonania pozostałych poleceń (z wyjątkiem tych oznaczonych [Debug])
+
+- logout - próba wylogowania
+
+- sub [channel] [quantity] - próba zasubskrybowania kanału o numerze [channel], na ilość wiadomości [quantity]. Jeśli [quantity] <= 0, subskrypcja jest trwała. Niepowodzenie w przypadku podania numeru nieistniejącego kanału lub ponownej próby subskrypcji tego samego kanału,
+
+- unsub [channel] - próba odsubskrybowania kanału o numerze [channel]. Niepowodzenie w wypadku podania numeru nieistniejącego kanału lub próby odsubskrybowania niezasubkrybowanego wcześniej kanału
+
+- msgreg [channel] - próba zarejestrowania nowego kanału. Niepowodzenie w wypadku próby rejestracji istniejącego już kanału. Po zarejestrowaniu nowego kanału serwer nadaje asynchroniczny sygnał do wszystkich zalogowanych użytkowników o tym, że takowy się pojawił.
+
+- sndmsg [channel] [text] - próba wysłania wiadomości o treści [text] na kanale [channel]. Niepowodzenie w wypadku próby wysłania wiadomości na nieistniejącym kanale.
+
+- rdmsg - odczytanie wszystkich wiadomości, które zostały wysłane na zasubskrybowane kanały. Nie wykona się, jeżeli liczba zasubskrybowanych kanałów wynosi 0. Jeśli nie ma żadnych wiadomości oczekujących na odebranie przez danego klienta, wywołanie tej funkcji jest blokujące, tzn. nie można wykonać żadnej innej operacji dopóki nie dotrze choć jedna wiadomość od innego użytkownika.
+
+- async - przełączenie trybu asynchronicznego odczytu wiadomości. W tym trybie wiadomości zostają odczytane zaraz po ich rozesłaniu przez serwer. Niepowodzenie w wypadku braku subskrypcji.
+
+- block [nick] - próba zablokowania odbioru wiadomości od użytkownika o nazwie [nick]. Niepowodzenie w wypadku podania nazwy niezalogowanego użytkownika lub próby ponownego zablokowania tego samego użytkownika.
+
+- unblock [nick] - próba odblokowania odbioru wiadomości od użytkownika o nazwie [nick]. Niepowodzenie w wypadku podania nazwy niezalogowanego użytkownika lub próby ponownego odblokowania niezablokowanego użytkownika.
+
+- quit - jeśli klient jest zalogowany, zostaje wylogowany i wysyła sygnał do serwera o zmiejszeniu się liczby aktywnych użytkowników. Serwer wyłącza się automatycznie po utraceniu kontaktu ze wszystkimi wcześniej połączonymi użytkownikami.
+
+
+
+Sekcja [Debug]
+Wszystkie polecenia z tej grupy są wywoływane przez klienta, a wykonywane po stronie serwera.
+
+- users - wyświetl listę zalogowanych użytkowników w formacie "[Lp.] [PID] [nick]". "[Lp.] 0 0" oznacza puste miejsce.
+
+- subslist - wyświetl listę subskrypcji w formacie "[Lp.] [PID] [channel] [quantity]". "[Lp.] 0 0 0" oznacza puste miejsce.
+
+- chlist - wyświetl listę dostępnych kanałów komunikacyjnych w formacie "[Lp.] [channel]". "[Lp.] 0" oznacza puste miejsce.
+
+- blocks - wyświetl listę blokad założonych przez użytkowników w formacie "[Lp.] [PID blokującego] [PID blokowanego]". "[Lp.] 0 0" oznacza puste miejsce.
+
+
+Opis zawartości plików źródłowych:
+
+inf145383_k.c:
+Plik zawiera kod programu klienta, który to program jest wykonywany warukowo w nieskończonej pętli. W pliku zawarte są wszystkie funkcje implementujące funkcjonalność programu klienta i komunikujące się z serwerem.
+
+inf145383_s.c
+Plik zawiera kod programu serwera, który to program jest wykonywany warunkowo w nieskończonej pętli. W pliku zawarte są wszystkie funkcje implementujące funkcjonalność programu serwera i komunikące się z klientem. Po stronie serwera są również przechowywane dane o klientach, takie jak: nazwy użytkowników, subskrypcje i blokady.
+
+inf145383_pub_sub.h
+Plik nagłówkowy, zawiera deklaracje struktur Message, Client, Subscription i Blockade, a także kody sygnałów zarówno serwera i klienta.

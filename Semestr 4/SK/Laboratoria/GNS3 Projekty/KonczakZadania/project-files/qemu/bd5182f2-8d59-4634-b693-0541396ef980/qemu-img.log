@@ -1,0 +1,2 @@
+qemu-img: warning: Deprecated use of backing file without explicit backing format (detected format of qcow2)
+Formatting '/home/dave/Studia/SK/Laboratoria/GNS3 Projekty/KonczakZadania/project-files/qemu/bd5182f2-8d59-4634-b693-0541396ef980/hda_disk.qcow2', fmt=qcow2 cluster_size=65536 extended_l2=off compression_type=zlib size=1048576000 backing_file=/home/dave/GNS3/images/QEMU/microcore-linux-6.4.img backing_fmt=qcow2 lazy_refcounts=off refcount_bits=16

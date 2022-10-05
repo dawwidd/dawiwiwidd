@@ -1,0 +1,28 @@
+Jun 13 15:46:36.240 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 13 15:46:36.240 HYPERVISOR: Started on IP = localhost, TCP port = 35481.
+Jun 13 15:46:36.253 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 13 15:46:36.254 HYPERVISOR: exec_cmd: hypervisor working_dir /home/dave/Studia/SK/Laboratoria/GNS3 Projekty/Zadane5/project-files/dynamips 
+Jun 13 15:46:36.254 GENERAL: working_dir=/home/dave/Studia/SK/Laboratoria/GNS3 Projekty/Zadane5/project-files/dynamips
+Jun 13 15:46:36.255 HYPERVISOR: exec_cmd: hypervisor working_dir /home/dave/Studia/SK/Laboratoria/GNS3 Projekty/Zadane5/project-files/dynamips/5239c69d-f8e4-45a0-80a3-cd5f19d4e32d 
+Jun 13 15:46:36.256 GENERAL: working_dir=/home/dave/Studia/SK/Laboratoria/GNS3 Projekty/Zadane5/project-files/dynamips/5239c69d-f8e4-45a0-80a3-cd5f19d4e32d
+Jun 13 15:46:36.256 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Jun 13 15:46:36.256 VM: VM R1 created.
+Jun 13 15:46:36.258 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5006 
+Jun 13 15:46:36.259 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Jun 13 15:46:36.260 HYPERVISOR: exec_cmd: vm set_ios R1 /home/dave/GNS3/images/QEMU/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Jun 13 15:46:36.261 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 13 15:46:36.261 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60aa1da0 
+Jun 13 15:46:36.262 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Jun 13 15:46:36.263 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jun 13 15:46:36.263 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jun 13 15:46:36.264 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 13 15:46:36.265 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 16 WIC-1T 
+Jun 13 15:46:36.381 HYPERVISOR: exec_cmd: vm set_ios R1 /home/dave/GNS3/images/QEMU/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Jun 13 15:46:38.040 HYPERVISOR: exec_cmd: vm set_ios R1 /home/dave/GNS3/images/QEMU/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Jun 13 15:47:06.732 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 13 15:47:06.732 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jun 13 15:47:06.732 HYPERVISOR: exec_cmd: vm delete R1 
+Jun 13 15:47:06.732 VM: VM R1 destroyed.
+Jun 13 15:47:06.732 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 13 15:47:06.779 HYPERVISOR: Stopped.
+Jun 13 15:47:06.779 GENERAL: reset done.

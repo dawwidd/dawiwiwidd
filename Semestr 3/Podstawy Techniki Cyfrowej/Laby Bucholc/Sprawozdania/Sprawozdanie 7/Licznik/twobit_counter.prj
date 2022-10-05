@@ -1,0 +1,3 @@
+vhdl work "tff.vhd"
+vhdl work "ck_divider.vhd"
+vhdl work "two_bit_counter.vhd"

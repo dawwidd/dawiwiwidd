@@ -1,0 +1,6 @@
+pokrycie(kura,pióra).
+pokrycie(wróbel,pióra).
+ruch(kura,chodzenie).
+ruch(wróbel,latanie).
+
+ptak(X):-pokrycie(X,pióra),ruch(X,latanie).

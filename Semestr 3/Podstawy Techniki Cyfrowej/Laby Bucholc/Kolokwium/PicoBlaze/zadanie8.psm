@@ -1,0 +1,22 @@
+AA dsio 0
+BB dsio 1
+CC dsout 2
+
+powt:
+call czytaj_dane
+call oblicz
+call wyswietl_wynik
+jump powt
+
+czytaj_dane:
+in s0,AA
+in s1,BB
+ret
+
+oblicz:
+add s0,s1
+ret
+
+wyswietl_wynik:
+out s0,CC
+ret

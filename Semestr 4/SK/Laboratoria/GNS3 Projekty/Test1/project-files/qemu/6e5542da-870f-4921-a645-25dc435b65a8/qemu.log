@@ -1,0 +1,4 @@
+Start QEMU with /usr/bin/qemu-system-x86_64 -name MicroCoreLinux-2 -m 256M -smp cpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive 'file=/home/dave/Studia/SK/GNS3 Projekty/Test1/project-files/qemu/6e5542da-870f-4921-a645-25dc435b65a8/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0' -uuid 6e5542da-870f-4921-a645-25dc435b65a8 -serial telnet:127.0.0.1:5004,server,nowait -monitor tcp:127.0.0.1:33077,server,nowait -net none -device e1000,mac=0c:03:88:65:a8:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10007,localaddr=127.0.0.1:10006 -display none
+
+Execution log:
+qemu-system-x86_64: terminating on signal 15 from pid 40573 (/usr/bin/python)

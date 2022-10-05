@@ -1,0 +1,18 @@
+WE dsin 1
+Zamk dsout 2
+OTW dsout 3
+
+powt:
+load s1,$ff
+load s2,0
+in s0,WE
+comp s0,$83
+jump z,open
+out s2,OTW
+out s1,Zamk
+jump powt
+
+open:
+out s1,OTW
+out s2,Zamk
+jump powt

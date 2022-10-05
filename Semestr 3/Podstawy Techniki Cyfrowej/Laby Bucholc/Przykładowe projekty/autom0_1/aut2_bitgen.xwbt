@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Krzysztof\XilinxProj\autom0_1\aut2.ncd
+OUTFILE=C:\Users\Krzysztof\XilinxProj\autom0_1\aut2.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=C:\Users\Krzysztof\XilinxProj\autom0_1
+LICENSE=WebPack
+USER_INFO=211617642_0_0_534

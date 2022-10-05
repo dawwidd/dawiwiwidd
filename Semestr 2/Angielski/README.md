@@ -1,0 +1,1 @@
+Tu nie miałem zapisanego nic ciekawego, streszczenia artykułów zostawiam, może kogoś zainspirują jak nie będzie wiedział jaki temat wymyślić.

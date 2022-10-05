@@ -1,0 +1,11 @@
+main.o: main.c dinic.h utils.h network.h queue_bfs.h node.h path.h edge.h \
+ output.h
+queue_bfs.o: queue_bfs.c queue_bfs.h utils.h
+node.o: node.c queue_bfs.h utils.h node.h path.h
+edge.o: edge.c edge.h utils.h
+path.o: path.c path.h utils.h
+network.o: network.c network.h queue_bfs.h utils.h node.h path.h edge.h
+output.o: output.c network.h queue_bfs.h utils.h node.h path.h edge.h \
+ output.h
+dinic.o: dinic.c queue_bfs.h utils.h node.h path.h edge.h output.h \
+ network.h

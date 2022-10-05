@@ -1,0 +1,192 @@
+#zrobione i zebrane przez Żurka
+#rozwiązania predykatów z "zajęć"
+symetryczna([]).
+symetryczna([_]).
+symetryczna([A|T]):-symetryczna(T1),append(T1,[A],T).
+
+parami([],[]).
+parami([A,B|T1],[[A,B]|T2]):-parami(T1,T2).
+
+polowki([],[],[]).
+polowki([A|T],[A|T1],[B|T2]):-append(T1,[B|T2],T),append(T1,T2,TT),polowki(TT,T1,T2).
+
+sumuj([],0).
+sumuj([A|T], S):- sumuj(T,S1), S is S1 + A.
+
+ile_dodatnich([],0).
+ile_dodatnich([A|T],S):- A>0, ile_dodatnich(T,S1), S is S1 + 1.
+ile_dodatnich([A|T],S):- A=<0, ile_dodatnich(T,S).
+
+plus_minus([],0).
+plus_minus([A|T],S):-A==(+), plus_minus(T,S1), S is S1 + 1.
+plus_minus([A|T],S):-A==(-), plus_minus(T,S1), S is S1 - 1.
+
+wstawiaj(T,A,1,[A|T]).
+wstawiaj([H|T], A, B, [H|T1]):- B>1, B1 is B - 1, wstawiaj(T,A,B1,T1).
+
+usuwaj(T,0,T).
+usuwaj([H1|T1],A,T2):-A>0, A1 is A - 1, usuwaj(T1,A1,T2).
+
+rozdziel([],_,[],[]).
+rozdziel([A|T],B,[A|T1],T2):-A<B, rozdziel(T,B,T1,T2).
+rozdziel([A|T],B,T1,[A|T2]):-A>=B,rozdziel(T,B,T1,T2).
+
+powiel([],[],[]).
+powiel([A|T1],[1|T2],[A|T3]):-powiel(T1,T2,T3).
+powiel([A|T1],[B|T2],[A|T3]):-B > 1, B1 is B - 1, powiel([A|T1], [B1|T2], T3).
+
+najwiekszy([A],A).
+najwiekszy([H|T],Max):-najwiekszy(T,Tmax), H>=Tmax, Max is H.
+najwiekszy([H|T],Max):-najwiekszy(T,Tmax), H<Tmax, Max is Tmax.
+
+liniowa([A,B]).
+liniowa([A,B,C|T]):-A-B=:=B-C,liniowa([B,C|T]).
+
+rozbij([],[],[]).
+rozbij([A|T1],[1|T2],[[A]|T3]):-rozbij(T1,T2,T3).
+rozbij([A|T1],[B|T2],[[A|T3]|T4]):-B>1, B1 is B - 1, rozbij(T1,[B1|T2],[T3|T4]).
+
+przynaleznosc([],[A,B],[],[]).
+przynaleznosc([A|T1],[M,W],[A|T2],T3):-A>=M,A=<W,przynaleznosc(T1,[M,W],T2,T3).
+przynaleznosc([A|T1],[M,W],T2,[A|T3]):-A>W,przynaleznosc(T1,[M,W],T2,T3).
+przynaleznosc([A|T1],[M,W],T2,[A|T3]):-A<W,przynaleznosc(T1,[M,W],T2,T3).
+
+decnabin(0,[0]):-!.
+decnabin(1,[1]):-!.
+decnabin(A,T):- Test is mod(A,2), Test==(1), A1 is div(A,2), append(T1,[1],T), decnabin(A1,T1),!.
+decnabin(A,T):- Test is mod(A,2), Test==(0), A1 is div(A,2), append(T1,[0],T), decnabin(A1,T1),!.
+
+szybkisort([],[]).
+szybkisort([H|TL],S):-rozdziel(TL,H,LM,LW),szybkisort(LM,LMS),szybkisort(LW,LWS),append(LMS,[H|LWS],S).
+
+doposort([H|T],A,[A,H|T]):- H>=A,!.
+doposort([],A,[A]):-!.
+doposort([H|T],A,[H|T1]):-doposort(T,A,T1).
+
+wstawsort([],[]).
+wstawsort([H|T],S):-wstawsort(T,S1),doposort(S1,H,S).
+
+unikalne([],[]).
+unikalne([H|T1],[H|T2]):-not(member(H,T1)),unikalne(T1,T2).
+unikalne([H|T1],T2):-unikalne(T1,T2).
+
+najblizszy(A,[B],B):-!.
+najblizszy(A,[H|T],S):-najblizszy(A,T,S1), One is abs(A-H), Two is abs(S1-H), One =< Two, S is H.
+najblizszy(A,[H|T],S):-najblizszy(A,T,S1), One is abs(A-H), Two is abs(S1-H), One > Two, S is S1.
+
+ciagliczb(M,M,[M]):-!.
+ciagliczb(A,B,[A|T]):-A<B, A1 is A + 1,!, ciagliczb(A1,B,T),!.
+
+odsiewaj(A,[],[]).
+odsiewaj(A,[B|T1],[B|T2]):- mod(B,A) =\= 0, odsiewaj(A,T1,T2).
+odsiewaj(A,[B|T1],T2):- mod(B,A) =:= 0, odsiewaj(A,T1,T2).
+
+sito([],[]).
+sito([H|T1],L2):-odsiewaj(H,T1,TL), sito(TL, TD), append([H],TD,L2).
+
+eratostenes(N,L):-ciagliczb(2,N,Liczby), sito(Liczby, L).
+
+sumuj([A],A).
+sumuj([A|T],S):-sumuj(T,S1),S is S1 + A.
+
+podzielniki(N,N,[]).
+podzielniki(N,D,[D|T]):-D<N,W is mod(N,D), W==0, D1 is D + 1, podzielniki(N,D1,T),!.
+podzielniki(N,D,T):-D<N, W is mod(N,D), W\=0, D1 is D + 1, podzielniki(N,D1,T),!.
+
+doskonala(N):-podzielniki(N,1,L),!,sumuj(L,N),!.
+
+przekroj(A,B,[]).
+przekroj([A|T1],[A|T2],[A|T3]):-przekroj(T1,T2,T3).
+przekroj([H1|T1],[H2|T2],[H3|T3]):-przekroj(T1,[H2|T2],[H3|T3]),H1<H3.
+przekroj([H1|T1],[H2|T2],[H3|T3]):-przekroj([H1|T1],T2,[H3|T3]),H2<H3.
+
+glowyogony([],[],[]).
+glowyogony([[H1|HT1]|T1],[H1|T2],[HT1|T3]):-glowyogony(T1,T2,T3).
+
+slad([A],A).
+slad([H|T],S):-glowyogony([H|T],[GG|GT],[O|TO]),slad(TO,S1),S is S1 + GG.
+
+rozszerzaj([[A,B]|[]],[A,B]).
+rozszerzaj([[A,B]|T1],[A1,B1]):- rozszerzaj(T1,[A1,B1]), A1=<A, B1>=B.
+rozszerzaj([[A,B]|T1],[A,B1]):- rozszerzaj(T1,[A1,B1]),  A=<A1, B1>=B.
+rozszerzaj([[A,B]|T1],[A1,B]):- rozszerzaj(T1,[A1,B1]),  A1=<A, B>=B1.
+rozszerzaj([[A,B]|T1],[A,B]):- rozszerzaj(T1,[A1,B1]),   A=<A1, B>=B1.
+
+ciagliczb(M,M,[M|[]]):-!.
+ciagliczb(M,N,[M|T]):-M<N,M1 is M + 1,ciagliczb(M1,N,T).
+
+liczpodziel(N,N,0):-!.
+liczpodziel(N,M,C):-W is mod(N,M), W=:=0, M1 is M + 1, liczpodziel(N,M1,C1),!, C is C1 + 1.
+liczpodziel(N,M,C):-W is mod(N,M), W=\=0, M1 is M + 1, liczpodziel(N,M1,C),!.
+
+antyp([],B):-!.
+antyp([A|T],B):-liczpodziel(A,1,C),!,C<B,antyp(T,B),!.
+antypierwsza(1):-!.
+antypierwsza(A):-A>0,A1 is A-1,ciagliczb(1,A1,L),liczpodziel(A,1,A2),!,antyp(L,A2).
+
+wpolu([],[D,G],[]):-!.
+wpolu([[A,B]|T1],[[X1,Y1],[X2,Y2]],[[A,B]|T2]):-A>=X1,B>=Y1,A=<X2,B=<Y2,wpolu(T1,[[X1,Y1],[X2,Y2]],T2),!.
+wpolu([[A,B]|T1],[[X1,Y1],[X2,Y2]],T2):-(A<X1;A>X2;B<Y1;B>Y2),wpolu(T1,[[X1,Y1],[X2,Y2]],T2),!.
+
+rozmien([A],A,[A]):-!.
+rozmien(L,N,R):-append(T1,[B1],L), B1=<N, append(T2,[B1],R),N1 is N-B1, rozmien(L,N1,T2),!.
+rozmien(L,N,R):-append(T1,[B1],L), B1>N, rozmien(T1,N,R),!.
+
+minX([[H,_]|[]],H):-!.
+minX([[X,_]|T],Min):-minX(T,Tmin), X<Tmin, Min is X,!.
+minX([[X,_]|T],Min):-minX(T,Tmin), X>=Tmin, Min is Tmin,!.
+
+maxX([[H,_]|[]],H):-!.
+maxX([[X,_]|T],Max):-maxX(T,Tmax),X>Tmax,Max is X,!.
+maxX([[X,_]|T],Max):-maxX(T,Tmax),X=<Tmax,Max is Tmax,!.
+
+minY([[_,Y]|[]],Y):-!.
+minY([[_,Y]|T],Min):-minY(T,Tmin),Y<Tmin,Min is Y,!.
+minY([[_,Y]|T],Min):-minY(T,Tmin),Y>=Tmin,Min is Tmin,!.
+
+maxY([[_,Y]|[]],Y):-!.
+maxY([[_,Y]|T],Max):-maxY(T,Tmax),Y>Tmax, Max is Y,!.
+maxY([[_,Y]|T],Max):-maxY(T,Tmax),Y=<Tmax,Max is Tmax,!.
+
+minpole(L,[[Xmin,Ymin],[Xmax,Ymax]]):-minX(L,Xmin),minY(L,Ymin),maxX(L,Xmax),maxY(L,Ymax).
+
+ciagFib(N,F1,F2,[]):-F1>N.
+ciagFib(N,F1,F2,[F1|T]):-F1=<N,F3 is F1 + F2, ciagFib(N,F2,F3,T),!.
+
+rozklad([A],A,[A]):-!.
+rozklad(L,N,R):-append(T1,[B1],L), B1=<N, append(T2,[B1],R),N1 is N-B1, rozklad(L,N1,T2),!.
+rozklad(L,N,R):-append(T1,[B1],L), B1>N, rozklad(T1,N,R),!.
+rozklad_fib(N,L):-ciagFib(N,0,1,T),rozklad(T,N,L).
+
+#zamieniaja liczbe na liste cyfr i na odwrót
+naliste(0,[]):-!.
+naliste(A,L):-!,A>0, append(L1,[B],L), B is mod(A,10), A1 is div(A,10), naliste(A1,L1),!.
+naliczbe(0,[]):-!.
+naliczbe(A,L):-!,append(L1,[B],L), naliczbe(A1,L1), A is B + A1*10.
+
+#obcina symetrycznie w lewo i prawo wedlug jakiegos elementu, np. z listy [a,b,c,d] dla elementu c tworzy [b,c,d]
+obcinaj(N,W,Odp):-append(W,[],N),!,Odp = W.
+obcinaj(L,W,Odp):-append(W,_,L),!,Odp = W.
+obcinaj(L,W,Odp):-append(_,W,L),!,Odp = W.
+obcinaj(L,W,Odp):-append(Ll,W1,LL),append(LL,LP,L),append([A|W],[B],W1),
+    obcinaj(L,W1,Odp).
+
+#Zadanie 4,6 cukieraski:
+podział(_,_,[],[]):-!.
+podział([],Liczby,[_|T2],[[]|T4]):-podział(Liczby,Liczby,T2,T4),!.
+podział([A|T1],Liczby,[[M,W]|T2],[[A|T3]|T4]):-A=<W,A>=M,
+    podział(T1,Liczby,[[M,W]|T2],[T3|T4]),!.
+podział([A|T1],Liczby,[[M,W]|T2],T4):-A < M, podział(T1,Liczby,[[M,W]|T2],T4),!.
+podział([A|T1],Liczby,[[M,W]|T2],T4):-A > W, podział(T1,Liczby,[[M,W]|T2],T4),!.
+
+#sortowanie z kluczem: Lz - wejsciowa lista, Lk - wejsciowy klucz, k - wyj. lista
+rozdziel_klucz([],[],Pivot,[],[],[],[]).
+rozdziel_klucz([Hz|Tz],[Hk|Tk],Pivot,[Hz|TLz],Pz,[Hk|TLk],Pk):- Hk=<Pivot, rozdziel_klucz(Tz,Tk,Pivot,TLz,Pz,TLk,Pk).
+rozdziel_klucz([Hz|Tz],[Hk|Tk],Pivot,Lz,[Hz|PLz],Lk,[Hk|PLk]):- Hk >Pivot, rozdziel_klucz(Tz,Tk,Pivot,Lz,PLz,Lk,PLk).
+quicksort_klucz([],[],[],[]).
+quicksort_klucz(Lz,Lk,Wz,Wk):-
+    append(Lz1,[Bz],Lz), append(Lk1,[Bk], Lk),
+    rozdziel_klucz(Lz1,Lk1,Bk,LLz,Pz,LLk,Pk),
+    quicksort_klucz(LLz,LLk,WLz,WLk),quicksort_klucz(Pz,Pk,WPz,WPk),
+    append(WLz, [Bz|WPz], Wz), append(WLk, [Bk|WPk], Wk).
+

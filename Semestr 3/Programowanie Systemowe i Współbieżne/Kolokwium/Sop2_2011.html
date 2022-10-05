@@ -1,0 +1,1538 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+    <title>Systemy Operacyjne II</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+	.center { text-align: center }
+	.error  { color: #E00 }
+	body {    margin: 0ex 0em;
+		  padding: 0px;
+		  background-color: #CCC;
+	}
+	div.bg {  margin: 2ex 1em;
+		  padding: 2ex 1em;
+		  text-align: left;
+		  border: 1pt solid #777;
+		  font-family: serif;
+		  background-color: white;
+		  width: 40em;
+	}
+	.zegar { position: fixed;
+		 width: 20%;
+		 color: grey;
+	}
+	#zegarek { margin-left: 15pt; }
+
+	@media print {
+	  div.bg {
+		  margin: 0pt;
+		  border: none;
+		  background-color: white;
+		  width: auto;
+		}
+	}
+	ol p {    margin-top: 1ex;
+		  margin-bottom: 1ex;
+	}
+	li {      margin-top: 2ex;
+	}
+	ul li {   margin-top: 0.3ex;
+		  padding-left: 0em;
+		  margin-left: 0em;
+	}
+	ol ul {   padding-left: 0em;
+		  margin-left: 1.2em;
+		  list-style-type: disc;
+	}
+	ol ol li {padding-top: 0em;
+		  padding-bottom: 0em;
+		  margin-top: 0.2ex;
+		  margin-bottom: 0.2ex;
+	}
+	li.bad {  color: #E00;
+	}
+	li.good { color: green;
+	}
+	li.true { color: blue;
+	}
+	hr {      border: none;
+		  border-bottom: 2px solid navy;
+		  padding: 0pt;
+		  margin: 0pt;
+	}
+	p.note {  font-style: italic;
+	}
+	h1 {      margin-top: 0ex;
+		  margin-bottom: 0ex;
+		  padding-top: 0ex;
+		  padding-bottom: 0ex;
+		  font-family: sans-serif;
+		  font-size: x-large;
+	}
+	p.submit{ text-align: center; }
+	input {   font-family: sans-serif;
+		  font-size: 9pt;
+	}
+	table.login {
+		  background-color: white; 
+		  padding: 0ex 0em;
+		  margin-top: 20%;
+		  border: 1pt solid #777;
+	}
+	table.login td {
+		  padding: 1ex 1em;
+	}
+	a {       color: blue }
+	td.input { 
+		  vertical-align: baseline;
+		  margin: 0pt;
+		  padding: 0pt;
+		  width: 1em;
+	}
+	td.answer {
+		  vertical-align: baseline;
+		  margin: 0pt;
+		  padding: 0pt;
+		  padding-left: 0.2em;
+	}
+	pre {     margin: 1ex 0em;
+		  padding: 2pt;
+		  background-color: #EEE;
+		  padding: 0.3ex 0.5em;
+	}
+	ul pre {  margin: 0.5ex 0em;
+	}
+	code, pre {
+		  font-family: monospace;
+		  color: #004000;
+	}
+	td.answer pre {
+		  margin: 0pt;
+	}
+	table.answers {
+		  width: 100%;
+	}
+	div.img {
+		  text-align: center;
+		  margin: 1.2ex 0em;
+	}
+	img {
+		  border-width: 0px;
+	}
+	@media print {
+	  body, td {  font-size: 12pt; }
+	  h1 {  font-size: 16pt; }
+	  p.submit, hr { display: none }
+	  input { margin-top: 1pt; margin-bottom: 0pt;
+		  padding-top: 0pt; padding-bottom: 0pt; }
+	  li p {  margin-top: 1ex; margin-bottom: 0.4ex;
+		  padding-top: 0pt; padding-bottom: 0pt }
+	}
+
+
+
+	.sectiontableentry1 {
+	text-align: left;
+	background: #efefef;
+	color: inherit;
+	padding: 2px;
+	}
+	.sectiontableentry0 {
+	background: #ffffff;
+	color: inherit;
+	text-align: left;
+	padding: 2px;
+	}
+	.sectiontableentry20 {
+	text-align: left;
+	background: #ff0000;
+	color: inherit;
+	padding: 2px;
+	}
+	.sectiontableentry21 {
+	text-align: left;
+	background: #ff7000;
+	color: inherit;
+	padding: 2px;
+	}
+
+	.sectiontableheader {
+	background-color: #ababab;
+	color: inherit;
+	font-weight: bold;
+	font-size: 18px;
+	height: 25px;
+	line-height: 25px;
+	}
+	.componentheading {
+	font-weight: bold;
+	font-size: 16px;
+	height: 23px;
+	line-height: 20px;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	border-bottom: 1px solid #002E61;
+	background-color: inherit;
+	color: #002E61;
+	margin-bottom: 5px;
+	}
+    </style>
+  </head>
+
+<body onkeydown="return handleKey(event)" onmousedown="return clickHandler(event)" onselectstart="return false" ondragstart="return false" onload="updateClock()">
+
+<div align="center">
+
+<div class="bg">
+
+<h1>Systemy Operacyjne II</h1>
+<p class="note">Na każde pytanie istnieje co najmniej jedna prawidłowa odpowiedź.
+			<br>
+			Czas trwania testu:
+			<strong>45</strong>
+			min.</p>
+<p>Użytkownik:</p>
+<p style="font-weight: bold">Test poniżej jest rozwiązany na 100%. Tak, na pewno.</p>
+<form action="checktest.php" method="post">
+
+<hr>
+<ol>
+
+<li><p>Co oznacza zwrócenie wartości 0 przez funkcję <code>read()</code>, odczytującą dane z potoku?</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="3" name="Q96" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Błąd wykonania funkcji <code>read()</code>.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="2" name="Q96" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Wszystkie deskryptory do zapisu są zamknięte i łącze jest puste.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q96" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Pomyślne zakończenie odczytu danych.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="0" name="Q96" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Zablokowanie procesu odczytującego dane.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Funkcja <code>write</code> zwraca:</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="1" name="Q12[]" type="checkbox">
+</td>
+<td class="answer">
+tekst, który został zapisany do pliku.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="0" name="Q12[]" type="checkbox">
+</td>
+<td class="answer">
+liczbę bajtów jakie faktycznie udało się zapisać.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="3" name="Q12[]" type="checkbox">
+</td>
+<td class="answer">
+-1 jeżeli wystąpił błąd podczas zapisu.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q12[]" type="checkbox">
+</td>
+<td class="answer">
+deskryptor pliku.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Co zostanie wypisane na wyjściu w przypadku następującego programu:
+			
+</p><pre>void obsluga(int signo)
+{
+  
+}
+
+int main(int argc, char* argv[])
+{
+	printf("-----START------");
+	signal(SIGALRM,obsluga);
+	sleep(3);
+	printf("-----END------");
+	return 0;
+}
+
+int sleep(int i)
+{
+  alarm(i);
+  pause();
+}</pre><p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input checked="checked" value="0" name="Q61" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>-----START----- -----END-----</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q61" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>-----END----- -----START-----</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q61" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>-----START-----</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q61" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>-----END-----</code>
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Poniższe wywołanie
+				</p><pre>open("/do/nothing", O_RDONLY | O_CREAT, 0700);</pre>
+				spowoduje:<p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input checked="checked" value="1" name="Q2[]" type="checkbox">
+</td>
+<td class="answer">
+otworzenie pliku do odczytu.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="0" name="Q2[]" type="checkbox">
+</td>
+<td class="answer">
+zawsze wystąpienie błędu.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q2[]" type="checkbox">
+</td>
+<td class="answer">
+zmianę istniejących praw dostępu do pliku na 0700.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="2" name="Q2[]" type="checkbox">
+</td>
+<td class="answer">
+stworzenie pliku jeżeli go nie było.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Procesy
+				<em>zombie</em>
+				powstają:</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="0" name="Q35" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+podczas tworzenia procesów potomnych
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q35" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+po wywołaniu funkcji
+				<code>exec</code>
+				a przed zakończeniem
+				procesu potomnego
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="3" name="Q35" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+po zakończeniu procesu potomnego a przed wywołaniem
+				funkcji
+				<code>wait</code>
+				w procesie macierzystym
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q35" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+podczas wykonywania funkcji
+				<code>exec</code>
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Jaka funkcja systemowa wysyła sygnał do procesu?</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="1" name="Q62" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>send</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q62" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>send_signal</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="0" name="Q62" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>kill</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q62" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>signal</code>
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Co spowoduje poniższy fragment kodu?
+				</p><pre>close(1); dup(fd);</pre><p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="3" name="Q31" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Utworzenie nowego procesu (duplikatu) dołączonego do deskryptora 1.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="0" name="Q31" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Zastąpienie standardowego deskryptora wyjścia deskryptorem <code>fd</code>.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q31" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Przypisanie deskryptorowi <code>fd</code> numeru 0 w tablicy deskryptorów.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q31" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Zastąpienie standardowego deskryptora wejścia deskryptorem <code>fd</code>.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Co wynika z poniższego kodu?
+				
+</p><pre>#include &lt;fcntl.h&gt;
+#include &lt;sys/types.h&gt;
+#include &lt;sys/stat.h&gt;
+
+int main(int argc,char **argv)
+{
+  mkfifo( "plik", 0660 );
+  if (fork()) {
+    int fd = open( "plik", O_WRONLY );
+    if ( fd &lt;0 )
+      perror("Blad");
+    int n = write( fd, "binfo", 5);
+    close(fd);	
+  } else {
+    int fd = open( "plik", O_RDONLY );
+    char buf[10]={0};
+    int n = read(fd, buf, 10);
+    printf("Dostałem: %s:\n", buf);
+    unlink( "plik" );
+  }
+
+  return 0;
+}
+</pre><p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input checked="checked" value="0" name="Q101" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Proces potomny zawsze odczyta zapisany przez rodzica tekst "binfo".
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q101" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Proces potomny może odczytać zapisaną przez rodzica wartość, jeżeli 
+rodzic wykona się jako pierwszy. W przeciwnym wypadku nie odczyta.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q101" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Proces potomny nie może odczytać zapisaną przez rodzica wartość, 
+ponieważ otwarcie kolejki w trybie odczytu powinno zawsze następować 
+przed jej otwarciem w trybie tylko do zapisu, a tym programie nie jest 
+to zagwarantowane.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q101" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Proces potomny nie odczyta zapisanej wartości, bo rodzic zapisał 5 bajtów, a potomek odczytuje 10 bajtów.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Poniższe wywołanie
+				</p><pre>char* buf = "koniec"; 
+				write(1, buf, 3);
+				</pre>
+				spowoduje:<p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="0" name="Q8" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+wypisanie na ekranie napisu <em>koniec</em>.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q8" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+zawsze wystąpienie błędu.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q8" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+zapis do pliku o nazwie "1" napisu <em>koniec</em>.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="2" name="Q8" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+zapisanie 3 znaków do deskryptora o numerze 1.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Funkcja <code>read()</code> dla plików zwraca:</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input checked="checked" value="1" name="Q11" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+ilość odczytanych bajtów
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q11" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+ilość bajtów, pozostałych do odczytania
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q11" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+0 gdy uda się odczytać żądaną ilość bajtów (3 argument) lub –1 gdy wystąpi błąd
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="0" name="Q11" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+ilość udanych prób odczytu
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Wystąpienie błędu podczas wykonywania funkcji systemowej
+			powoduje:</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="3" name="Q22" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+ustawienie globalnej zmiennej
+				<code>error_occured</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q22" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+blokuje możliwość wywoływania innych funkcji systemowych do czasu
+				wywołania funkcji <code>perror</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q22" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+przerwanie procesu, który wywołał tę funkcję
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="0" name="Q22" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+zwrócenie wartości -1 przez tę funkcję
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Ile razy poszczególne cyfry pojawią się na standardowym wyjściu w
+				wyniku wykonania poniższego programu ?
+				
+</p><pre>void main(){
+   int i=0;
+   if(fork()==0)
+      i++;
+   printf(”%d\n”, i);
+   fork();
+   printf(”%d\n”, i);
+   fork();
+   i++;
+   printf(”%d\n”, i);
+}
+</pre><p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="0" name="Q42" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+„0” – 2 razy , „1” – 7 razy, „2” – 3 razy
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="3" name="Q42" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+„0” – 3 razy , „1” – 7 razy, „2” – 4 razy
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q42" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+„0” – 2 razy , „1” – 4 razy, „2” – 8 razy
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q42" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+„0” – 3 razy , „1” – 8 razy, „2” – 3 razy
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>W wyniku wykonania poniższego programu:
+				
+</p><pre>execl("/bin/date", "date", NULL);
+printf("Start\n");
+printf("Koniec\n");
+</pre>
+
+				na konsoli zostanie wyświetlony następujący wynik:<p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="0" name="Q34" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<pre>					Start
+					Tue Jan 18 20:10:20 CET 2005
+					Start
+					Koniec
+        </pre>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q34" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<pre>					Tue Jan 18 20:10:20 CET 2005
+					Koniec
+        </pre>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q34" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<pre>					Tue Jan 18 20:10:20 CET 2005
+					Start
+        </pre>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="1" name="Q34" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<pre>					Tue Jan 18 20:10:20 CET 2005
+        </pre>
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>W przypadku kolejek FIFO, otwarcie pliku może spowodować blokowanie:</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="3" name="Q99" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Operacje otwarcia pliku w trybie tylko do zapisu są zawsze blokowane, aż
+ inny proces nie otworzy pliku w trybie tylko do odczytu. Operacje 
+otwarcia pliku do odczytu nie są blokowane.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="0" name="Q99" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Jeżeli proces otwiera plik w trybie tylko do odczytu (lub tylko do 
+zapisu), aż do czasu aż inny proces otworzy plik w trybie tzw. 
+komplementarnym (odpowiednio, w trybie tylko do zapisu lub tylko do 
+odczytu).
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q99" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Operacje otwarcia pliku w trybie tylko do odczytu są zawsze blokowane, 
+aż inny proces nie otworzy pliku w trybie tylko do zapisu. Operacje 
+otwarcia pliku do zapisu nie są blokowane.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q99" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Nigdy nie powoduje blokowania.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Kiedy powstaje proces-sierota ?</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input checked="checked" value="0" name="Q46" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+wtedy gdy proces macierzysty, mający jeszcze
+				procesy potomne zakończy się
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q46" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+wtedy gdy proces potomny zostanie „zatrzymany” przez sygnał
+				<code>SIGORPHAN</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q46" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+wtedy gdy procesy przestają być procesami pierwszoplanowymi
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q46" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+wtedy gdy użytkownik zrzeknie się praw posiadania procesu
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Jaki rezultat daje próba wykonania funkcji <code>open(nazwa_pliku,O_CREAT|O_RDWR,prawa)</code> dla pliku już istniejącego?:</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input checked="checked" value="2" name="Q25" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+otwiera istniejący plik do odczytu i zapisu
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q25" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+nie pozwala otworzyć istniejącego pliku, zwracając błąd
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q25" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+zawsze skraca długość istniejącego pliku do zera przed zwrotem jego deskryptor
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="0" name="Q25" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+otwiera istniejący plik tylko do odczytu
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Co się stanie gdy zostanie zamknięty proces posiadający otwarty 
+potok do zapisu i nie ma żadnych innych procesów mających otwarty potok 
+do zapisu?</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="1" name="Q86" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Nie dzieje się nic.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q86" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Procesy, które czekały na odczyt z pliku otrzymują sygnał SIGPIPE, co 
+może spowodować ich śmierć, jeżeli nie ustawią własnej procedury 
+obsługi.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="0" name="Q86" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Procesy, które czekały na odczyt z potoku, są budzone, a funkcja <code>read</code> zwraca wartość 0.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q86" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Procesy, które czekały na odczyt z potoku, pozostają zawieszone.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Gdy w procesie macierzystym ustawiony jest tryb ignorowanie sygnału SIGCLD to:</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="0" name="Q58" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+po zakończeniu procesu potomnego powstaje proces zombi
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q58" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+po zakończeniu procesu potomnego powstaje proces sierota
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="3" name="Q58" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+po zakończeniu procesu potomnego, proces zombi nie jest zachowywany (zwalniane miejsce w tablicy procesów)
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q58" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+po zakończeniu procesu potomnego tworzony jest proces zombi (ale zwalniane są wszystkie zasoby)
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>W jaki sposób można przekazać argumenty z linii poleceń do
+			programu w języku C?</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="0" name="Q19" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+nie można
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q19" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+poprzez specjalny plik
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q19" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+poprzez zmienne środowiskowe
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="2" name="Q19" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+poprzez dodatkowe argumenty funkcji
+				<code>main</code>
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Jakiej komendzie powłoki odpowiada poniższy kod?
+				
+</p><pre>int fd[2];
+pipe(fd);
+if (fork()==0)
+{
+  close(0);
+  close(fd[1]);
+  dup(fd[0]);
+  execlp("tr", "tr", "a-z", "A-Z", NULL);
+}
+else
+{
+  close(1);
+  close(fd[0]);
+  dup(fd[1]);
+  execlp("ls", "ls", NULL);
+}
+</pre><p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="3" name="Q83" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>tr a-z A-Z &gt; ls</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="1" name="Q83" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>ls | tr a-z A-Z</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q83" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>ls &gt; tr a-z A-Z</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="0" name="Q83" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>tr a-z A-Z | ls</code>
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Czy zamknięty potok można ponownie otworzyć?</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="1" name="Q77" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+tak
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="0" name="Q77" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+nie
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q77" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+to zależy od flagi, z jaką został stworzony
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q77" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+to zależy od uprawnień użytkownika uruchamiającego proces korzystający z potoku
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Numer deskryptora wyjścia diagnostycznego to:</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="3" name="Q18" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>fd</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="2" name="Q18" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+2
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="0" name="Q18" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+0
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q18" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+1
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Co się stanie w wyniku wykonania poniższego kodu?
+				
+</p><pre>int fd = open( "Testowy", O_WRONLY | O_CREAT,  0600 );
+
+dup2(1,fd);
+write(fd, "adam", 4);
+</pre><p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input checked="checked" value="0" name="Q27" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Na ekranie pojawi się napis "adam".
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q27" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Nic się nie stanie, gdyż plik "Testowy" nie został poprawnie zamknięty.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="2" name="Q27" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Nic się nie stanie, gdyż funkcja dup2 zakończy się błędem.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q27" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+W pliku "Testowy" pojawi się napis "adam".
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>W wyniku wykonania poniższego programu:
+				
+</p><pre>printf("Start\n");
+execl("/bin/date", "date", NULL);
+printf("Koniec\n");
+</pre>
+
+				na konsoli zostanie wyświetlone:<p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input checked="checked" value="2" name="Q33" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<pre>					Start
+					Tue Jan 18 20:10:20 CET 2005
+        </pre>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q33" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<pre>					Tue Jan 18 20:10:20 CET 2005
+        </pre>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q33" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<pre>					Tue Jan 18 20:10:20 CET 2005
+					Koniec
+        </pre>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="0" name="Q33" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<pre>					Start
+					Tue Jan 18 20:10:20 CET 2005
+					Koniec
+        </pre>
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Jak długo istnieją w systemie kolejki FIFO?</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="2" name="Q92" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Od chwili ich otwarcia, aż do ich zamknięcia przez ostatni proces korzystający z kolejki.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q92" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Tak długo, jak uruchomiony jest proces, który stworzył kolejkę
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q92" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Od chwili ich utworzenia, do ich zamknięcia przez ostatni proces korzystający z kolejki.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="0" name="Q92" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Od chwili ich utworzenia, aż do ich usunięcia.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Poniższe wywołanie
+				</p><pre>read(x, buf, y);</pre>
+				spowoduje:<p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="2" name="Q10" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+zawsze wystąpienie błędu.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q10" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+odczytanie <code>x</code> bajtów z deskryptora <code>y</code>.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="0" name="Q10" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+odczytanie z deskryptora <code>x</code> napisu <em>buf</em>.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="3" name="Q10" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+odczyt <code>y</code> bajtów z deskryptora <code>x</code>.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Po zapisaniu danych do potoku przez funkcję <code>write</code>:</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="2" name="Q71" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Dane nigdy nie są usuwane, ale po każdym wywołaniu funkcji <code>read</code>
+ przesuwany jest wskaźnik pozycji pliku dla wszystkich podłączonych 
+procesów. Aby dane odczytać ponownie, należy przesunąć ręcznie wskaźnik 
+pozycji za pomocą funkcji <code>lseek</code>.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q71" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Dane są usuwane po odczytaniu ich przez wszystkie procesy, które są podłączone do potoku.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="0" name="Q71" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Dane są usuwane po ich odczytaniu funkcję <code>read</code>, kolejne wywołania funkcji <code>read</code> nie odczytaj± już tych danych.
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q71" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+Dane nigdy nie są usuwane, ale po każdym wywołaniu funkcji <code>read</code> przesuwany jest wskaĽnik pozycji pliku dla procesu, który wywołał funkcję <code>read</code>
+ (pozostałe procesy mogą dane odczytać). Aby dane odczytać ponownie, 
+należy przesun±ć ręcznie wskaźnik pozycji za pomocą funkcji <code>lseek</code>.
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Co oznacza następująca linia kodu: <code>signal(SIGINT,SIG_DFL)</code></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input checked="checked" value="2" name="Q63" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+ustawienie standardowej reakcji na sygnał <code>SIGINT</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q63" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+stworzenie potoku pomiędzy sygnałami <code>SIGINT</code> oraz <code>SIG_DFL</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q63" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+ustawienie standardowej reakcji na sygnał <code>SIG_DFL</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="0" name="Q63" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+ustawienie ognorowania sygnału <code>SIG_DFL</code>
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Która z par wywołań jest sobie równoważna:</p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="2" name="Q29" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>dup(fd1); close(1);</code> || <code>dup2(1,fd1);</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="1" name="Q29" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>dup(fd1); close(1);</code> || <code>dup2(fd1,1);</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="0" name="Q29" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>close(1); dup(fd1);</code> || <code>dup2(fd1,1);</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q29" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>dup(fd1);</code> || <code>dup2(1,fd1);</code>
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+<li><p>Dla następujących programów X i Y:
+				
+</p><pre>Program X:
+void main( ) 
+{
+	printf (” X\n”);
+}
+
+============================
+
+Program Y:
+void main () 
+{
+printf(” Y1\n”);
+if (fork ( ) == 0 ) 
+{
+	execlp(”X”, ”X” ,NULL);
+	printf (” Y2\n”);
+}
+printf (” Y3\n”);
+}</pre>
+
+				Zakładamy, że skompilowany program X zapisany jest w pliku o nazwie
+				X. Co może zostać wypisane na standardowym wyjściu po wykonaniu
+				programu Y.<p></p>
+<table class="answers">
+<tbody><tr>
+<td class="input">
+<input value="2" name="Q44" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>Y1 X Y3 Y3</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="0" name="Q44" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>Y1 X Y2 Y3</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input value="3" name="Q44" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>Y1 X</code>
+</td>
+</tr>
+<tr>
+<td class="input">
+<input checked="checked" value="1" name="Q44" onclick="uncheck(this)" type="radio">
+</td>
+<td class="answer">
+<code>Y1 Y3 X</code>
+</td>
+</tr>
+</tbody></table>
+
+</li>
+
+</ol>
+
+
+<hr>
+
+<p class="submit"> <input value=" Wyślij " type="submit"> </p>
+
+</form>
+
+</div>
+
+</div>
+
+
+
+</body></html>

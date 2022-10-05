@@ -1,0 +1,4 @@
+IN 83H
+INR A
+OUT 88
+HLT

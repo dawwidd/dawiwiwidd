@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Dawid\Desktop\PTC\Laby3\Licznik\twobit_counter.ncd
+OUTFILE=C:\Users\Dawid\Desktop\PTC\Laby3\Licznik\twobit_counter.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=C:\Users\Dawid\Desktop\PTC\Laby3\Licznik
+LICENSE=WebPack
+USER_INFO=212068443_0_0_256

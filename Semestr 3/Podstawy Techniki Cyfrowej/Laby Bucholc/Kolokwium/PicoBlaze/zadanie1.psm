@@ -1,0 +1,10 @@
+A dsin 1
+B dsin 2
+D dsout 3
+
+powt:
+in s0,A
+in s1,B
+add s0,s1
+out s0,D
+jump powt

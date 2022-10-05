@@ -1,0 +1,10 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "CLK100" LOC = L15;
+NET "X" LOC = A10;
+NET "Z[0]" LOC = U18;
+NET "Z[1]" LOC = M14;
+NET "Z[2]" LOC = N14;
+NET "Z[3]" LOC = L14;
+

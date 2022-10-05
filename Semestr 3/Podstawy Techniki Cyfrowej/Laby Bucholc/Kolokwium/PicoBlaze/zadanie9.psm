@@ -1,0 +1,44 @@
+we dsin 0
+wy dsout 1
+
+load s0,0
+load sf,0
+store s0,sf
+
+load s0,1
+add sf,1
+store s0,sf
+
+load s0,3
+add sf,1
+store s0,sf
+
+load s0,7
+add sf,1
+store s0,sf
+
+load s0,$f
+add sf,1
+store s0,sf
+
+load s0,$1f
+add sf,1
+store s0,sf
+
+load s0,$3f
+add sf,1
+store s0,sf
+
+load s0,$7f
+add sf,1
+store s0,sf
+
+load s0,$ff
+add sf,1
+store s0,sf
+
+powt:
+in s2,we
+fetch s3,s2
+out s3,wy
+jump powt

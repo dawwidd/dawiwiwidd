@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Nov 27 09:37:24 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Q<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "Q<3>" LOCATE = SITE "L14" LEVEL 1;
+COMP "Q<4>" LOCATE = SITE "M13" LEVEL 1;
+COMP "Q<5>" LOCATE = SITE "D4" LEVEL 1;
+COMP "Q<6>" LOCATE = SITE "P16" LEVEL 1;
+COMP "Q<7>" LOCATE = SITE "N12" LEVEL 1;
+COMP "CK" LOCATE = SITE "L15" LEVEL 1;
+COMP "Q<0>" LOCATE = SITE "U18" LEVEL 1;
+COMP "Q<1>" LOCATE = SITE "M14" LEVEL 1;
+SCHEMATIC END;
+

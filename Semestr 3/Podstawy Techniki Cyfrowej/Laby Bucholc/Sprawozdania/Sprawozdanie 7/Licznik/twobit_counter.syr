@@ -1,0 +1,776 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: twobit_counter.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "twobit_counter.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "twobit_counter"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : twobit_counter
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Dawid\Desktop\PTC\Laby3\Licznik\tff.vhd" into library work
+Parsing entity <tff>.
+Parsing architecture <My_behavioral> of entity <tff>.
+Parsing VHDL file "C:\Users\Dawid\Desktop\PTC\Laby3\Licznik\ck_divider.vhd" into library work
+Parsing entity <ck_divider>.
+Parsing architecture <Behavioral> of entity <ck_divider>.
+Parsing VHDL file "C:\Users\Dawid\Desktop\PTC\Laby3\Licznik\two_bit_counter.vhd" into library work
+Parsing entity <twobit_counter>.
+Parsing architecture <Structural> of entity <twobit_counter>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <twobit_counter> (architecture <Structural>) from library <work>.
+
+Elaborating entity <ck_divider> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <tff> (architecture <My_behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <twobit_counter>.
+    Related source file is "C:\Users\Dawid\Desktop\PTC\Laby3\Licznik\two_bit_counter.vhd".
+INFO:Xst:3210 - "C:\Users\Dawid\Desktop\PTC\Laby3\Licznik\two_bit_counter.vhd" line 42: Output port <QN> of the instance <TFF7> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <twobit_counter> synthesized.
+
+Synthesizing Unit <ck_divider>.
+    Related source file is "C:\Users\Dawid\Desktop\PTC\Laby3\Licznik\ck_divider.vhd".
+    Found 10-bit register for signal <count1>.
+    Found 10-bit register for signal <count2>.
+    Found 10-bit register for signal <count3>.
+    Found 1-bit register for signal <D>.
+    Found 10-bit register for signal <count0>.
+    Found 10-bit adder for signal <count0[9]_GND_4_o_add_0_OUT> created at line 23.
+    Found 10-bit adder for signal <count1[9]_GND_4_o_add_2_OUT> created at line 26.
+    Found 10-bit adder for signal <count2[9]_GND_4_o_add_4_OUT> created at line 29.
+    Found 10-bit adder for signal <count3[9]_GND_4_o_add_6_OUT> created at line 32.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  41 D-type flip-flop(s).
+Unit <ck_divider> synthesized.
+
+Synthesizing Unit <tff>.
+    Related source file is "C:\Users\Dawid\Desktop\PTC\Laby3\Licznik\tff.vhd".
+    Found 1-bit register for signal <mem>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <tff> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 10-bit adder                                          : 4
+# Registers                                            : 13
+ 1-bit register                                        : 9
+ 10-bit register                                       : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <ck_divider>.
+The following registers are absorbed into counter <count0>: 1 register on signal <count0>.
+The following registers are absorbed into counter <count1>: 1 register on signal <count1>.
+The following registers are absorbed into counter <count2>: 1 register on signal <count2>.
+The following registers are absorbed into counter <count3>: 1 register on signal <count3>.
+Unit <ck_divider> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 4
+ 10-bit up counter                                     : 4
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <twobit_counter> ...
+
+Optimizing unit <ck_divider> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block twobit_counter, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 49
+ Flip-Flops                                            : 49
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : twobit_counter.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 170
+#      GND                         : 1
+#      INV                         : 12
+#      LUT1                        : 36
+#      LUT4                        : 2
+#      LUT5                        : 13
+#      LUT6                        : 29
+#      MUXCY                       : 36
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 49
+#      FD                          : 31
+#      FDE                         : 8
+#      FDR                         : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 8
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              49  out of  54576     0%  
+ Number of Slice LUTs:                   92  out of  27288     0%  
+    Number used as Logic:                92  out of  27288     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     92
+   Number with an unused Flip Flop:      43  out of     92    46%  
+   Number with an unused LUT:             0  out of     92     0%  
+   Number of fully used LUT-FF pairs:    49  out of     92    53%  
+   Number of unique control sets:        10
+
+IO Utilization: 
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    218     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+TFF6/mem                           | NONE(TFF7/mem)         | 1     |
+TFF5/mem                           | NONE(TFF6/mem)         | 1     |
+TFF4/mem                           | NONE(TFF5/mem)         | 1     |
+TFF3/mem                           | NONE(TFF4/mem)         | 1     |
+TFF2/mem                           | NONE(TFF3/mem)         | 1     |
+TFF1/mem                           | NONE(TFF2/mem)         | 1     |
+TFF0/mem                           | NONE(TFF1/mem)         | 1     |
+CLOCK/D                            | NONE(TFF0/mem)         | 1     |
+CK                                 | BUFGP                  | 41    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.950ns (Maximum Frequency: 202.016MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'TFF6/mem'
+  Clock period: 1.950ns (frequency: 512.794MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.950ns (Levels of Logic = 1)
+  Source:            TFF7/mem (FF)
+  Destination:       TFF7/mem (FF)
+  Source Clock:      TFF6/mem falling
+  Destination Clock: TFF6/mem falling
+
+  Data Path: TFF7/mem to TFF7/mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF7/mem (TFF7/mem)
+     INV:I->O              1   0.206   0.579  TFF7/QN1_INV_0 (TFF7/QN)
+     FDE:D                     0.102          TFF7/mem
+    ----------------------------------------
+    Total                      1.950ns (0.755ns logic, 1.195ns route)
+                                       (38.7% logic, 61.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'TFF5/mem'
+  Clock period: 1.988ns (frequency: 503.145MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.988ns (Levels of Logic = 1)
+  Source:            TFF6/mem (FF)
+  Destination:       TFF6/mem (FF)
+  Source Clock:      TFF5/mem falling
+  Destination Clock: TFF5/mem falling
+
+  Data Path: TFF6/mem to TFF6/mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF6/mem (TFF6/mem)
+     INV:I->O              2   0.206   0.616  TFF6/QN1_INV_0 (S6)
+     FDE:D                     0.102          TFF6/mem
+    ----------------------------------------
+    Total                      1.988ns (0.755ns logic, 1.233ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'TFF4/mem'
+  Clock period: 1.988ns (frequency: 503.145MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.988ns (Levels of Logic = 1)
+  Source:            TFF5/mem (FF)
+  Destination:       TFF5/mem (FF)
+  Source Clock:      TFF4/mem falling
+  Destination Clock: TFF4/mem falling
+
+  Data Path: TFF5/mem to TFF5/mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF5/mem (TFF5/mem)
+     INV:I->O              2   0.206   0.616  TFF5/QN1_INV_0 (S5)
+     FDE:D                     0.102          TFF5/mem
+    ----------------------------------------
+    Total                      1.988ns (0.755ns logic, 1.233ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'TFF3/mem'
+  Clock period: 1.988ns (frequency: 503.145MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.988ns (Levels of Logic = 1)
+  Source:            TFF4/mem (FF)
+  Destination:       TFF4/mem (FF)
+  Source Clock:      TFF3/mem falling
+  Destination Clock: TFF3/mem falling
+
+  Data Path: TFF4/mem to TFF4/mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF4/mem (TFF4/mem)
+     INV:I->O              2   0.206   0.616  TFF4/QN1_INV_0 (S4)
+     FDE:D                     0.102          TFF4/mem
+    ----------------------------------------
+    Total                      1.988ns (0.755ns logic, 1.233ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'TFF2/mem'
+  Clock period: 1.988ns (frequency: 503.145MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.988ns (Levels of Logic = 1)
+  Source:            TFF3/mem (FF)
+  Destination:       TFF3/mem (FF)
+  Source Clock:      TFF2/mem falling
+  Destination Clock: TFF2/mem falling
+
+  Data Path: TFF3/mem to TFF3/mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF3/mem (TFF3/mem)
+     INV:I->O              2   0.206   0.616  TFF3/QN1_INV_0 (S3)
+     FDE:D                     0.102          TFF3/mem
+    ----------------------------------------
+    Total                      1.988ns (0.755ns logic, 1.233ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'TFF1/mem'
+  Clock period: 1.988ns (frequency: 503.145MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.988ns (Levels of Logic = 1)
+  Source:            TFF2/mem (FF)
+  Destination:       TFF2/mem (FF)
+  Source Clock:      TFF1/mem falling
+  Destination Clock: TFF1/mem falling
+
+  Data Path: TFF2/mem to TFF2/mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF2/mem (TFF2/mem)
+     INV:I->O              2   0.206   0.616  TFF2/QN1_INV_0 (S2)
+     FDE:D                     0.102          TFF2/mem
+    ----------------------------------------
+    Total                      1.988ns (0.755ns logic, 1.233ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'TFF0/mem'
+  Clock period: 1.988ns (frequency: 503.145MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.988ns (Levels of Logic = 1)
+  Source:            TFF1/mem (FF)
+  Destination:       TFF1/mem (FF)
+  Source Clock:      TFF0/mem falling
+  Destination Clock: TFF0/mem falling
+
+  Data Path: TFF1/mem to TFF1/mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF1/mem (TFF1/mem)
+     INV:I->O              2   0.206   0.616  TFF1/QN1_INV_0 (S1)
+     FDE:D                     0.102          TFF1/mem
+    ----------------------------------------
+    Total                      1.988ns (0.755ns logic, 1.233ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK/D'
+  Clock period: 1.988ns (frequency: 503.145MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.988ns (Levels of Logic = 1)
+  Source:            TFF0/mem (FF)
+  Destination:       TFF0/mem (FF)
+  Source Clock:      CLOCK/D rising
+  Destination Clock: CLOCK/D rising
+
+  Data Path: TFF0/mem to TFF0/mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF0/mem (TFF0/mem)
+     INV:I->O              2   0.206   0.616  TFF0/QN1_INV_0 (S0)
+     FDE:D                     0.102          TFF0/mem
+    ----------------------------------------
+    Total                      1.988ns (0.755ns logic, 1.233ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CK'
+  Clock period: 4.950ns (frequency: 202.016MHz)
+  Total number of paths / destination ports: 1781 / 51
+-------------------------------------------------------------------------
+Delay:               4.950ns (Levels of Logic = 4)
+  Source:            CLOCK/count2_0 (FF)
+  Destination:       CLOCK/count3_9 (FF)
+  Source Clock:      CK rising
+  Destination Clock: CK rising
+
+  Data Path: CLOCK/count2_0 to CLOCK/count3_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.447   0.995  CLOCK/count2_0 (CLOCK/count2_0)
+     LUT5:I0->O            2   0.203   0.617  CLOCK/GND_4_o_count2[9]_equal_6_o<9>_SW0 (N2)
+     LUT6:I5->O           21   0.205   1.114  CLOCK/GND_4_o_count2[9]_equal_6_o<9> (CLOCK/GND_4_o_count2[9]_equal_6_o)
+     LUT5:I4->O           10   0.205   0.857  CLOCK/_n00663 (CLOCK/_n0066)
+     LUT6:I5->O            1   0.205   0.000  CLOCK/count3_9_rstpot1 (CLOCK/count3_9_rstpot1)
+     FD:D                      0.102          CLOCK/count3_9
+    ----------------------------------------
+    Total                      4.950ns (1.367ns logic, 3.583ns route)
+                                       (27.6% logic, 72.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'TFF6/mem'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            TFF7/mem (FF)
+  Destination:       Q<7> (PAD)
+  Source Clock:      TFF6/mem falling
+
+  Data Path: TFF7/mem to Q<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF7/mem (TFF7/mem)
+     OBUF:I->O                 2.571          Q_7_OBUF (Q<7>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'TFF5/mem'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            TFF6/mem (FF)
+  Destination:       Q<6> (PAD)
+  Source Clock:      TFF5/mem falling
+
+  Data Path: TFF6/mem to Q<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF6/mem (TFF6/mem)
+     OBUF:I->O                 2.571          Q_6_OBUF (Q<6>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'TFF4/mem'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            TFF5/mem (FF)
+  Destination:       Q<5> (PAD)
+  Source Clock:      TFF4/mem falling
+
+  Data Path: TFF5/mem to Q<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF5/mem (TFF5/mem)
+     OBUF:I->O                 2.571          Q_5_OBUF (Q<5>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'TFF3/mem'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            TFF4/mem (FF)
+  Destination:       Q<4> (PAD)
+  Source Clock:      TFF3/mem falling
+
+  Data Path: TFF4/mem to Q<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF4/mem (TFF4/mem)
+     OBUF:I->O                 2.571          Q_4_OBUF (Q<4>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'TFF2/mem'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            TFF3/mem (FF)
+  Destination:       Q<3> (PAD)
+  Source Clock:      TFF2/mem falling
+
+  Data Path: TFF3/mem to Q<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF3/mem (TFF3/mem)
+     OBUF:I->O                 2.571          Q_3_OBUF (Q<3>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'TFF1/mem'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            TFF2/mem (FF)
+  Destination:       Q<2> (PAD)
+  Source Clock:      TFF1/mem falling
+
+  Data Path: TFF2/mem to Q<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF2/mem (TFF2/mem)
+     OBUF:I->O                 2.571          Q_2_OBUF (Q<2>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'TFF0/mem'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            TFF1/mem (FF)
+  Destination:       Q<1> (PAD)
+  Source Clock:      TFF0/mem falling
+
+  Data Path: TFF1/mem to Q<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF1/mem (TFF1/mem)
+     OBUF:I->O                 2.571          Q_1_OBUF (Q<1>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK/D'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            TFF0/mem (FF)
+  Destination:       Q<0> (PAD)
+  Source Clock:      CLOCK/D rising
+
+  Data Path: TFF0/mem to Q<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.616  TFF0/mem (TFF0/mem)
+     OBUF:I->O                 2.571          Q_0_OBUF (Q<0>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CK             |    4.950|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLOCK/D
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK/D        |    1.988|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock TFF0/mem
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+TFF0/mem       |         |         |    1.988|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock TFF1/mem
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+TFF1/mem       |         |         |    1.988|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock TFF2/mem
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+TFF2/mem       |         |         |    1.988|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock TFF3/mem
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+TFF3/mem       |         |         |    1.988|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock TFF4/mem
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+TFF4/mem       |         |         |    1.988|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock TFF5/mem
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+TFF5/mem       |         |         |    1.988|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock TFF6/mem
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+TFF6/mem       |         |         |    1.950|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.23 secs
+ 
+--> 
+
+Total memory usage is 4494408 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

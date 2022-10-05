@@ -1,0 +1,254 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9778,        246]
+NotebookOptionsPosition[      8400,        213]
+NotebookOutlinePosition[      8797,        229]
+CellTagsIndexPosition[      8754,        226]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Analiza pola elektrycznego", "Section",
+ CellChangeTimes->{{3.799837359858824*^9, 
+  3.7998373693363204`*^9}},ExpressionUUID->"dc31716b-3bc8-49a8-b436-\
+2d189063a5c5"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Zadanie domowe  2. analityczne
+Termin nadsy\[LSlash]ania rozwi\:0105za\:0144: 16.06.2020, godz. 24:00\
+\>", "Subsection",
+ CellChangeTimes->{{3.7998320557562*^9, 3.799832086203348*^9}, {
+  3.7998383283567324`*^9, 3.7998383504796486`*^9}, {3.79983859998892*^9, 
+  3.799838603724683*^9}, {3.799838687399167*^9, 3.799838707523775*^9}, {
+  3.7998388279173803`*^9, 
+  3.799838832337366*^9}},ExpressionUUID->"d7331213-a848-42e9-b30a-\
+c87c4afd4c3d"],
+
+Cell[CellGroupData[{
+
+Cell["1. Za\[LSlash]o\:017cenia zadania A.", "Subsubsection",
+ CellChangeTimes->{{3.799831994583661*^9, 3.7998320476449256`*^9}, {
+  3.7998321087116537`*^9, 3.799832123098432*^9}, {3.7998322801047993`*^9, 
+  3.799832289154951*^9}},ExpressionUUID->"aedced97-4a3f-486b-9714-\
+11722813bef5"],
+
+Cell["1. Pole elektryczne jest okre\:015blone przez potencja\[LSlash]:", \
+"Text",
+ CellChangeTimes->{{3.799832134139039*^9, 3.799832176069207*^9}, {
+  3.79983292914119*^9, 
+  3.799832930120533*^9}},ExpressionUUID->"4f8aaa19-fba4-4bd1-8635-\
+4a9bba668b55"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"V", "[", 
+   RowBox[{"x_", ",", "y_", ",", "z_"}], "]"}], "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Mod", "[", 
+     RowBox[{"A1", ",", "2"}], "]"}], 
+    SuperscriptBox["x", "2"]}], "+", 
+   RowBox[{
+    RowBox[{"Mod", "[", 
+     RowBox[{"A2", ",", "2"}], "]"}], 
+    SuperscriptBox["y", "2"]}], "+", 
+   RowBox[{
+    RowBox[{"Mod", "[", 
+     RowBox[{"A3", ",", "2"}], "]"}], 
+    SuperscriptBox["z", "2"]}], "+", 
+   RowBox[{
+    RowBox[{"Mod", "[", 
+     RowBox[{"A4", ",", "2"}], "]"}], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"x", " ", "y"}], ")"}], "2"]}], "+", 
+   RowBox[{
+    RowBox[{"Mod", "[", 
+     RowBox[{"A5", ",", "2"}], "]"}], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"y", " ", "z"}], ")"}], "2"]}], "+", 
+   RowBox[{
+    RowBox[{"Mod", "[", 
+     RowBox[{"A5", ",", "2"}], "]"}], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"z", " ", "x"}], ")"}], "2"]}]}]}]], "Input",
+ CellChangeTimes->{{3.7998316554707923`*^9, 3.799831675185658*^9}, 
+   3.79983174286456*^9, {3.7998317809112005`*^9, 3.7998318839126167`*^9}, {
+   3.7998319302698565`*^9, 
+   3.7998319826887693`*^9}},ExpressionUUID->"b1bc296d-490d-4f25-8f59-\
+f6ae18f17667"],
+
+Cell["\<\
+gdzie liczby A1, A2, A3, A4 ,A5 , A6 oznaczaj\:0105 kolejne cyfry  nr albumu \
+studenta.\
+\>", "Text",
+ CellChangeTimes->{{3.7998321864338126`*^9, 3.799832254575144*^9}, {
+  3.799832969016633*^9, 
+  3.7998329789659624`*^9}},ExpressionUUID->"7f8cb2b2-fa59-4746-812c-\
+66c51b0b72ff"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2.  Polecenia: ", "Subsubsection",
+ CellChangeTimes->{{3.799831994583661*^9, 3.7998320476449256`*^9}, {
+  3.7998321087116537`*^9, 3.799832123098432*^9}, {3.7998322719699583`*^9, 
+  3.799832307784466*^9}, {3.799832488212386*^9, 3.799832516464651*^9}, {
+  3.7998328774851217`*^9, 
+  3.7998328786269736`*^9}},ExpressionUUID->"ef26e80b-a3db-45a0-9563-\
+efa4867fd85f"],
+
+Cell["\<\
+2.1 Wyznacz wsp\[OAcute]\[LSlash]rz\:0119dne wektora nat\:0119\:017cenia pola \
+elektrycznego.
+2.2 Przedstaw graficznie rozk\[LSlash]ad nat\:0119\:017cenie pola \
+elektrycznego  na wykresie \[OpenCurlyDoubleQuote]3D\[CloseCurlyDoubleQuote].
+2.3 Wyznacz g\:0119sto\:015b\[CAcute] \[LSlash]adunku elektrycznego, kt\
+\[OAcute]ry jest \:017ar\[OAcute]d\[LSlash]em tego pola.
+2.4 Przedstaw graficznie rozk\[LSlash]ad g\:0119sto\:015bci \[LSlash]adunku \
+elektrycznego na wykresie  \[OpenCurlyDoubleQuote]3D\[CloseCurlyDoubleQuote].
+2.5  Podpisany raport z realizacji zadania prze\:015blij w formie  notatnika \
+Mathematica  w formacie .nb zapisanego r\[OAcute]wnie\:017c  w formacie pdf.\
+\>", "Text",
+ CellChangeTimes->{{3.799832889935767*^9, 3.7998329110737453`*^9}, {
+  3.7998329511722283`*^9, 3.7998330640592184`*^9}, {3.799833098718569*^9, 
+  3.7998331250782824`*^9}, {3.7998331854322643`*^9, 3.7998332692561617`*^9}, {
+  3.799833859270865*^9, 3.7998339572634425`*^9}, {3.799837120106221*^9, 
+  3.7998372111991725`*^9}, {3.799837242937933*^9, 3.7998373339898643`*^9}, {
+  3.799837397930733*^9, 3.799837605621396*^9}, {3.7998382893763123`*^9, 
+  3.799838290813671*^9}, {3.7998384960174446`*^9, 
+  3.7998385082512693`*^9}},ExpressionUUID->"8f109647-c417-4e2c-be7e-\
+fe797677c88f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3.  Wskaz\[OAcute]wki ", "Subsubsection",
+ CellChangeTimes->{{3.799831994583661*^9, 3.7998320476449256`*^9}, {
+  3.7998321087116537`*^9, 3.799832123098432*^9}, {3.7998322719699583`*^9, 
+  3.799832307784466*^9}, {3.799832488212386*^9, 3.799832516464651*^9}, {
+  3.7998328774851217`*^9, 3.7998328786269736`*^9}, {3.7998376185194225`*^9, 
+  3.799837639795226*^9}},ExpressionUUID->"c6fe9599-bce4-4b10-94ed-\
+bc12e2e0e4d3"],
+
+Cell[TextData[{
+ "1. Przyk\[LSlash]ady oblicze\:0144 gradientu, dywergencji , rotacji oraz \
+graficznej prezentacji pola wektorowego i skalarnego na wykresie \
+\[OpenCurlyDoubleQuote]3D\[CloseCurlyDoubleQuote] w programie Mathematica \
+znajdziesz w pliku:  ",
+ StyleBox["Wyk\[LSlash]ad_H_Cz\:0119\:015b\[CAcute]_I_Przyk\[LSlash]ad_1.nb  \
+(Wyk\[LSlash]ad_H_Cz\:0119\:015b\[CAcute]_I_Przyk\[LSlash]ad_1.pdf).\n",
+  FontColor->RGBColor[0., 0.5019607843137255, 0.7529411764705882]],
+ StyleBox["2.  W programie Mathematica operatory ",
+  FontColor->GrayLevel[0]],
+ Cell[BoxData[
+  RowBox[{
+   SubscriptBox["\[Del]", "\[SelectionPlaceholder]"], "\[Placeholder]"}]],
+  ExpressionUUID->"10fc83a9-50f0-495b-aa98-528189ab7ebb"],
+ " , ",
+ Cell[BoxData[
+  RowBox[{
+   SubscriptBox["\[Del]", "\[SelectionPlaceholder]"], ".", 
+   "\[Placeholder]"}]],ExpressionUUID->"903cb6d3-7ca8-48ab-9a0d-bffc3270cb01"],
+ " oraz ",
+ Cell[BoxData[
+  RowBox[{
+   SubscriptBox["\[Del]", "\[SelectionPlaceholder]"], "\[Cross]", 
+   "\[Placeholder]"}]],ExpressionUUID->"2cf5be06-f8bc-4530-be48-a8e59c080ef5"],
+ " mo\:017cesz wprowadzi\[CAcute] korzystaj\:0105c ze skr\[OAcute]t\[OAcute]w \
+klawiaturowych , odpowiednio: ",
+ StyleBox["Esc ",
+  FontColor->RGBColor[0., 0.5019607843137255, 0.7529411764705882]],
+ StyleBox["grad",
+  FontSlant->"Italic",
+  FontColor->RGBColor[0., 0.5019607843137255, 0.7529411764705882]],
+ StyleBox[" Esc,  Esc ",
+  FontColor->RGBColor[0., 0.5019607843137255, 0.7529411764705882]],
+ StyleBox["del.",
+  FontSlant->"Italic",
+  FontColor->RGBColor[0., 0.5019607843137255, 0.7529411764705882]],
+ StyleBox[" Esc, Esc ",
+  FontColor->RGBColor[0., 0.5019607843137255, 0.7529411764705882]],
+ StyleBox["delx",
+  FontSlant->"Italic",
+  FontColor->RGBColor[0., 0.5019607843137255, 0.7529411764705882]],
+ StyleBox[" Esc .\n",
+  FontColor->RGBColor[0., 0.5019607843137255, 0.7529411764705882]],
+ StyleBox["3. Dost\:0119p do programu Mathematica w chmurze umo\:017cliwiaj\
+\:0105 linki:\[LineSeparator]- po rejestracji: https://www.wolframcloud.com/ \
+,\n- bez rejestracji \
+https://www.open.wolframcloud.com/env/wpl/GetStarted.nb?funnel=WPLGetStarted#\
+sidebar=explorations ,\n4. odczytanie notatnik\[OAcute]w Mathematica ( bez  \
+ich uruchamiania) umo\:017cliwia program Wolfram Player ( link: \
+https://www.wolfram.com/player/ ) .",
+  FontColor->GrayLevel[0]]
+}], "Text",
+ CellChangeTimes->{{3.799837653492273*^9, 3.799837657193248*^9}, {
+  3.7998377721039877`*^9, 3.7998378243508806`*^9}, {3.7998378544761295`*^9, 
+  3.799838046698347*^9}, {3.799838117918556*^9, 3.799838197122065*^9}, {
+  3.7998382273111305`*^9, 3.799838273902568*^9}, {3.7998384178958755`*^9, 
+  3.79983841906375*^9}, {3.7998384647884197`*^9, 3.799838477705933*^9}, {
+  3.7998388524912043`*^9, 3.7998388547665567`*^9}, {3.799839160390703*^9, 
+  3.799839260612264*^9}},ExpressionUUID->"4cb61b25-5930-4222-a5c8-\
+f163e685e04a"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{946, 467},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 18, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"94a3f7fa-504e-4db1-9982-c638ca48de74"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 173, 3, 67, "Section",ExpressionUUID->"dc31716b-3bc8-49a8-b436-2d189063a5c5"],
+Cell[CellGroupData[{
+Cell[778, 29, 453, 9, 81, "Subsection",ExpressionUUID->"d7331213-a848-42e9-b30a-c87c4afd4c3d"],
+Cell[CellGroupData[{
+Cell[1256, 42, 288, 4, 44, "Subsubsection",ExpressionUUID->"aedced97-4a3f-486b-9714-11722813bef5"],
+Cell[1547, 48, 256, 5, 34, "Text",ExpressionUUID->"4f8aaa19-fba4-4bd1-8635-4a9bba668b55"],
+Cell[1806, 55, 1218, 39, 44, "Input",ExpressionUUID->"b1bc296d-490d-4f25-8f59-f6ae18f17667"],
+Cell[3027, 96, 291, 7, 34, "Text",ExpressionUUID->"7f8cb2b2-fa59-4746-812c-66c51b0b72ff"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3355, 108, 369, 6, 44, "Subsubsection",ExpressionUUID->"ef26e80b-a3db-45a0-9563-efa4867fd85f"],
+Cell[3727, 116, 1288, 20, 144, "Text",ExpressionUUID->"8f109647-c417-4e2c-be7e-fe797677c88f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5052, 141, 424, 6, 44, "Subsubsection",ExpressionUUID->"c6fe9599-bce4-4b10-94ed-bc12e2e0e4d3"],
+Cell[5479, 149, 2881, 59, 210, "Text",ExpressionUUID->"4cb61b25-5930-4222-a5c8-f163e685e04a"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

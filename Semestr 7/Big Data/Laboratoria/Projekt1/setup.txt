@@ -1,0 +1,50 @@
+CLOUD SHELL
+gcloud beta dataproc clusters create ${CLUSTER_NAME} \
+--enable-component-gateway --bucket ${BUCKET_NAME} \
+--region ${REGION} --subnet default --zone ${ZONE} \
+--master-machine-type n1-standard-4 --master-boot-disk-size 50 \
+--num-workers 2 \
+--worker-machine-type n1-standard-2 --worker-boot-disk-size 50 \
+--image-version 2.0-debian10 \
+--optional-components DOCKER \
+--project ${PROJECT_ID} --max-age=3h
+
+MASZYNA MASTER
+(upload motorvehiclecollisions.jar to local [master SSH]) // ten krok będzie można pominąć po ustaleniu ostatecznej wersji
+
+export BUCKET_NAME=2022-pbd-dk; hadoop fs -copyToLocal gs://$BUCKET_NAME/projekt1/* .; hadoop fs -mkdir -p input; hadoop fs -copyFromLocal input/* input/; rm result1.csv; hadoop fs -rm -r output; hadoop jar motorvehiclecollisions.jar MotorVehicleCollisions input/datasource1 output; hadoop fs -getmerge output result1.csv; 
+
+beeline -n dawidkrolak96 -u jdbc:hive2://localhost:10000/default -f run-hive.hql --hivevar collisions=/home/dawidkrolak96/result1.csv --hivevar boroughs=/home/dawidkrolak96/input/datasource4/zips-boroughs.csv; 
+hadoop fs -getmerge /user/hive/warehouse/result result_final.json
+
+
+/////////////////////////// run-hive.hql
+
+drop table collisions_sf;
+drop table collisions;
+drop table boroughs_sf;
+drop table boroughs;
+drop table result;
+create table collisions_sf(street string, zipcode string, person_type string, injured_or_killed string, amount int) ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' STORED AS TEXTFILE;
+load data local inpath "${collisions}" into table collisions_sf;
+create table collisions(street string, zipcode string, person_type string, injured_or_killed string, amount int) STORED AS ORC;
+insert into collisions select * from collisions_sf;
+create table boroughs_sf(zipcode string, borough string) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+load data local inpath "${boroughs}" into table boroughs_sf;
+create table boroughs(zipcode string, borough string) STORED AS ORC;
+insert into boroughs select * from boroughs_sf;
+
+CREATE TABLE RESULT (street string, person_type string, injured int, killed int) ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.JsonSerDe' STORED AS TEXTFILE;
+
+INSERT INTO RESULT select c.street as street, c.person_type as person_type, sum(case when c.injured_or_killed='INJURED' then c.amount else 0 end) injured, sum(case when c.injured_or_killed='KILLED' then c.amount else 0 end) killed from collisions c join boroughs b on b.zipcode=c.zipcode where b.borough='MANHATTAN' and c.person_type='PEDESTRIAN' group by street, person_type ORDER BY injured+killed DESC LIMIT 3;
+
+INSERT INTO RESULT select c.street as street, c.person_type as person_type, sum(case when c.injured_or_killed='INJURED' then c.amount else 0 end) injured, sum(case when c.injured_or_killed='KILLED' then c.amount else 0 end) killed from collisions c join boroughs b on b.zipcode=c.zipcode where b.borough='MANHATTAN' and c.person_type='CYCLIST' group by street, person_type ORDER BY injured+killed DESC LIMIT 3;
+
+INSERT INTO RESULT select c.street as street, c.person_type as person_type, sum(case when c.injured_or_killed='INJURED' then c.amount else 0 end) injured, sum(case when c.injured_or_killed='KILLED' then c.amount else 0 end) killed from collisions c join boroughs b on b.zipcode=c.zipcode where b.borough='MANHATTAN' and c.person_type='MOTORIST' group by street, person_type ORDER BY injured+killed DESC LIMIT 3;
+
+
+/////////////////////////
+
+export BUCKET_NAME=2022-pbd-dk; hadoop fs -copyToLocal gs://$BUCKET_NAME/projekt1/* .; export AIRFLOW_HOME=~/airflow; pip install apache-airflow; export PATH=$PATH:~/.local/bin; airflow db init; mkdir -p airflow/dags/project_files; mv projekt1.py ~/airflow/dags; mv *.* ~/airflow/dags/project_files; airflow standalone;
+
+export BUCKET_NAME=krbucketone; export AIRFLOW_HOME=~/airflow; pip install apache-airflow; export PATH=$PATH:~/.local/bin; airflow db init; mkdir -p airflow/dags/project_files;  airflow standalone;
